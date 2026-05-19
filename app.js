@@ -44,7 +44,7 @@ function getAttrClass(attrName) {
     if (attrName.includes("Quý phái") || attrName.includes("Gorgeous")) return "attr-gorgeous";
     if (attrName.includes("Thanh lịch") || attrName.includes("Elegant")) return "attr-elegant";
     if (attrName.includes("Năng động") || attrName.includes("Lively")) return "attr-lively";
-    if (attrName.includes("Dễ thươg") || attrName.includes("Cute")) return "attr-cute";
+    if (attrName.includes("Dễ thương") || attrName.includes("Cute")) return "attr-cute";
     if (attrName.includes("Trưởng thành") || attrName.includes("Mature")) return "attr-mature";
     if (attrName.includes("Gợi cảm") || attrName.includes("Sexy")) return "attr-sexy";
     if (attrName.includes("Trong sáng") || attrName.includes("Pure")) return "attr-pure";
