@@ -1,0 +1,29 @@
+{
+    "1-1": {
+        "attributes": "Thanh lịch - Trong sáng",
+        "recommendations": {
+            "hair": [
+                {
+                    "id": "hair_01",
+                    "name": "Tóc Mây Trắng",
+                    "score": "12,500",
+                    "source": "Shop Vàng"
+                },
+                {
+                    "id": "hair_02",
+                    "name": "Tóc Nắng Mai",
+                    "score": "11,800",
+                    "source": "Ải 1-2 Drop"
+                }
+            ],
+            "dress": [
+                {
+                    "id": "dress_01",
+                    "name": "Váy Dạ Hội Xanh",
+                    "score": "28,000",
+                    "source": "Chế tạo"
+                }
+            ]
+        }
+    }
+}
