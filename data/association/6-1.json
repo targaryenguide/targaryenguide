@@ -1,0 +1,218 @@
+{
+    "6-1": {
+        "attributes": [
+            "Quý phái",
+            "Năng động",
+            "Dễ thương",
+            "Trong sáng",
+            "Mát mẻ"
+        ],
+        "tags": [
+            "Động vật"
+        ],
+        "recommendations": {
+            "hair": [
+                {
+                    "id": "4047",
+                    "name": "Sao Rơi Lấp Lánh",
+                    "score": "20000",
+                    "item_attrs": [
+                        "Quý phái",
+                        "Trong sáng"
+                    ],
+                    "suit": "Vũ Khúc Đêm Mộng",
+                    "source": "Hoàn thành Thành Tựu Đủ Bộ"
+                },
+                {
+                    "id": "736",
+                    "name": "Tóc Hai Búi",
+                    "score": "19000",
+                    "item_attrs": [
+                        "Năng động",
+                        "Dễ thương"
+                    ],
+                    "suit": "Khỉ May Mắn",
+                    "source": "Mua shop (Vàng)"
+                }
+            ],
+            "dress": [
+                {
+                    "id": "3598",
+                    "name": "Khúc Ca Đồng Xanh",
+                    "score": "20000",
+                    "item_attrs": [
+                        "Dễ thương",
+                        "Trong sáng"
+                    ],
+                    "suit": "Khúc Ca Đồng Xanh",
+                    "source": "Hoàn thành Thành Tựu Đủ Bộ"
+                },
+                {
+                    "id": "3599",
+                    "name": "Cổ Tích Nơi Đồng Quê",
+                    "score": "19000",
+                    "item_attrs": [
+                        "Dễ thương",
+                        "Trong sáng"
+                    ],
+                    "suit": "Khúc Ca Đồng Xanh",
+                    "source": "Hoàn thành Thành Tựu Đủ Bộ"
+                },
+                {
+                    "id": "14",
+                    "name": "Nơ Gấu Teddy",
+                    "score": "18000",
+                    "item_attrs": [
+                        "Năng động",
+                        "Trong sáng"
+                    ],
+                    "suit": "Nơ Gấu Teddy",
+                    "source": "Thiết kế"
+                },
+                {
+                    "id": "3792",
+                    "name": "Thì Thầm Rừng Xanh",
+                    "score": "17000",
+                    "item_attrs": [
+                        "Năng động",
+                        "Dễ thương"
+                    ],
+                    "suit": "Thì Thầm Rừng Xanh",
+                    "source": "Hoàn thành Thành Tựu Đủ Bộ"
+                },
+                {
+                    "id": "3622",
+                    "name": "Không Gian Tinh Hà",
+                    "score": "16000",
+                    "item_attrs": [
+                        "Năng động",
+                        "Dễ thương"
+                    ],
+                    "suit": "Thời Khắc Tinh Hà",
+                    "source": "Hoàn thành Thành Tựu Đủ Bộ"
+                },
+                {
+                    "id": "3621",
+                    "name": "Thời Khắc Tinh Hà",
+                    "score": "15000",
+                    "item_attrs": [
+                        "Năng động",
+                        "Dễ thương"
+                    ],
+                    "suit": "Thời Khắc Tinh Hà",
+                    "source": "Hoàn thành Thành Tựu Đủ Bộ"
+                },
+                {
+                    "id": "3497",
+                    "name": "Vũ Khúc Cánh Bướm",
+                    "score": "14000",
+                    "item_attrs": [
+                        "Quý phái",
+                        "Trong sáng"
+                    ],
+                    "suit": "Vũ Khúc Đêm Mộng",
+                    "source": "Hoàn thành Thành Tựu Đủ Bộ"
+                },
+                {
+                    "id": "3496",
+                    "name": "Vũ Khúc Đêm Mộng",
+                    "score": "13000",
+                    "item_attrs": [
+                        "Quý phái",
+                        "Trong sáng"
+                    ],
+                    "suit": "Vũ Khúc Đêm Mộng",
+                    "source": "Hoàn thành Thành Tựu Đủ Bộ"
+                },
+                {
+                    "id": "3495",
+                    "name": "Đêm Đẹp Hoa Ảnh",
+                    "score": "12000",
+                    "item_attrs": [
+                        "Quý phái",
+                        "Trong sáng"
+                    ],
+                    "suit": "Vũ Khúc Đêm Mộng",
+                    "source": "Big event Bí Cảnh Nấm Ma"
+                },
+                {
+                    "id": "3793",
+                    "name": "Rừng Xanh Tỉnh Giấc",
+                    "score": "11000",
+                    "item_attrs": [
+                        "Năng động",
+                        "Dễ thương"
+                    ],
+                    "suit": "Thì Thầm Rừng Xanh",
+                    "source": "Hoàn thành Thành Tựu Đủ Bộ"
+                },
+                {
+                    "id": "12",
+                    "name": "Gấu Socola",
+                    "score": "10000",
+                    "item_attrs": [
+                        "Quý phái",
+                        "Trong sáng"
+                    ],
+                    "suit": "Gấu Socola",
+                    "source": "Lầu Mê Hoặc"
+                },
+                {
+                    "id": "2960",
+                    "name": "Đêm Ảo Dịu Dàng",
+                    "score": "9000",
+                    "item_attrs": [
+                        "Năng động",
+                        "Dễ thương"
+                    ],
+                    "suit": "Tâm Sự Đêm Sao",
+                    "source": "Sự kiện"
+                },
+                {
+                    "id": "1819",
+                    "name": "Mưa Nhạt Nhòa",
+                    "score": "8000",
+                    "item_attrs": [
+                        "Năng động",
+                        "Mát mẻ"
+                    ],
+                    "suit": "Ếch Kêu Mùa Hè",
+                    "source": "Hoàn thành Thành Tựu Đủ Bộ"
+                },
+                {
+                    "id": "13",
+                    "name": "Váy Kẹo Ngọt",
+                    "score": "7000",
+                    "item_attrs": [
+                        "Quý phái",
+                        "Năng động"
+                    ],
+                    "suit": "Bộ phận lẻ",
+                    "source": "Thiết kế"
+                },
+                {
+                    "id": "3138",
+                    "name": "Niềm Vui Ngây Thơ",
+                    "score": "6000",
+                    "item_attrs": [
+                        "Năng động",
+                        "Dễ thương"
+                    ],
+                    "suit": "Niềm Vui Ngây Thơ",
+                    "source": "Hoàn thành Thành Tựu Đủ Bộ"
+                },
+                {
+                    "id": "656",
+                    "name": "Mèo Dễ Thương",
+                    "score": "6000",
+                    "item_attrs": [
+                        "Năng động",
+                        "Dễ thương"
+                    ],
+                    "suit": "Mèo Dễ Thương",
+                    "source": "Xưởng Mộng Ảo (Xưởng hội)"
+                }
+            ]
+        }
+    }
+}

@@ -3,38 +3,38 @@ let loadedStages = {};
 let currentTab = 'journey';
 
 const categoryNames = {
-    hair: "TÓC", 
-    dress: "ĐẦM", 
-    coat: "KHOÁC", 
-    top: "ÁO", 
+    hair: "TÓC",
+    dress: "ĐẦM",
+    coat: "KHOÁC",
+    top: "ÁO",
     bottom: "QUẦN",
-    leglet: "MÉP VỚ", 
-    hosiery: "VỚ", 
-    shoes: "GIÀY", 
-    makeup: "MẶT", 
+    leglet: "PHỤ KIỆN CHÂN",
+    hosiery: "VỚ",
+    shoes: "GIÀY",
+    makeup: "MẶT",
     spirit: "HỒN ĐOM ĐÓM",
-    hairornament: "PHỤ KIỆN TÓC", 
-    veil: "KHĂN TRÙM ĐẦU", 
-    hairpin: "KẸP TÓC", 
+    hairornament: "PHỤ KIỆN TÓC",
+    veil: "KHĂN TRÙM ĐẦU",
+    hairpin: "KẸP TÓC",
     ear: "TAI",
-    earring: "HOA TAI", 
-    scarf: "KHĂN CHOÀNG CỔ", 
-    necklace: "DÂY CHUYỀN", 
+    earring: "HOA TAI",
+    scarf: "KHĂN CHOÀNG CỔ",
+    necklace: "DÂY CHUYỀN",
     righthandornament: "VÒNG TAY PHẢI",
-    lefthandornament: "VÒNG TAY TRÁI", 
-    gloves: "GĂNG TAY", 
-    righthandheld: "TÚI PHẢI", 
+    lefthandornament: "VÒNG TAY TRÁI",
+    gloves: "GĂNG TAY",
+    righthandheld: "TÚI PHẢI",
     lefthandheld: "TÚI TRÁI",
-    waist: "DÂY LƯNG", 
-    faceaccessory: "MẶT NẠ", 
-    brooch: "CÀI ÁO", 
-    tattoo: "HÌNH XĂM", 
-    wings: "CÁNH", 
-    tail: "ĐUÔI", 
-    foreground: "NỀN TRƯỚC", 
-    background: "NỀN SAU", 
+    waist: "DÂY LƯNG",
+    faceaccessory: "MẶT NẠ",
+    brooch: "CÀI ÁO",
+    tattoo: "HÌNH XĂM",
+    wings: "CÁNH",
+    tail: "ĐUÔI",
+    foreground: "NỀN TRƯỚC",
+    background: "NỀN SAU",
     headornament: "ĐỈNH ĐẦU",
-    ground: "MẶT ĐẤT", 
+    ground: "MẶT ĐẤT",
     skin: "DA"
 };
 
@@ -303,14 +303,29 @@ async function loadAndDisplayStage(fileLoadPath, stageKey, labelText) {
 
             const top20Items = sortedItems.slice(0, 20);
 
+            let currentRank = 1;
+            let highestScore = null;
+
             top20Items.forEach((item, index) => {
-                const rank = index + 1;
+                const currentScore = parseInt(String(item.score).replace(/,/g, '')) || 0;
+
+                if (index === 0) {
+                    highestScore = currentScore;
+                    currentRank = 1;
+                } else {
+                    if (currentScore === highestScore) {
+                        currentRank = 1;
+                    } else {
+                        currentRank = index + 1;
+                    }
+                }
+
                 const card = document.createElement('div');
                 card.className = 'item-card';
 
-                let rankBadge = rank === 1
+                let rankBadge = currentRank === 1
                     ? `<div class="item-rank rank-first">#1</div>`
-                    : `<div class="item-rank">#${rank}</div>`;
+                    : `<div class="item-rank">#${currentRank}</div>`;
 
                 let attrTagsHTML = '';
                 if (Array.isArray(item.item_attrs)) {
@@ -319,7 +334,7 @@ async function loadAndDisplayStage(fileLoadPath, stageKey, labelText) {
                     });
                 }
 
-                const realImgPath = `assets/items/${categoryKey}/${item.id}.webp`;
+                const realImgPath = `assets/items/${categoryKey}/${item.id}.png`;
                 const backupImg = `https://picsum.photos/100?random=${item.id}`;
 
                 card.innerHTML = `
@@ -355,6 +370,7 @@ function openModal(item, categoryKey, realImg, backupImg) {
 
     document.getElementById('modal-details').innerHTML = `
         <p class="modal-info-p">🌸 <b>Loại:</b> ${(categoryNames[categoryKey] || categoryKey).toUpperCase()}</p>
+        <p class="modal-info-p">🌸 <b>Bộ:</b> ${item.suit}</p>
         <p class="modal-info-p">🌸 <b>Cách nhận:</b> ${item.source}</p>
     `;
     modal.showModal();

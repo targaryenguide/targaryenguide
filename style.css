@@ -17,7 +17,7 @@
     --text-gorgeous: #fdfcfa;
     --color-elegant: #ECEFF8;
     --text-elegant: #5A668F;
-    --color-lively: #f3e4a9;
+    --color-lively: #f8ecbe;
     --text-lively: #F36A4B;
     --color-cute: #FFE4E0;
     --text-cute: #FF6B71;
@@ -527,14 +527,15 @@ body {
     justify-content: center;
     gap: 4px;
     margin-top: 6px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap; 
 }
 
 .mini-attr-tag {
-    font-size: 10px;
+    font-size: 9px; 
     font-weight: 700;
-    padding: 2px 6px;
+    padding: 2px 4px;
     border-radius: 5px;
+    white-space: nowrap; 
 }
 
 .mini-attr-tag.attr-simple {
@@ -658,6 +659,19 @@ dialog::backdrop {
         box-shadow: 0 2px 10px var(--card-shadow);
     }
 
+    .dashboard-container {
+        display: block; 
+        min-height: auto; 
+        height: auto;
+    }
+
+    .main-content {
+        padding: 15px;
+        margin-top: 70px;
+        padding-bottom: 50px; 
+        overflow-y: visible; 
+    }
+    
     .menu-trigger-btn {
         background: linear-gradient(135deg, var(--primary-pink), #FF8EA2);
         color: white;

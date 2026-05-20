@@ -227,56 +227,77 @@
         {
             "chapter_name": "Chặng 2: Ủy Thác Từ Chân Mây",
             "stages": []
-        },  
+        },
         {
             "chapter_name": "Chặng 3: Muchi Gặp Người Xưa",
             "stages": []
-        }, {
+        },
+        {
             "chapter_name": "Chặng 4: Đêm Thành Lilith",
             "stages": []
-        }, {
+        },
+        {
             "chapter_name": "Chặng 5: Ondo Dưới Nắng Tà",
             "stages": []
-        }, {
+        },
+        {
             "chapter_name": "Chặng 6: Nhạc Tiệc Trà",
-            "stages": []
-        }, {
+            "stages": [
+                {
+                    "stage_id": "association/6-1",
+                    "stage_name": "Trang Phục Vườn Thú"
+                }
+            ]
+        },
+        {
             "chapter_name": "Chặng 7: Đêm Đồng Hoa",
             "stages": []
-        }, {
+        },
+        {
             "chapter_name": "Chặng 8: Bầu Trời Vương Thành",
             "stages": []
-        }, {
+        },
+        {
             "chapter_name": "Chặng 9: Đêm Vực Gió",
             "stages": []
-        }, {
+        },
+        {
             "chapter_name": "Chặng 10: Quay Lại Vương Thành",
             "stages": []
-        }, {
+        },
+        {
             "chapter_name": "Chặng 11: Thành Tội Ác",
             "stages": []
-        }, {
+        },
+        {
             "chapter_name": "Chặng 12: Đêm Thành Fort",
             "stages": []
-        }, {
+        },
+        {
             "chapter_name": "Chặng 13: Vườn Hoa Nữ Vương",
             "stages": []
-        }, {
+        },
+        {
             "chapter_name": "Chặng 14: Thu Boilly",
             "stages": []
-        }, {
+        },
+        {
             "chapter_name": "Chặng 15: Bí Mật Rừng",
             "stages": []
-        }, {
+        },
+        {
             "chapter_name": "Chặng 16: Thị Trấn Ấm Áp",
             "stages": []
-        }, {
+        },
+        {
             "chapter_name": "Chặng 17: Phố Phun Nước Mộng Ảo",
             "stages": []
-        }, {
+        },
+        {
             "chapter_name": "Chặng 18: Lời Mời Của Haden",
             "stages": []
-        }, {
+        },
+        {
             "chapter_name": "Chặng 19: Đêm Tuyết Và Sao",
             "stages": []
         }
