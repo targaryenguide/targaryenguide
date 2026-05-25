@@ -13,11 +13,11 @@
 
     --color-simple: #D1DEE6;
     --text-simple: #4A6B7B;
-    --color-gorgeous: #df8d29;
+    --color-gorgeous: #eba54f;
     --text-gorgeous: #fdfcfa;
     --color-elegant: #ECEFF8;
     --text-elegant: #5A668F;
-    --color-lively: #f8ecbe;
+    --color-lively: #ebfc55;
     --text-lively: #F36A4B;
     --color-cute: #FFE4E0;
     --text-cute: #FF6B71;
@@ -39,6 +39,22 @@ body {
     color: var(--text-main);
     margin: 0;
     padding: 0;
+}
+
+.item-score-badge {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    font-size: 10px;
+    font-weight: 700;
+    color: #FF5A7E;
+    background: #FFF0F2;
+    padding: 2px 8px;
+    border-radius: 6px;
+    border: 1px solid rgba(255, 107, 139, 0.2);
+    letter-spacing: 0.2px;
+    box-shadow: 0 2px 6px rgba(255, 107, 139, 0.05);
+    animation: fadeIn 0.3s ease-out;
 }
 
 .dashboard-container {
@@ -373,7 +389,9 @@ body {
     padding-bottom: 0;
 }
 
-.badge-new, .badge-update, .badge-info {
+.badge-new,
+.badge-update,
+.badge-info {
     font-size: 10px;
     font-weight: 700;
     padding: 2px 8px;
@@ -388,17 +406,24 @@ body {
 }
 
 .badge-update {
-    background-color: #AAB7D9;
+    background-color: #aab7d9;
 }
 
 .badge-info {
-    background-color: #95DAB6;
-    color: #26543C;
+    background-color: #ec835a;
+    color: #fbfcfa;
 }
 
 @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(10px); }
-    to { opacity: 1; transform: translateY(0); }
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .category-wrapper {
@@ -527,15 +552,15 @@ body {
     justify-content: center;
     gap: 4px;
     margin-top: 6px;
-    flex-wrap: nowrap; 
+    flex-wrap: nowrap;
 }
 
 .mini-attr-tag {
-    font-size: 9px; 
+    font-size: 9px;
     font-weight: 700;
     padding: 2px 4px;
     border-radius: 5px;
-    white-space: nowrap; 
+    white-space: nowrap;
 }
 
 .mini-attr-tag.attr-simple {
@@ -604,7 +629,11 @@ dialog::backdrop {
     backdrop-filter: blur(2px);
 }
 
-#modal-title { font-size: 18px; margin: 0 0 15px 0; color: #2D2D2D; }
+#modal-title {
+    font-size: 18px;
+    margin: 0 0 15px 0;
+    color: #2D2D2D;
+}
 
 #modal-img {
     width: 120px;
@@ -660,18 +689,18 @@ dialog::backdrop {
     }
 
     .dashboard-container {
-        display: block; 
-        min-height: auto; 
+        display: block;
+        min-height: auto;
         height: auto;
     }
 
     .main-content {
         padding: 15px;
         margin-top: 70px;
-        padding-bottom: 50px; 
-        overflow-y: visible; 
+        padding-bottom: 50px;
+        overflow-y: visible;
     }
-    
+
     .menu-trigger-btn {
         background: linear-gradient(135deg, var(--primary-pink), #FF8EA2);
         color: white;
@@ -790,7 +819,9 @@ dialog::backdrop {
         align-items: flex-start;
     }
 
-    .badge-new, .badge-update, .badge-info {
+    .badge-new,
+    .badge-update,
+    .badge-info {
         margin-top: 2px;
     }
 

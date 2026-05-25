@@ -183,6 +183,32 @@ function renderSidebar() {
             });
             sidebarContainer.appendChild(chapterWrapper);
         });
+    } else if (currentTab === 'event') {
+        if (!menuData.association) return;
+        menuData.event.forEach(chapter => {
+            const chapterWrapper = document.createElement('div');
+            chapterWrapper.className = 'nested-wrapper';
+            const chapterToggle = document.createElement('div');
+            chapterToggle.className = 'nested-toggle-btn level1';
+            chapterToggle.innerHTML = `<span>${chapter.chapter_name}</span><span class="sub-arrow">▼</span>`;
+            chapterWrapper.appendChild(chapterToggle);
+
+            const stageList = document.createElement('div');
+            stageList.className = 'nested-content';
+
+            chapter.stages.forEach(stage => {
+                const displayLabel = `Chủ đề: ${stage.stage_id.split('/').pop()}: ${stage.stage_name}`;
+                const fileKey = stage.stage_id.split('/').pop();
+                createStageButton(displayLabel, fileKey, stage.stage_id, stageList);
+            });
+
+            chapterWrapper.appendChild(stageList);
+            chapterToggle.addEventListener('click', () => {
+                chapterToggle.classList.toggle('active');
+                stageList.classList.toggle('show');
+            });
+            sidebarContainer.appendChild(chapterWrapper);
+        });
     }
 }
 
@@ -334,11 +360,21 @@ async function loadAndDisplayStage(fileLoadPath, stageKey, labelText) {
                     });
                 }
 
-                const realImgPath = `assets/items/${categoryKey}/${item.id}.png`;
+               const realImgPath = `assets/items/${categoryKey}/${item.id}.png`;
                 const backupImg = `https://picsum.photos/100?random=${item.id}`;
+
+                // Định nghĩa danh sách các danh mục được phép hiện điểm
+                const categoriesWithScore = ['dress', 'top', 'bottom', 'skin'];
+                let scoreBadge = '';
+                
+                // Nếu thuộc nhóm quy định và có dữ liệu điểm thì tạo thẻ hiển thị điểm
+                if (categoriesWithScore.includes(categoryKey) && item.score) {
+                    scoreBadge = `<div class="item-score-badge">${String(item.score).toLocaleString()}</div>`;
+                }
 
                 card.innerHTML = `
                     ${rankBadge}
+                    ${scoreBadge}
                     <img src="${realImgPath}" onerror="this.onerror=null; this.src='${backupImg}';" alt="${item.name}" loading="lazy">
                     <div class="item-name">${item.name}</div>
                     <div class="item-mini-attrs-wrap">${attrTagsHTML}</div>
@@ -369,9 +405,9 @@ function openModal(item, categoryKey, realImg, backupImg) {
     imgElement.onerror = () => { imgElement.src = backupImg; };
 
     document.getElementById('modal-details').innerHTML = `
-        <p class="modal-info-p">🌸 <b>Loại:</b> ${(categoryNames[categoryKey] || categoryKey).toUpperCase()}</p>
-        <p class="modal-info-p">🌸 <b>Bộ:</b> ${item.suit}</p>
-        <p class="modal-info-p">🌸 <b>Cách nhận:</b> ${item.source}</p>
+        <p class="modal-info-p"><b>Loại:</b> ${(categoryNames[categoryKey] || categoryKey).toUpperCase()}</p>
+        <p class="modal-info-p"><b>Bộ:</b> ${item.suit}</p>
+        <p class="modal-info-p"><b>Cách nhận:</b> ${item.source}</p>
     `;
     modal.showModal();
 }
