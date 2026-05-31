@@ -1,0 +1,68 @@
+{
+    "11-3": {
+        "attributes": "Đơn giản - Thanh lịch - Dễ thương - Trong sáng - Giữ ấm",
+        "recommendations": {
+            "top": [
+                {
+                    "id": "413",
+                    "name": "Sơ Mi Họa Sĩ",
+                    "score": "19200",
+                    "item_attrs": [
+                        "Đơn giản",
+                        "Dễ thương"
+                    ],
+                    "suit": "Họa Sĩ",
+                    "source": "Chế bản vẽ",
+                    "required": true
+                },
+                {
+                    "id": "414",
+                    "name": "Sơ Mi Họa Sĩ-Đen",
+                    "score": "14600",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trưởng thành"
+                    ],
+                    "suit": "Họa Sĩ",
+                    "source": "Thiết kế"
+                }
+            ],
+            "bottom": [
+                {
+                    "id": "380",
+                    "name": "Quần Yếm Họa Sĩ",
+                    "score": "19600",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Dễ thương"
+                    ],
+                    "suit": "Họa Sĩ",
+                    "source": "Chế bản vẽ",
+                    "required": true
+                },
+                {
+                    "id": "381",
+                    "name": "Quần Yếm Họa Sĩ-Lam",
+                    "score": "14800",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trưởng thành"
+                    ],
+                    "suit": "Họa Sĩ",
+                    "source": "Thiết kế"
+                },
+                {
+                    "id": "381",
+                    "name": "Quần Yếm Họa Sĩ-Đỏ",
+                    "score": "13300",
+                    "item_attrs": [
+                        "Năng động",
+                        "Dễ thương"
+                    ],
+                    "suit": "Họa Sĩ",
+                    "source": "Thiết kế"
+                }
+            ]
+        }
+    }
+}

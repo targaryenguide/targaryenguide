@@ -1,0 +1,21 @@
+{
+    "11-8": {
+        "attributes": "Quý phái - Năng động - Dễ thương - Trong sáng - Mát mẻ",
+        "recommendations": {
+            "dress": [
+                {
+                    "id": "576",
+                    "name": "Đầm Mâm Xôi",
+                    "score": "39300",
+                    "item_attrs": [
+                        "Dễ thương",
+                        "Trong sáng"
+                    ],
+                    "suit": "Đầm Mâm Xôi",
+                    "source": "Chế bản vẽ",
+                    "required": true
+                }
+            ]
+        }
+    }
+}

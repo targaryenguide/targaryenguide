@@ -46,7 +46,20 @@
                 },
                 {
                     "chapter_name": "Chặng 11: Chung Kết Thi Ảo Ảnh",
-                    "stages": []
+                    "stages": [
+                        {
+                            "stage_id": "journey/Q1/11-3",
+                            "stage_name": "Họa Sĩ Annabel (6)"
+                        },
+                        {
+                            "stage_id": "journey/Q1/11-5",
+                            "stage_name": "Ý Tốt Của Aisa"
+                        },
+                        {
+                            "stage_id": "journey/Q1/11-8",
+                            "stage_name": "Tinh Linh Cổ Tích"
+                        }
+                    ]
                 },
                 {
                     "chapter_name": "Chặng 12: Vương Thành Loạn",
@@ -130,7 +143,7 @@
                     "chapter_name": "Chặng 11: Nguy Cơ Và Tuyên Ngôn",
                     "stages": [
                         {
-                            "stage_id": "journey/11-3 (Q2)",
+                            "stage_id": "journey/Q2/11-3",
                             "stage_name": "Thiệp Và Cảnh Cáo"
                         }
                     ]

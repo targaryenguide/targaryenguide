@@ -1,0 +1,21 @@
+{
+    "11-5": {
+        "attributes": "Quý phái - Thanh lịch - Trưởng thành - Gợi cảm - Giữ ấm",
+        "recommendations": {
+            "dress": [
+                {
+                    "id": "577",
+                    "name": "Hải Tặc",
+                    "score": "40300",
+                    "item_attrs": [
+                        "Trưởng thành",
+                        "Gợi cảm"
+                    ],
+                    "suit": "Hải Tặc",
+                    "source": "Chế bản vẽ",
+                    "required": true
+                }
+            ]
+        }
+    }
+}
