@@ -1,0 +1,82 @@
+{
+    "11-3 (Q2)": {
+        "attributes": "Đơn giản - Thanh lịch - Trưởng thành - Trong sáng - Mát mẻ",
+        "recommendations": {
+            "coat": [
+                {
+                    "id": "1070",
+                    "name": "Thần Tượng Ngầu-BK",
+                    "score": "4000",
+                    "item_attrs": [
+                        "Đơn giản",
+                        "Thanh lịch"
+                    ],
+                    "suit": "Thợ Săn Thời Thượng",
+                    "source": "Thiết kế"
+                },
+                {
+                    "id": "1069",
+                    "name": "Thần Tượng Ngầu",
+                    "score": "3800",
+                    "item_attrs": [
+                        "Đơn giản",
+                        "Thanh lịch"
+                    ],
+                    "suit": "Thợ Săn Thời Thượng",
+                    "source": "Chế bản vẽ",
+                    "required": true
+                }
+            ],
+            "top": [
+                {
+                    "id": "921",
+                    "name": "Kỷ Nguyên-BK",
+                    "score": "19600",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trưởng thành"
+                    ],
+                    "suit": "Thợ Săn Thời Thượng",
+                    "source": "Thiết kế"
+                },
+                {
+                    "id": "920",
+                    "name": "Kỷ Nguyên Thời Trang",
+                    "score": "19200",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trưởng thành"
+                    ],
+                    "suit": "Thợ Săn Thời Thượng",
+                    "source": "Chế bản vẽ",
+                    "required": true
+                }
+            ],
+            "bottom": [
+                {
+                    "id": "849",
+                    "name": "Thời Đại Vàng-BK",
+                    "score": "20200",
+                    "item_attrs": [
+                        "Đơn giản",
+                        "Thanh lịch"
+                    ],
+                    "suit": "Thợ Săn Thời Thượng",
+                    "source": "Thiết kế"
+                },
+                {
+                    "id": "848",
+                    "name": "Thời Đại Hoàng Kim",
+                    "score": "19700",
+                    "item_attrs": [
+                        "Đơn giản",
+                        "Thanh lịch"
+                    ],
+                    "suit": "Thợ Săn Thời Thượng",
+                    "source": "Chế bản vẽ",
+                    "required": true
+                }
+            ]
+        }
+    }
+}

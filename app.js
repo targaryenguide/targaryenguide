@@ -360,24 +360,27 @@ async function loadAndDisplayStage(fileLoadPath, stageKey, labelText) {
                     });
                 }
 
-               const realImgPath = `assets/items/${categoryKey}/${item.id}.png`;
+                const realImgPath = `assets/items/${categoryKey}/${item.id}.png`;
                 const backupImg = `https://picsum.photos/100?random=${item.id}`;
 
-                // Định nghĩa danh sách các danh mục được phép hiện điểm
                 const categoriesWithScore = ['dress', 'top', 'bottom', 'skin'];
                 let scoreBadge = '';
-                
-                // Nếu thuộc nhóm quy định và có dữ liệu điểm thì tạo thẻ hiển thị điểm
                 if (categoriesWithScore.includes(categoryKey) && item.score) {
                     scoreBadge = `<div class="item-score-badge">${String(item.score).toLocaleString()}</div>`;
                 }
 
+                let craftBadge = '';
+                if (item.required === true) {
+                    craftBadge = `<div class="item-craft-badge">YÊU CẦU CHẾ TẠO</div>`;
+                }
                 card.innerHTML = `
-                    ${rankBadge}
-                    ${scoreBadge}
-                    <img src="${realImgPath}" onerror="this.onerror=null; this.src='${backupImg}';" alt="${item.name}" loading="lazy">
-                    <div class="item-name">${item.name}</div>
-                    <div class="item-mini-attrs-wrap">${attrTagsHTML}</div>
+                 ${rankBadge}
+                 ${scoreBadge}
+              
+                 <img src="${realImgPath}" onerror="this.onerror=null; this.src='${backupImg}';" alt="${item.name}" loading="lazy">
+                 ${craftBadge}
+                 <div class="item-name">${item.name}</div>
+                 <div class="item-mini-attrs-wrap">${attrTagsHTML}</div>
                 `;
 
                 card.addEventListener('click', () => openModal(item, categoryKey, realImgPath, backupImg));
