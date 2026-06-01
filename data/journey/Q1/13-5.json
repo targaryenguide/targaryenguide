@@ -1,0 +1,25 @@
+{
+    "13-5": {
+        "attributes": "Quý phái - Thanh lịch - Trưởng thành - Trong sáng - Mát mẻ",
+        "tags": [
+            "Bohemian",
+            "Đa Văn Hóa"
+        ],
+        "recommendations": {
+            "dress": [
+                {
+                    "id": "672",
+                    "name": "Bộ Tộc",
+                    "score": "35700",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trưởng thành"
+                    ],
+                    "suit": "Bộ Tộc",
+                    "source": "Chế bản vẽ",
+                    "required": true
+                }
+            ]
+        }
+    }
+}

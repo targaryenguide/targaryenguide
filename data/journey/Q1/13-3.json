@@ -1,0 +1,60 @@
+{
+    "13-3": {
+        "attributes": "Quý phái - Năng động - Trưởng thành - Gợi cảm - Mát mẻ",
+        "tags": [
+            "Rock"
+        ],
+        "recommendations": {
+            "top": [
+                {
+                    "id": "446",
+                    "name": "Tiếng Lòng-Trên",
+                    "score": "22600",
+                    "item_attrs": [
+                        "Trưởng thành",
+                        "Gợi cảm"
+                    ],
+                    "suit": "Lời Nguyền",
+                    "source": "Thiết kế"
+                },
+                {
+                    "id": "445",
+                    "name": "Lời Nguyền-Trên",
+                    "score": "21900",
+                    "item_attrs": [
+                        "Trưởng thành",
+                        "Gợi cảm"
+                    ],
+                    "suit": "Lời Nguyền",
+                    "source": "Chế bản vẽ",
+                    "required": true
+                }
+            ],
+            "bottom": [
+                {
+                    "id": "410",
+                    "name": "Tiếng Lòng-Dưới",
+                    "score": "22100",
+                    "item_attrs": [
+                        "Trưởng thành",
+                        "Gợi cảm"
+                    ],
+                    "suit": "Lời Nguyền",
+                    "source": "Thiết kế"
+                },
+                {
+                    "id": "409",
+                    "name": "Lời Nguyền-Dưới",
+                    "score": "21900",
+                    "item_attrs": [
+                        "Trưởng thành",
+                        "Gợi cảm"
+                    ],
+                    "suit": "Lời Nguyền",
+                    "source": "Chế bản vẽ",
+                    "required": true
+                }
+            ]
+        }
+    }
+}

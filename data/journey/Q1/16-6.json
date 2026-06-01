@@ -1,0 +1,52 @@
+{
+    "16-6": {
+        "attributes": "Quý phái - Năng động - Trưởng thành - Gợi cảm - Mát mẻ",
+        "tags": [
+            "Rock"
+        ],
+        "recommendations": {
+            "coat": [
+                {
+                    "id": "413",
+                    "name": "Sạc Liên Tục",
+                    "score": "3300",
+                    "item_attrs": [
+                        "Năng động",
+                        "Dễ thương"
+                    ],
+                    "suit": "Máy Hạng Nặng",
+                    "source": "Chế bản vẽ",
+                    "required": true
+                }
+            ],
+            "top": [
+                {
+                    "id": "485",
+                    "name": "Jeans Bánh Răng",
+                    "score": "24700",
+                    "item_attrs": [
+                        "Trưởng thành",
+                        "Gợi cảm"
+                    ],
+                    "suit": "Máy Hạng Nặng",
+                    "source": "Chế bản vẽ",
+                    "required": true
+                }
+            ],
+            "bottom": [
+                {
+                    "id": "446",
+                    "name": "Jeans Hoa Văn",
+                    "score": "24300",
+                    "item_attrs": [
+                        "Trưởng thành",
+                        "Gợi cảm"
+                    ],
+                    "suit": "Máy Hạng Nặng",
+                    "source": "Chế bản vẽ",
+                    "required": true
+                }
+            ]
+        }
+    }
+}

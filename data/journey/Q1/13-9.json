@@ -1,0 +1,21 @@
+{
+    "13-9": {
+        "attributes": "Quý phái - Thanh lịch - Trưởng thành - Gợi cảm - Giữ ấm",
+        "recommendations": {
+            "dress": [
+                {
+                    "id": "671",
+                    "name": "Bài Ca Núi Rừng",
+                    "score": "42600",
+                    "item_attrs": [
+                        "Quý phái",
+                        "Thanh lịch"
+                    ],
+                    "suit": "Bài Ca Heidi",
+                    "source": "Chế bản vẽ",
+                    "required": true
+                }
+            ]
+        }
+    }
+}

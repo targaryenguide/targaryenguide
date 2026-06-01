@@ -1,0 +1,38 @@
+{
+    "14-5": {
+        "attributes": "Quý phái - Năng động - Dễ thương - Trong sáng - Giữ ấm",
+        "tags": [
+            "Trung cổ"
+        ],
+        "recommendations": {
+            "top": [
+                {
+                    "id": "469",
+                    "name": "Rừng Hoang Dã-Áo",
+                    "score": "17100",
+                    "item_attrs": [
+                        "Trưởng thành",
+                        "Gợi cảm"
+                    ],
+                    "suit": "Rừng Hoang Dã",
+                    "source": "Chế bản vẽ",
+                    "required": true
+                }
+            ],
+            "bottom": [
+                {
+                    "id": "430",
+                    "name": "Rừng Hoang Dã-Quần",
+                    "score": "25600",
+                    "item_attrs": [
+                        "Năng động",
+                        "Gợi cảm"
+                    ],
+                    "suit": "Rừng Hoang Dã",
+                    "source": "Chế bản vẽ",
+                    "required": true
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "12-5": {
+        "attributes": "Đơn giản - Năng động - Dễ thương - Gợi cảm - Mát mẻ",
+        "tags": [
+            "Trào lưu"
+        ],
+        "recommendations": {
+            "top": [
+                {
+                    "id": "438",
+                    "name": "Chiến Phục",
+                    "score": "23800",
+                    "item_attrs": [
+                        "Trưởng thành",
+                        "Gợi cảm"
+                    ],
+                    "suit": "Cô Bé Ván Trượt",
+                    "source": "Chế bản vẽ",
+                    "required": true
+                }
+            ],
+            "bottom": [
+                {
+                    "id": "403",
+                    "name": "Quần Short",
+                    "score": "20900",
+                    "item_attrs": [
+                        "Năng động",
+                        "Dễ thương"
+                    ],
+                    "suit": "Cô Bé Ván Trượt",
+                    "source": "Chế bản vẽ",
+                    "required": true
+                }
+            ]
+        }
+    }
+}

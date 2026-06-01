@@ -1,0 +1,38 @@
+{
+    "15-7": {
+        "attributes": "Đơn giản - Năng động - Dễ thương - Trong sáng - Giữ ấm",
+        "tags": [
+            "Anh quốc"
+        ],
+        "recommendations": {
+            "dress": [
+                {
+                    "id": "787",
+                    "name": "Thời Gian Trôi",
+                    "score": "41100",
+                    "item_attrs": [
+                        "Dễ thương",
+                        "Trong sáng"
+                    ],
+                    "suit": "Tường Vi Bình Dị",
+                    "source": "Chế bản vẽ",
+                    "required": true
+                }
+            ],
+            "coat": [
+                {
+                    "id": "400",
+                    "name": "Giấc Mộng Đẹp",
+                    "score": "5300",
+                    "item_attrs": [
+                        "Năng động",
+                        "Dễ thương"
+                    ],
+                    "suit": "Tường Vi Bình Dị",
+                    "source": "Chế bản vẽ",
+                    "required": true
+                }
+            ]
+        }
+    }
+}

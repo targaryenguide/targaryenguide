@@ -1,0 +1,38 @@
+{
+    "16-9": {
+        "attributes": "Quý phái - Thanh lịch - Dễ thương - Trong sáng - Giữ ấm",
+        "tags": [
+            "Dạ hội"
+        ],
+        "recommendations": {
+            "dress": [
+                {
+                    "id": "831",
+                    "name": "Say Nhẹ",
+                    "score": "54400",
+                    "item_attrs": [
+                        "Quý phái",
+                        "Thanh lịch"
+                    ],
+                    "suit": "Say Nhẹ",
+                    "source": "Chế bản vẽ",
+                    "required": true
+                }
+            ],
+            "shoes": [
+                {
+                    "id": "895",
+                    "name": "Bước Nhẹ Nhàng",
+                    "score": "10600",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trong sáng"
+                    ],
+                    "suit": "Say Nhẹ",
+                    "source": "Chế bản vẽ",
+                    "required": true
+                }
+            ]
+        }
+    }
+}

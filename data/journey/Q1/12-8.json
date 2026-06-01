@@ -1,0 +1,38 @@
+{
+    "12-8": {
+        "attributes": "Quý phái - Năng động - Dễ thương - Gợi cảm - Mát mẻ",
+        "tags": [
+            "Tương lai"
+        ],
+        "recommendations": {
+            "top": [
+                {
+                    "id": "437",
+                    "name": "Robot Tình Yêu-Trên",
+                    "score": "28700",
+                    "item_attrs": [
+                        "Năng động",
+                        "Dễ thương"
+                    ],
+                    "suit": "Robot Tình Yêu",
+                    "source": "Chế bản vẽ",
+                    "required": true
+                }
+            ],
+            "bottom": [
+                {
+                    "id": "402",
+                    "name": "Robot Tình Yêu-Dưới",
+                    "score": "29000",
+                    "item_attrs": [
+                        "Năng động",
+                        "Dễ thương"
+                    ],
+                    "suit": "Robot Tình Yêu",
+                    "source": "Chế bản vẽ",
+                    "required": true
+                }
+            ]
+        }
+    }
+}

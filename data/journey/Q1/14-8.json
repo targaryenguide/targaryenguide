@@ -1,0 +1,52 @@
+{
+    "14-8": {
+        "attributes": "Quý phái - Thanh lịch - Trưởng thành - Trong sáng - Mát mẻ",
+        "tags": [
+            "Bohemia"
+        ],
+        "recommendations": {
+            "hair": [
+                {
+                    "id": "926",
+                    "name": "Du Khách Lạ",
+                    "score": "1100",
+                    "item_attrs": [
+                        "Năng động",
+                        "Dễ thương"
+                    ],
+                    "suit": "Phép Thuật Đồng Cỏ",
+                    "source": "Chế bản vẽ",
+                    "required": true
+                }
+            ],
+            "dress": [
+                {
+                    "id": "762",
+                    "name": "Mây Nước",
+                    "score": "49100",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trong sáng"
+                    ],
+                    "suit": "Phép Thuật Đồng Cỏ",
+                    "source": "Chế bản vẽ",
+                    "required": true
+                }
+            ],
+            "shoes": [
+                {
+                    "id": "829",
+                    "name": "Thất Lạc",
+                    "score": "49100",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trưởng thành"
+                    ],
+                    "suit": "Phép Thuật Đồng Cỏ",
+                    "source": "Chế bản vẽ",
+                    "required": true
+                }
+            ]
+        }
+    }
+}

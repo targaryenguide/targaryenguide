@@ -1,0 +1,38 @@
+{
+    "16-4": {
+        "attributes": "Quý phái - Thanh lịch - Dễ thương - Trong sáng - Giữ ấm",
+        "tags": [
+            "Học đường"
+        ],
+        "recommendations": {
+            "dress": [
+                {
+                    "id": "830",
+                    "name": "Váy Dài Lam",
+                    "score": "50500",
+                    "item_attrs": [
+                        "Trưởng thành",
+                        "Trong sáng"
+                    ],
+                    "suit": "Trí Tuệ Hơn Người",
+                    "source": "Chế bản vẽ",
+                    "required": true
+                }
+            ],
+            "coat": [
+                {
+                    "id": "414",
+                    "name": "Trí Tuệ Xanh",
+                    "score": "5200",
+                    "item_attrs": [
+                        "Quý phái",
+                        "Thanh lịch"
+                    ],
+                    "suit": "Trí Tuệ Hơn Người",
+                    "source": "Chế bản vẽ",
+                    "required": true
+                }
+            ]
+        }
+    }
+}

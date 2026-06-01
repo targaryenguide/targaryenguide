@@ -1,0 +1,53 @@
+{
+    "15-9": {
+        "attributes": "Quý phái - Thanh lịch - Trưởng thành - Trong sáng - Giữ ấm",
+        "tags": [
+            "Cổ xưa",
+            "Quân phục"
+        ],
+        "recommendations": {
+            "dress": [
+                {
+                    "id": "798",
+                    "name": "Niềm Vinh Dự",
+                    "score": "728800",
+                    "item_attrs": [
+                        "Quý phái",
+                        "Thanh lịch"
+                    ],
+                    "suit": "Niềm Vinh Dự",
+                    "source": "Chế bản vẽ",
+                    "required": true
+                }
+            ],
+            "coat": [
+                {
+                    "id": "404",
+                    "name": "Khoác Bão Táp",
+                    "score": "73000",
+                    "item_attrs": [
+                        "Quý phái",
+                        "Thanh lịch"
+                    ],
+                    "suit": "Niềm Vinh Dự",
+                    "source": "Chế bản vẽ",
+                    "required": true
+                }
+            ],
+            "waist": [
+                {
+                    "id": "1624",
+                    "name": "Kiếm Bình Minh",
+                    "score": "69500",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trưởng thành"
+                    ],
+                    "suit": "Niềm Vinh Dự",
+                    "source": "Đọc cốt truyện nhận",
+                    "note": true
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "14-3": {
+        "attributes": "Quý phái - Năng động - Dễ thương - Trong sáng - Giữ ấm",
+        "tags": [
+            "Trung cổ"
+        ],
+        "recommendations": {
+            "dress": [
+                {
+                    "id": "763",
+                    "name": "Xuân Nồng",
+                    "score": "54900",
+                    "item_attrs": [
+                        "Dễ thương",
+                        "Trong sáng"
+                    ],
+                    "suit": "Xuân Nồng",
+                    "source": "Chế bản vẽ",
+                    "required": true
+                }
+            ],
+            "shoes": [
+                {
+                    "id": "830",
+                    "name": "Nồng Nàn",
+                    "score": "1200",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trưởng thành"
+                    ],
+                    "suit": "Xuân Nồng",
+                    "source": "Chế bản vẽ",
+                    "required": true
+                }
+            ]
+        }
+    }
+}

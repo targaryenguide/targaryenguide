@@ -1,0 +1,25 @@
+{
+    "12-3": {
+        "attributes": "Quý phái - Thanh lịch - Dễ thương - Trong sáng - Mát mẻ",
+        "tags": [
+            "Cổ tích",
+            "Hiệp khách"
+        ],
+        "recommendations": {
+            "dress": [
+                {
+                    "id": "650",
+                    "name": "Kỵ Sĩ Hoa Hồng",
+                    "score": "50300",
+                    "item_attrs": [
+                        "Quý phái",
+                        "Thanh lịch"
+                    ],
+                    "suit": "Kỵ Sĩ Hoa Hồng",
+                    "source": "Chế bản vẽ",
+                    "required": true
+                }
+            ]
+        }
+    }
+}
