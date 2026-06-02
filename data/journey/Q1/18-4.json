@@ -1,0 +1,52 @@
+{
+    "18-4": {
+        "attributes": "Đơn giản - Năng động - Dễ thương - Trong sáng - Mát mẻ",
+        "tags": [
+            "Học đường"
+        ],
+        "recommendations": {
+            "coat": [
+                {
+                    "id": "478",
+                    "name": "Tay Ném Cừ Khôi",
+                    "score": "17400",
+                    "item_attrs": [
+                        "Năng động",
+                        "Dễ thương"
+                    ],
+                    "suit": "Cô Gái Bóng Chày",
+                    "source": "Chế bản vẽ",
+                    "required": true
+                }
+            ],
+            "top": [
+                {
+                    "id": "535",
+                    "name": "Bóng Chày",
+                    "score": "24700",
+                    "item_attrs": [
+                        "Dễ thương",
+                        "Trong sáng"
+                    ],
+                    "suit": "Cô Gái Bóng Chày",
+                    "source": "Chế bản vẽ",
+                    "required": true
+                }
+            ],
+            "bottom": [
+                {
+                    "id": "493",
+                    "name": "Quần Mây Trời",
+                    "score": "14500",
+                    "item_attrs": [
+                        "Dễ thương",
+                        "Trong sáng"
+                    ],
+                    "suit": "Cô Gái Bóng Chày",
+                    "source": "Chế bản vẽ",
+                    "required": true
+                }
+            ]
+        }
+    }
+}

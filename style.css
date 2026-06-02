@@ -689,6 +689,24 @@ dialog::backdrop {
     box-shadow: 0 2px 5px rgba(255, 77, 109, 0.2);
 }
 
+.item-note-badge {
+    position: relative;
+    display: block;
+    width: fit-content;
+    margin: -12px auto 8px auto; 
+    font-size: 7.5px;
+    font-weight: 800;
+    color: #FFFFFF;
+    background: linear-gradient(135deg, #7cbcf0, #75d3ff);
+    padding: 2.5px 6px;
+    border-radius: 4px;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    z-index: 2;
+    box-shadow: 0 2px 5px rgba(255, 77, 109, 0.2);
+}
+
 .item-card .item-craft-badge {
     position: relative;
     top: auto;

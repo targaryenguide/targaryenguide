@@ -1,0 +1,38 @@
+{
+    "17-5": {
+        "attributes": "Quý phái - Thanh lịch - Dễ thương - Trong sáng - Giữ ấm",
+        "tags": [
+            "Cổ tích"
+        ],
+        "recommendations": {
+            "dress": [
+                {
+                    "id": "888",
+                    "name": "Phù Thủy Rừng",
+                    "score": "47800",
+                    "item_attrs": [
+                        "Quý phái",
+                        "Dễ thương"
+                    ],
+                    "suit": "Ma Thuật Rừng Sâu",
+                    "source": "Chế bản vẽ",
+                    "required": true
+                }
+            ],
+            "shoes": [
+                {
+                    "id": "950",
+                    "name": "Giày Phép",
+                    "score": "5400",
+                    "item_attrs": [
+                        "Dễ thương",
+                        "Trong sáng"
+                    ],
+                    "suit": "Ma Thuật Rừng Sâu",
+                    "source": "Chế bản vẽ",
+                    "required": true
+                }
+            ]
+        }
+    }
+}

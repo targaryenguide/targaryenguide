@@ -1,0 +1,85 @@
+{
+    "19-9": {
+        "attributes": "Đơn giản - Thanh lịch - Trưởng thành - Trong sáng - Mát mẻ",
+        "tags": [
+            "Quân phục"
+        ],
+        "recommendations": {
+            "hair": [
+                {
+                    "id": "1277",
+                    "name": "Khúc Nhạc Tương Lai-Ức",
+                    "score": "9100",
+                    "item_attrs": [
+                        "Trưởng thành",
+                        "Trong sáng"
+                    ],
+                    "suit": "Khúc Nhạc Tương Lai",
+                    "source": "Thiết kế"
+                },
+                {
+                    "id": "1263",
+                    "name": "Khúc Nhạc Tương Lai",
+                    "score": "9000",
+                    "item_attrs": [
+                        "Trưởng thành",
+                        "Trong sáng"
+                    ],
+                    "suit": "Khúc Nhạc Tương Lai",
+                    "source": "Chế bản vẽ",
+                    "required": true
+                }
+            ],
+            "dress": [
+                {
+                    "id": "1064",
+                    "name": "Phong Thái Cá Tính",
+                    "score": "29400",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trong sáng"
+                    ],
+                    "suit": "Khúc Nhạc Tương Lai",
+                    "source": "Chế bản vẽ",
+                    "required": true
+                },
+                {
+                    "id": "1078",
+                    "name": "Phong Thái Cá Tính-Nhớ",
+                    "score": "27900",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trong sáng"
+                    ],
+                    "suit": "Khúc Nhạc Tương Lai",
+                    "source": "Thiết kế"
+                }
+            ],
+            "shoes": [
+                {
+                    "id": "1125",
+                    "name": "Ký Ức Bánh Răng",
+                    "score": "6400",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trưởng thành"
+                    ],
+                    "suit": "Khúc Nhạc Tương Lai",
+                    "source": "Chế bản vẽ",
+                    "required": true
+                },
+                {
+                    "id": "1140",
+                    "name": "Ký Ức Bánh Răng-Nhớ",
+                    "score": "6300",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trưởng thành"
+                    ],
+                    "suit": "Khúc Nhạc Tương Lai",
+                    "source": "Thiết kế"
+                }
+            ]
+        }
+    }
+}

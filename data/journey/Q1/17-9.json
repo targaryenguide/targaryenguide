@@ -1,0 +1,52 @@
+{
+    "17-9": {
+        "attributes": "Đơn giản - Năng động - Trưởng thành - Gợi cảm - Mát mẻ",
+        "tags": [
+            "Văn phòng"
+        ],
+        "recommendations": {
+            "dress": [
+                {
+                    "id": "887",
+                    "name": "Nữ Cảnh Sát",
+                    "score": "44800",
+                    "item_attrs": [
+                        "Trưởng thành",
+                        "Gợi cảm"
+                    ],
+                    "suit": "Nữ Cảnh Sát",
+                    "source": "Chế bản vẽ",
+                    "required": true
+                }
+            ],
+            "shoes": [
+                {
+                    "id": "949",
+                    "name": "Nhịp Cảnh Sát",
+                    "score": "5400",
+                    "item_attrs": [
+                        "Đơn giản",
+                        "Gợi cảm"
+                    ],
+                    "suit": "Nữ Cảnh Sát",
+                    "source": "Chế bản vẽ",
+                    "required": true
+                }
+            ],
+            "lefthandheld": [
+                {
+                    "id": "1901",
+                    "name": "Bảo Vệ Liên Bang",
+                    "score": "5400",
+                    "item_attrs": [
+                        "Trưởng thành",
+                        "Gợi cảm"
+                    ],
+                    "suit": "Nữ Cảnh Sát",
+                    "source": "Chế bản vẽ",
+                    "required": true
+                }
+            ]
+        }
+    }
+}

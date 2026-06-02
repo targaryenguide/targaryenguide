@@ -1,0 +1,38 @@
+{
+    "17-2": {
+        "attributes": "Quý phái - Thanh lịch - Dễ thương - Trong sáng - Giữ ấm",
+        "tags": [
+            "Âu cổ"
+        ],
+        "recommendations": {
+            "dress": [
+                {
+                    "id": "886",
+                    "name": "Váy Đuôi Ưng",
+                    "score": "46700",
+                    "item_attrs": [
+                        "Quý phái",
+                        "Thanh lịch"
+                    ],
+                    "suit": "Phu Nhân Hội Họa",
+                    "source": "Chế bản vẽ",
+                    "required": true
+                }
+            ],
+            "shoes": [
+                {
+                    "id": "948",
+                    "name": "Giày Vải Thêu",
+                    "score": "5400",
+                    "item_attrs": [
+                        "Dễ thương",
+                        "Trong sáng"
+                    ],
+                    "suit": "Phu Nhân Hội Họa",
+                    "source": "Chế bản vẽ",
+                    "required": true
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "19-2": {
+        "attributes": "Đơn giản - Năng động - Dễ thương - Trong sáng - Mát mẻ",
+        "tags": [
+            "Lolita"
+        ],
+        "recommendations": {
+            "dress": [
+                {
+                    "id": "1077",
+                    "name": "Thợ Bánh Ngọt-Yêu",
+                    "score": "45000",
+                    "item_attrs": [
+                        "Dễ thương",
+                        "Trong sáng"
+                    ],
+                    "suit": "Thợ Bánh Ngọt",
+                    "source": "Thiết kế"
+                },
+                {
+                    "id": "1059",
+                    "name": "Thợ Bánh Ngọt",
+                    "score": "44800",
+                    "item_attrs": [
+                        "Năng động",
+                        "Dễ thương"
+                    ],
+                    "suit": "Thợ Bánh Ngọt",
+                    "source": "Chế bản vẽ",
+                    "required": true
+                }
+            ],
+            "hosiery": [
+                {
+                    "id": "506",
+                    "name": "Chuyện Quả Hạch-Luyến",
+                    "score": "27000",
+                    "item_attrs": [
+                        "Dễ thương",
+                        "Trong sáng"
+                    ],
+                    "suit": "Thợ Bánh Ngọt",
+                    "source": "Thiết kế"
+                },
+                {
+                    "id": "495",
+                    "name": "Chuyện Quả Hạch",
+                    "score": "27000",
+                    "item_attrs": [
+                        "Năng động",
+                        "Dễ thương"
+                    ],
+                    "suit": "Thợ Bánh Ngọt",
+                    "source": "Chế bản vẽ",
+                    "required": true
+                }
+            ]
+        }
+    }
+}

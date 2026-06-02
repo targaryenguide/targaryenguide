@@ -1,0 +1,60 @@
+{
+    "19-4": {
+        "attributes": "Đơn giản - Thanh lịch - Trưởng thành - Gợi cảm - Mát mẻ",
+        "recommendations": {
+            "hair": [
+                {
+                    "id": "1258",
+                    "name": "Ảnh Hạc",
+                    "score": "9100",
+                    "item_attrs": [
+                        "Trưởng thành",
+                        "Gợi cảm"
+                    ],
+                    "suit": "Ninja Hạc Đen",
+                    "source": "Chế bản vẽ",
+                    "required": true
+                }
+            ],
+            "dress": [
+                {
+                    "id": "1058",
+                    "name": "Ninja Hạc Đen",
+                    "score": "36600",
+                    "item_attrs": [
+                        "Trưởng thành",
+                        "Gợi cảm"
+                    ],
+                    "suit": "Ninja Hạc Đen",
+                    "source": "Hoàn thành Thành Tựu"
+                },
+                {
+                    "id": "1057",
+                    "name": "Ánh Trăng Đêm",
+                    "score": "36400",
+                    "item_attrs": [
+                        "Trưởng thành",
+                        "Gợi cảm"
+                    ],
+                    "suit": "Ninja Hạc Đen",
+                    "source": "Chế bản vẽ",
+                    "required": true
+                }
+            ],
+            "shoes": [
+                {
+                    "id": "1120",
+                    "name": "Trăng Vô Tình",
+                    "score": "6400",
+                    "item_attrs": [
+                        "Quý phái",
+                        "Trưởng thành"
+                    ],
+                    "suit": "Ninja Hạc Đen",
+                    "source": "Chế bản vẽ",
+                    "required": true
+                }
+            ]
+        }
+    }
+}

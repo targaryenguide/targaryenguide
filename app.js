@@ -374,7 +374,7 @@ async function loadAndDisplayStage(fileLoadPath, stageKey, labelText) {
                     craftBadge = `<div class="item-craft-badge">YÊU CẦU CHẾ TẠO</div>`;
                 }
                 if (item.note === true) {
-                    craftBadge = `<div class="item-craft-badge">YÊU CẦU VƯỢT ẢI</div>`;
+                    craftBadge = `<div class="item-note-badge">YÊU CẦU VƯỢT ẢI</div>`;
                 }
                 card.innerHTML = `
                  ${rankBadge}

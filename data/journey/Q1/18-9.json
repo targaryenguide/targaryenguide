@@ -1,0 +1,52 @@
+{
+    "18-9": {
+        "attributes": "Đơn giản - Năng động - Trưởng thành - Gợi cảm - Mát mẻ",
+        "tags": [
+            "Vận động"
+        ],
+        "recommendations": {
+            "coat": [
+                {
+                    "id": "480",
+                    "name": "Yêu Khám Phá",
+                    "score": "5500",
+                    "item_attrs": [
+                        "Đơn giản",
+                        "Năng động"
+                    ],
+                    "suit": "Nhà Thám Hiểm",
+                    "source": "Chế bản vẽ",
+                    "required": true
+                }
+            ],
+            "top": [
+                {
+                    "id": "537",
+                    "name": "Áo Giữ Ấm",
+                    "score": "27000",
+                    "item_attrs": [
+                        "Đơn giản",
+                        "Trưởng thành"
+                    ],
+                    "suit": "Nhà Thám Hiểm",
+                    "source": "Chế bản vẽ",
+                    "required": true
+                }
+            ],
+            "bottom": [
+                {
+                    "id": "495",
+                    "name": "Cuộc Thám Hiểm",
+                    "score": "27400",
+                    "item_attrs": [
+                        "Đơn giản",
+                        "Gợi cảm"
+                    ],
+                    "suit": "Nhà Thám Hiểm",
+                    "source": "Chế bản vẽ",
+                    "required": true
+                }
+            ]
+        }
+    }
+}

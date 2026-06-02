@@ -1,0 +1,38 @@
+{
+    "18-2": {
+        "attributes": "Đơn giản - Thanh lịch - Trưởng thành - Gợi cảm - Giữ ấm",
+        "tags": [
+            "Văn phòng"
+        ],
+        "recommendations": {
+            "top": [
+                {
+                    "id": "536",
+                    "name": "Áo Tinh Tế",
+                    "score": "17400",
+                    "item_attrs": [
+                        "Đơn giản",
+                        "Thanh lịch"
+                    ],
+                    "suit": "Chuyên Gia Makeup",
+                    "source": "Chế bản vẽ",
+                    "required": true
+                }
+            ],
+            "bottom": [
+                {
+                    "id": "494",
+                    "name": "Quần Ống Rộng",
+                    "score": "16000",
+                    "item_attrs": [
+                        "Đơn giản",
+                        "Thanh lịch"
+                    ],
+                    "suit": "Chuyên Gia Makeup",
+                    "source": "Chế bản vẽ",
+                    "required": true
+                }
+            ]
+        }
+    }
+}
