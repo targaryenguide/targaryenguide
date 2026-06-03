@@ -197,7 +197,7 @@ function renderSidebar() {
             stageList.className = 'nested-content';
 
             chapter.stages.forEach(stage => {
-                const displayLabel = `Chủ đề: ${stage.stage_id.split('/').pop()}: ${stage.stage_name}`;
+                const displayLabel = `${stage.stage_name}`;
                 const fileKey = stage.stage_id.split('/').pop();
                 createStageButton(displayLabel, fileKey, stage.stage_id, stageList);
             });
@@ -376,6 +376,9 @@ async function loadAndDisplayStage(fileLoadPath, stageKey, labelText) {
                 if (item.note === true) {
                     craftBadge = `<div class="item-note-badge">YÊU CẦU VƯỢT ẢI</div>`;
                 }
+                if (item.suggest === true) {
+                    craftBadge = `<div class="item-suggest-badge">KHÔNG TỐN KIM CƯƠNG</div>`;
+                }
                 card.innerHTML = `
                  ${rankBadge}
                  ${scoreBadge}
@@ -402,6 +405,13 @@ async function loadAndDisplayStage(fileLoadPath, stageKey, labelText) {
     }
 }
 
+function formatTitleCase(str) {
+    if (!str) return "";
+    return str.toLowerCase().replace(/(^|\s)\S/g, function (l) {
+        return l.toUpperCase();
+    });
+}
+
 function openModal(item, categoryKey, realImg, backupImg) {
     const modal = document.getElementById('item-modal');
     document.getElementById('modal-title').innerText = item.name;
@@ -410,8 +420,12 @@ function openModal(item, categoryKey, realImg, backupImg) {
     imgElement.src = realImg;
     imgElement.onerror = () => { imgElement.src = backupImg; };
 
+    const rawCategory = categoryNames[categoryKey] || categoryKey;
+
+    const formattedCategory = formatTitleCase(rawCategory);
+
     document.getElementById('modal-details').innerHTML = `
-        <p class="modal-info-p"><b>Loại:</b> ${(categoryNames[categoryKey] || categoryKey).toUpperCase()}</p>
+        <p class="modal-info-p"><b>Loại:</b> ${formattedCategory}</p>
         <p class="modal-info-p"><b>Bộ:</b> ${item.suit}</p>
         <p class="modal-info-p"><b>Cách nhận:</b> ${item.source}</p>
     `;
