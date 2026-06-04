@@ -363,9 +363,8 @@ async function loadAndDisplayStage(fileLoadPath, stageKey, labelText) {
                 const realImgPath = `assets/items/${categoryKey}/${item.id}.png`;
                 const backupImg = `https://picsum.photos/100?random=${item.id}`;
 
-                const categoriesWithScore = ['dress', 'top', 'bottom', 'skin'];
                 let scoreBadge = '';
-                if (categoriesWithScore.includes(categoryKey) && item.score) {
+                if (item.score) {
                     scoreBadge = `<div class="item-score-badge">${String(item.score).toLocaleString()}</div>`;
                 }
 
