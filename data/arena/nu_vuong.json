@@ -1158,6 +1158,124 @@
                     "source": "Sự kiện Đảo Mơ - Giấc mơ Bạch Vĩnh Hy"
                 }
             ],
+            "hairornament": [
+                {
+                    "id": "8909",
+                    "name": "Vương Miện Thời Gian",
+                    "score": "1070",
+                    "item_attrs": [
+                        "Quý phái",
+                        "Thanh lịch"
+                    ],
+                    "suit": "Bộ phận lẻ - Siêu hiếm",
+                    "source": "Thiết kế"
+                },
+                {
+                    "id": "6923",
+                    "name": "Tiến Hóa Tương Lai",
+                    "score": "1052",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trưởng thành"
+                    ],
+                    "suit": "Khởi Nguồn Tia Sáng",
+                    "source": "Chế bản vẽ",
+                    "suggest": true
+                },
+                {
+                    "id": "17104",
+                    "name": "Tinh Tú Lấp Lánh",
+                    "score": "1044",
+                    "item_attrs": [
+                        "Quý phái",
+                        "Thanh lịch"
+                    ],
+                    "suit": "Ước Thề Biển Sao",
+                    "source": "Chế bản vẽ",
+                    "suggest": true
+                },
+                {
+                    "id": "6929",
+                    "name": "Viết Lại Lịch Sử",
+                    "score": "1034",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trưởng thành"
+                    ],
+                    "suit": "Khởi Nguồn Tia Sáng",
+                    "source": "Thiết kế",
+                    "suggest": true
+                },
+                {
+                    "id": "8322",
+                    "name": "Bức Tranh Sông Núi",
+                    "score": "1032",
+                    "item_attrs": [
+                        "Quý phái",
+                        "Thanh lịch"
+                    ],
+                    "suit": "Hương Thơm Trong Đêm",
+                    "source": "Khoáng Thế Kỳ Trân - Ánh Sáng Lấp Lánh"
+                },
+                {
+                    "id": "8906",
+                    "name": "Vương Miện Hồi Ức",
+                    "score": "1030",
+                    "item_attrs": [
+                        "Quý phái",
+                        "Thanh lịch"
+                    ],
+                    "suit": "Bộ phận lẻ - Siêu hiếm",
+                    "source": "Big event Thời Gian Hội Tụ"
+                },
+                {
+                    "id": "1345",
+                    "name": "Mặt Nạ Tường Vi",
+                    "score": "1028",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trưởng thành"
+                    ],
+                    "suit": "Hoa Lộng Lẫy",
+                    "source": "Quà Vip 14"
+                },
+                {
+                    "id": "17107",
+                    "name": "Tinh Tú Xa Xôi-Sáng",
+                    "score": "1024",
+                    "item_attrs": [
+                        "Quý phái",
+                        "Thanh lịch"
+                    ],
+                    "suit": "Hồi Ức Biển Sao",
+                    "source": "Thiết kế",
+                    "suggest": true
+                },
+                {
+                    "id": "1115",
+                    "name": "Sức Quyến Rũ",
+                    "score": "1024",
+                    "item_attrs": [
+                        "Quý phái",
+                        "Thanh lịch"
+                    ],
+                    "suit": "Grace",
+                    "source": "Nâng cấp",
+                    "suggest": true
+                },
+                {
+                    "id": "5541",
+                    "name": "Linh Hồn Vĩnh Hằng",
+                    "score": "1024",
+                    "item_attrs": [
+                        "Quý phái",
+                        "Thanh lịch"
+                    ],
+                    "suit": "Truyền Thuyết Cổ Đại",
+                    "source": "Thưởng thành tựu",
+                    "suggest": true
+                }
+            ],
             "skin": [
                 {
                     "id": "9232",
