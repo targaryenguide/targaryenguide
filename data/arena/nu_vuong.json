@@ -51,7 +51,8 @@
                         "Trưởng thành"
                     ],
                     "suit": "Grace",
-                    "source": "Nâng cấp"
+                    "source": "Nâng cấp",
+                    "suggest": true
                 },
                 {
                     "id": "2280",
@@ -86,7 +87,8 @@
                         "Trưởng thành"
                     ],
                     "suit": "Grace",
-                    "source": "Thiết kế"
+                    "source": "Thiết kế",
+                    "suggest": true
                 },
                 {
                     "id": "2694",
@@ -1276,6 +1278,461 @@
                     "suggest": true
                 }
             ],
+            "veil": [
+                {
+                    "id": "1343",
+                    "name": "Chờ Đợi",
+                    "score": "1064",
+                    "item_attrs": [
+                        "Quý phái",
+                        "Thanh lịch"
+                    ],
+                    "suit": "Cầu Thủy Tinh",
+                    "source": "Quà Vip 13"
+                },
+                {
+                    "id": "4949",
+                    "name": "Bùa Chú Ánh Trăng",
+                    "score": "994",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trưởng thành"
+                    ],
+                    "suit": "Triệu Hồi Sắc Đỏ",
+                    "source": "Thưởng thành tựu"
+                },
+                {
+                    "id": "14163",
+                    "name": "Sao Mờ Nhạt",
+                    "score": "992",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Gợi cảm"
+                    ],
+                    "suit": "Hình Bóng Bọ Cạp",
+                    "source": "Thưởng thành tựu"
+                },
+                {
+                    "id": "7954",
+                    "name": "Ngọn Lửa Trên Biển",
+                    "score": "992",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Gợi cảm"
+                    ],
+                    "suit": "Phù Thủy Lửa",
+                    "source": "Thưởng thành tựu"
+                },
+                {
+                    "id": "8012",
+                    "name": "Bầu Trời Lãnh Thổ-Bích",
+                    "score": "992",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Gợi cảm"
+                    ],
+                    "suit": "Mộng Đẹp Đại Mạc",
+                    "source": "Thiết kế"
+                },
+                {
+                    "id": "9478",
+                    "name": "Gông Xiềng Tĩnh Mịch",
+                    "score": "992",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trưởng thành"
+                    ],
+                    "suit": "Bài Ca Đêm Tối",
+                    "source": "Nạp"
+                },
+                {
+                    "id": "6937",
+                    "name": "Sương Đọng Đêm Mơ",
+                    "score": "988",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trưởng thành"
+                    ],
+                    "suit": "Ma Nữ Than Thở",
+                    "source": "Nạp"
+                },
+                {
+                    "id": "7982",
+                    "name": "Mũ Mão Vô Danh",
+                    "score": "988",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Gợi cảm"
+                    ],
+                    "suit": "Nhảy Múa Lắc Lư",
+                    "source": "Big event Vùng Đất Lành"
+                },
+                {
+                    "id": "5559",
+                    "name": "Dáng Hoa",
+                    "score": "986",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Gợi cảm"
+                    ],
+                    "suit": "Chuông Gió",
+                    "source": "Sự kiện gacha"
+                },
+                {
+                    "id": "6318",
+                    "name": "Thời Gian Nhẹ Nhàng",
+                    "score": "986",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Gợi cảm"
+                    ],
+                    "suit": "Đêm Ánh Sáng",
+                    "source": "Nạp shop thần bí"
+                }
+            ],
+            "hairpin": [
+                {
+                    "id": "8884",
+                    "name": "Trời Xanh Trôi Xa",
+                    "score": "1088",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Gợi cảm"
+                    ],
+                    "suit": "Anh Đào Tỏa Sáng",
+                    "source": "Khoáng Thế Kỳ Trân - Ánh Sáng Lấp Lánh",
+                    "suggest": true
+                },
+                {
+                    "id": "8329",
+                    "name": "Tấm Lòng Cao Thượng",
+                    "score": "1044",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Gợi cảm"
+                    ],
+                    "suit": "Hương Thơm Trong Đêm",
+                    "source": "Khoáng Thế Kỳ Trân - Ánh Sáng Lấp Lánh"
+                },
+                {
+                    "id": "8851",
+                    "name": "Vua Không Mão",
+                    "score": "1028",
+                    "item_attrs": [
+                        "Quý phái",
+                        "Gợi cảm"
+                    ],
+                    "suit": "Anh Đào Tỏa Sáng",
+                    "source": "Thưởng thành tựu",
+                    "suggest": true
+                },
+                {
+                    "id": "10237",
+                    "name": "Cát Bụi Ánh Trăng",
+                    "score": "1002",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Gợi cảm"
+                    ],
+                    "suit": "Tinh Tú Dạo Chơi",
+                    "source": "Big event Ánh Sáng Ngưng Tụ"
+                },
+                {
+                    "id": "11417",
+                    "name": "Tinh Tú Rơi Xuống",
+                    "score": "1000",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trưởng thành"
+                    ],
+                    "suit": "Đêm Ảo Tụ Quang",
+                    "source": "Nạp"
+                },
+                {
+                    "id": "11938",
+                    "name": "Ngâm Nga Thầm Thì",
+                    "score": "998",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trưởng thành"
+                    ],
+                    "suit": "Đêm Tĩnh Mê Ảo",
+                    "source": "Sự kiện gacha"
+                },
+                {
+                    "id": "16205",
+                    "name": "Mộng Mị Lông Vàng",
+                    "score": "996",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Gợi cảm"
+                    ],
+                    "suit": "Dạ Yến Phù Hoa",
+                    "source": "Big event Vòng Xoáy Hỗn Loạn"
+                },
+                {
+                    "id": "8405",
+                    "name": "Mứt Hoa Hồng-Thuyền",
+                    "score": "996",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trưởng thành"
+                    ],
+                    "suit": "Tiếng Lòng Sắc Hồng",
+                    "source": "Thiết kế"
+                },
+                {
+                    "id": "16695",
+                    "name": "Ngọc Vàng Leng Keng",
+                    "score": "994",
+                    "item_attrs": [
+                        "Trưởng thành",
+                        "Gợi cảm"
+                    ],
+                    "suit": "Âm Vang Tầng Trời",
+                    "source": "Big event Ánh Sáng Kỳ Tích"
+                },
+                {
+                    "id": "12865",
+                    "name": "Xiềng Xích Thời Gian",
+                    "score": "988",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trưởng thành"
+                    ],
+                    "suit": "Kỳ Mộng Đêm Khuya",
+                    "source": "Sự kiện gacha"
+                }
+            ],
+            "ear": [
+                {
+                    "id": "10206",
+                    "name": "Giai Điệu Hỗn Loạn",
+                    "score": "978",
+                    "item_attrs": [
+                        "Trưởng thành",
+                        "Gợi cảm"
+                    ],
+                    "suit": "Vực Sâu Vĩnh Hằng",
+                    "source": "Nạp"
+                },
+                {
+                    "id": "2224",
+                    "name": "Tai Người Thú",
+                    "score": "976",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Gợi cảm"
+                    ],
+                    "suit": "Vương Miện Hừng Đông",
+                    "source": "Chế bản vẽ"
+                },
+                {
+                    "id": "4316",
+                    "name": "Hấp Dẫn Kỳ Lạ",
+                    "score": "974",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Gợi cảm"
+                    ],
+                    "suit": "Quỷ Nguyệt",
+                    "source": "Big event Sơn Hải Vân"
+                },
+                {
+                    "id": "9643",
+                    "name": "Thư U Minh",
+                    "score": "974",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Gợi cảm"
+                    ],
+                    "suit": "Nhụy Hoa Bóng Đêm",
+                    "source": "Sự kiện - Chưa mở cách nhận"
+                },
+                {
+                    "id": "9809",
+                    "name": "Song Dực",
+                    "score": "974",
+                    "item_attrs": [
+                        "Trưởng thành",
+                        "Gợi cảm"
+                    ],
+                    "suit": "Tất Nguyệt Ô",
+                    "source": "Sự kiện Biển Sao"
+                },
+                {
+                    "id": "3758",
+                    "name": "Sừng Ma",
+                    "score": "968",
+                    "item_attrs": [
+                        "Trưởng thành",
+                        "Gợi cảm"
+                    ],
+                    "suit": "Ma Lực Ảo Ảnh",
+                    "source": "Chế bản vẽ",
+                    "suggest": true
+                },
+                {
+                    "id": "15655",
+                    "name": "Lời Nguyền Kỳ Diệu",
+                    "score": "936",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trưởng thành"
+                    ],
+                    "suit": "Luật Lệ Phù Thủy",
+                    "source": "Sự kiện gacha"
+                },
+                {
+                    "id": "4175",
+                    "name": "Thông Tin Bách Thú",
+                    "score": "914",
+                    "item_attrs": [
+                        "Trưởng thành",
+                        "Gợi cảm"
+                    ],
+                    "suit": "Ngôn Ngữ Thảo Nguyên",
+                    "source": "Chế bản vẽ",
+                    "suggest": true
+                },
+                {
+                    "id": "9699",
+                    "name": "Vùng Đất Nghỉ Ngơi",
+                    "score": "886",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Gợi cảm"
+                    ],
+                    "suit": "Thần Nữ Bên Sông",
+                    "source": "Nạp"
+                },
+                {
+                    "id": "924",
+                    "name": "Tai Hồ Ly",
+                    "score": "884",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Gợi cảm"
+                    ],
+                    "suit": "Hồ Ly Ánh Trăng",
+                    "source": "Sự kiện Biển Sao"
+                }
+            ],
+            "earring": [
+                {
+                    "id": "11519",
+                    "name": "Ngắt Mạch Suy Nghĩ",
+                    "score": "1042",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Gợi cảm"
+                    ],
+                    "suit": "Đèn Dẫn Sóng Biển",
+                    "source": "Thưởng thành tựu"
+                },
+                {
+                    "id": "7418",
+                    "name": "Tiếng Hót Trầm Bổng",
+                    "score": "1040",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trưởng thành"
+                    ],
+                    "suit": "Bài Ca Hải Vương",
+                    "source": "Big event Huyễn Cảnh Thạch Bi"
+                },
+                {
+                    "id": "11761",
+                    "name": "Sợi Trắng Bay Bay",
+                    "score": "1032",
+                    "item_attrs": [
+                        "Quý phái",
+                        "Thanh lịch"
+                    ],
+                    "suit": "Dệt Mộng Diệu Kỳ",
+                    "source": "Nạp"
+                },
+                {
+                    "id": "8324",
+                    "name": "Cảnh Tượng Vạn Biến",
+                    "score": "1032",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Gợi cảm"
+                    ],
+                    "suit": "Hương Thơm Trong Đêm",
+                    "source": "Khoáng Thế Kỳ Trân - Ánh Sáng Lấp Lánh"
+                },
+                {
+                    "id": "5536",
+                    "name": "Mắt Bình Minh",
+                    "score": "1026",
+                    "item_attrs": [
+                        "Quý phái",
+                        "Thanh lịch"
+                    ],
+                    "suit": "Truyền Thuyết Cổ Đại",
+                    "source": "Thưởng thành tựu",
+                    "suggest": true
+                },
+                {
+                    "id": "5816",
+                    "name": "Ảo Tưởng",
+                    "score": "1024",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Gợi cảm"
+                    ],
+                    "suit": "Dạ Tiệc Trắng",
+                    "source": "Thưởng thành tựu"
+                },
+                {
+                    "id": "5543",
+                    "name": "Sức Mạnh Tín Ngưỡng",
+                    "score": "1020",
+                    "item_attrs": [
+                        "Quý phái",
+                        "Thanh lịch"
+                    ],
+                    "suit": "Truyền Thuyết Cổ Đại",
+                    "source": "Thưởng thành tựu"
+                },
+                {
+                    "id": "8845",
+                    "name": "Lồng Sương Mù",
+                    "score": "1004",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Gợi cảm"
+                    ],
+                    "suit": "Anh Đào Tỏa Sáng",
+                    "source": "Khoáng Thế Kỳ Trân - Ánh Sáng Lấp Lánh",
+                    "suggest": true
+                },
+                {
+                    "id": "1087",
+                    "name": "May Mắn",
+                    "score": "1002",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trưởng thành"
+                    ],
+                    "suit": "Hoa Mây",
+                    "source": "Tháp Mây",
+                    "suggest": true
+                },
+                {
+                    "id": "4950",
+                    "name": "Ánh Sáng Dịu Dàng",
+                    "score": "1000",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trưởng thành"
+                    ],
+                    "suit": "Hoa Hồng Hàn Sương",
+                    "source": "Nạp"
+                }
+            ],
             "skin": [
                 {
                     "id": "9232",
@@ -1297,7 +1754,8 @@
                         "Gợi cảm"
                     ],
                     "suit": "Grace",
-                    "source": "Nâng cấp"
+                    "source": "Nâng cấp",
+                    "suggest": true
                 },
                 {
                     "id": "15052",
