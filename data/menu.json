@@ -465,6 +465,15 @@
         {
             "chapter_name": "Phe Chiến (Comeback)",
             "stages": []
+        },
+        {
+            "chapter_name": "Cổ Tích Đồng Xanh (6 bước chọn)",
+            "stages": [
+                {
+                    "stage_id": "event/dapan",
+                    "stage_name": "Đáp án sự kiện"
+                }
+            ]
         }
     ]
 }

@@ -35,7 +35,7 @@ const categoryNames = {
     background: "NỀN SAU",
     headornament: "ĐỈNH ĐẦU",
     ground: "MẶT ĐẤT",
-    skin: "DA"
+    skin: "DA",
 };
 
 function getAttrClass(attrName) {
@@ -184,7 +184,7 @@ function renderSidebar() {
             sidebarContainer.appendChild(chapterWrapper);
         });
     } else if (currentTab === 'event') {
-        if (!menuData.association) return;
+        if (!menuData.event) return;
         menuData.event.forEach(chapter => {
             const chapterWrapper = document.createElement('div');
             chapterWrapper.className = 'nested-wrapper';
@@ -306,65 +306,70 @@ async function loadAndDisplayStage(fileLoadPath, stageKey, labelText) {
         for (const [categoryKey, itemsList] of Object.entries(stageDetail.recommendations)) {
             if (!itemsList || itemsList.length === 0) continue;
 
-            const sortedItems = [...itemsList].sort((a, b) => {
-                const scoreA = parseInt(String(a.score).replace(/,/g, '')) || 0;
-                const scoreB = parseInt(String(b.score).replace(/,/g, '')) || 0;
-                return scoreB - scoreA;
-            });
-
             const wrapper = document.createElement('div');
             wrapper.className = 'category-wrapper';
 
             const toggleBtn = document.createElement('button');
             toggleBtn.className = 'category-toggle-btn';
-            toggleBtn.innerHTML = `<span>${categoryNames[categoryKey] || categoryKey.toUpperCase()} (${sortedItems.length})</span><span class="arrow">▼</span>`;
 
             const contentGrid = document.createElement('div');
             contentGrid.className = 'category-content';
 
-            toggleBtn.addEventListener('click', () => {
-                toggleBtn.classList.toggle('active');
-                contentGrid.classList.toggle('show');
-            });
+            if (stageDetail.is_answer_event) {
+                toggleBtn.classList.add('active');
+                toggleBtn.style.cursor = 'default';
+                toggleBtn.style.color = '#f85454';
+                toggleBtn.innerHTML = `<span>${categoryKey.toUpperCase()}</span>`;
+                contentGrid.classList.add('show');
+            } else {
+                toggleBtn.innerHTML = `<span>${categoryNames[categoryKey] || categoryKey.toUpperCase()}</span><span class="arrow">▼</span>`;
+                toggleBtn.addEventListener('click', () => {
+                    toggleBtn.classList.toggle('active');
+                    contentGrid.classList.toggle('show');
+                });
+            }
 
-            const top20Items = sortedItems.slice(0, 20);
+            let top20Items = [];
+            if (stageDetail.is_answer_event) {
+                top20Items = itemsList;
+            } else {
+                top20Items = [...itemsList].sort((a, b) => {
+                    const scoreA = parseInt(String(a.score).replace(/,/g, '')) || 0;
+                    const scoreB = parseInt(String(b.score).replace(/,/g, '')) || 0;
+                    return scoreB - scoreA;
+                }).slice(0, 20);
+            }
 
             let currentRank = 1;
             let highestScore = null;
 
             top20Items.forEach((item, index) => {
-                const currentScore = parseInt(String(item.score).replace(/,/g, '')) || 0;
-
-                if (index === 0) {
-                    highestScore = currentScore;
-                    currentRank = 1;
-                } else {
-                    if (currentScore === highestScore) {
-                        currentRank = 1;
-                    } else {
-                        currentRank = index + 1;
-                    }
-                }
-
                 const card = document.createElement('div');
                 card.className = 'item-card';
 
-                let rankBadge = currentRank === 1
-                    ? `<div class="item-rank rank-first">#1</div>`
-                    : `<div class="item-rank">#${currentRank}</div>`;
-
-                let attrTagsHTML = '';
-                if (Array.isArray(item.item_attrs)) {
-                    item.item_attrs.forEach(attr => {
-                        attrTagsHTML += `<span class="mini-attr-tag ${getAttrClass(attr)}">${attr}</span>`;
-                    });
+                let rankBadge = '';
+                if (stageDetail.is_answer_event) {
+                    let catText = categoryNames[item.category] || String(item.category).toUpperCase();
+                    rankBadge = `<div class="item-rank" style="background:#FFF0F2; color:#FF5A7E; font-size:9px; border:1px solid rgba(255,107,139,0.15); font-weight:800; border-radius:6px; padding:2px 6px;">${catText}</div>`;
+                } else {
+                    const currentScore = parseInt(String(item.score).replace(/,/g, '')) || 0;
+                    if (index === 0) {
+                        highestScore = currentScore;
+                        currentRank = 1;
+                    } else {
+                        if (currentScore === highestScore) {
+                            currentRank = 1;
+                        } else {
+                            currentRank = index + 1;
+                        }
+                    }
+                    rankBadge = currentRank === 1
+                        ? `<div class="item-rank rank-first">#1</div>`
+                        : `<div class="item-rank">#${currentRank}</div>`;
                 }
 
-                const realImgPath = `assets/items/${categoryKey}/${item.id}.png`;
-                const backupImg = `https://picsum.photos/100?random=${item.id}`;
-
                 let scoreBadge = '';
-                if (item.score) {
+                if (!stageDetail.is_answer_event && item.score) {
                     scoreBadge = `<div class="item-score-badge">${String(item.score).toLocaleString()}</div>`;
                 }
 
@@ -378,17 +383,28 @@ async function loadAndDisplayStage(fileLoadPath, stageKey, labelText) {
                 if (item.suggest === true) {
                     craftBadge = `<div class="item-suggest-badge">KHÔNG TỐN KIM CƯƠNG</div>`;
                 }
+
+                let attrTagsHTML = '';
+                if (Array.isArray(item.item_attrs)) {
+                    item.item_attrs.forEach(attr => {
+                        attrTagsHTML += `<span class="mini-attr-tag ${getAttrClass(attr)}">${attr}</span>`;
+                    });
+                }
+
+                const itemCategoryFolder = stageDetail.is_answer_event ? (item.category || 'accessory') : categoryKey;
+                const realImgPath = `assets/items/${itemCategoryFolder}/${item.id}.png`;
+                const backupImg = `https://picsum.photos/100?random=${item.id}`;
+
                 card.innerHTML = `
-                 ${rankBadge}
-                 ${scoreBadge}
-              
-                 <img src="${realImgPath}" onerror="this.onerror=null; this.src='${backupImg}';" alt="${item.name}" loading="lazy">
-                 ${craftBadge}
-                 <div class="item-name">${item.name}</div>
-                 <div class="item-mini-attrs-wrap">${attrTagsHTML}</div>
+                    ${rankBadge}
+                    ${scoreBadge}
+                    <img src="${realImgPath}" onerror="this.onerror=null; this.src='${backupImg}';" alt="${item.name}" loading="lazy">
+                    ${craftBadge}
+                    <div class="item-name">${item.name}</div>
+                    <div class="item-mini-attrs-wrap">${attrTagsHTML}</div>
                 `;
 
-                card.addEventListener('click', () => openModal(item, categoryKey, realImgPath, backupImg));
+                card.addEventListener('click', () => openModal(item, itemCategoryFolder, realImgPath, backupImg));
                 contentGrid.appendChild(card);
             });
 
@@ -420,13 +436,12 @@ function openModal(item, categoryKey, realImg, backupImg) {
     imgElement.onerror = () => { imgElement.src = backupImg; };
 
     const rawCategory = categoryNames[categoryKey] || categoryKey;
-
     const formattedCategory = formatTitleCase(rawCategory);
 
     document.getElementById('modal-details').innerHTML = `
         <p class="modal-info-p"><b>Loại:</b> ${formattedCategory}</p>
-        <p class="modal-info-p"><b>Bộ:</b> ${item.suit}</p>
-        <p class="modal-info-p"><b>Cách nhận:</b> ${item.source}</p>
+        <p class="modal-info-p"><b>Bộ:</b> ${item.suit || "Không có"}</p>
+        <p class="modal-info-p"><b>Cách nhận:</b> ${item.source || "Chưa cập nhật"}</p>
     `;
     modal.showModal();
 }
