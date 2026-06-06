@@ -1,6 +1,9 @@
 {
     "dapan": {
         "is_answer_event": true,
+        "tags": [
+           "Ấn vào ảnh để xem bộ và cách nhận nhé!"
+        ],
         "recommendations": {
             "VÒNG QUAY SẮC MÀU": [
                 {
