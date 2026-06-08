@@ -36,6 +36,8 @@ const categoryNames = {
     headornament: "ĐỈNH ĐẦU",
     ground: "MẶT ĐẤT",
     skin: "DA",
+    suit: "TRANG PHỤC",
+    special: "ĐẶC BIỆT"
 };
 
 function getAttrClass(attrName) {
@@ -303,8 +305,16 @@ async function loadAndDisplayStage(fileLoadPath, stageKey, labelText) {
             return;
         }
 
-        for (const [categoryKey, itemsList] of Object.entries(stageDetail.recommendations)) {
+        for (let [categoryKey, itemsList] of Object.entries(stageDetail.recommendations)) {
             if (!itemsList || itemsList.length === 0) continue;
+
+            const isAnswerEvent = stageDetail.is_answer_event;
+
+            let isFixed = false;
+            if (isAnswerEvent && categoryKey.includes('[FIXED]')) {
+                isFixed = true;
+                categoryKey = categoryKey.replace('[FIXED]', '').trim();
+            }
 
             const wrapper = document.createElement('div');
             wrapper.className = 'category-wrapper';
@@ -315,14 +325,20 @@ async function loadAndDisplayStage(fileLoadPath, stageKey, labelText) {
             const contentGrid = document.createElement('div');
             contentGrid.className = 'category-content';
 
-            if (stageDetail.is_answer_event) {
+            if (isFixed) {
                 toggleBtn.classList.add('active');
                 toggleBtn.style.cursor = 'default';
                 toggleBtn.style.color = '#f85454';
                 toggleBtn.innerHTML = `<span>${categoryKey.toUpperCase()}</span>`;
                 contentGrid.classList.add('show');
             } else {
-                toggleBtn.innerHTML = `<span>${categoryNames[categoryKey] || categoryKey.toUpperCase()}</span><span class="arrow">▼</span>`;
+                if (isAnswerEvent) {
+                    toggleBtn.style.color = '#000000';
+                    toggleBtn.innerHTML = `<span>${categoryKey.toUpperCase()}</span><span class="arrow">▼</span>`;
+                } else {
+                    toggleBtn.innerHTML = `<span>${categoryNames[categoryKey] || categoryKey.toUpperCase()}</span><span class="arrow">▼</span>`;
+                }
+
                 toggleBtn.addEventListener('click', () => {
                     toggleBtn.classList.toggle('active');
                     contentGrid.classList.toggle('show');
@@ -383,6 +399,9 @@ async function loadAndDisplayStage(fileLoadPath, stageKey, labelText) {
                 if (item.suggest === true) {
                     craftBadge = `<div class="item-suggest-badge">KHÔNG TỐN KIM CƯƠNG</div>`;
                 }
+                if (item.custom_red_badge && typeof item.custom_red_badge === 'string') {
+                    craftBadge = `<div class="item-custom-red-badge">${item.custom_red_badge.toUpperCase()}</div>`;
+                }
 
                 let attrTagsHTML = '';
                 if (Array.isArray(item.item_attrs)) {
@@ -415,8 +434,8 @@ async function loadAndDisplayStage(fileLoadPath, stageKey, labelText) {
 
     } catch (error) {
         console.error(error);
-        titleElement.innerText = "Lỗi dữ liệu";
-        mainArea.innerHTML = '<div style="text-align:center; padding:40px; color:red;">Không thể tải dữ liệu chi tiết của ải.</div>';
+        titleElement.innerText = "Mục này chưa có dữ liệu. Đợi chúng tớ nhé!!!";
+        mainArea.innerHTML = '<div style="text-align:center; padding:40px; color:red;">Đang đợi thêm dữ liệu......</div>';
     }
 }
 

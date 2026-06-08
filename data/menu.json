@@ -426,52 +426,32 @@
     ],
     "event": [
         {
-            "chapter_name": "Biển Sao (Comeback)",
-            "stages": [
-                {
-                    "stage_id": "event/biensao/ngay1",
-                    "stage_name": "Ngày 1: Chu Tước Huy Hoàng"
-                },
-                {
-                    "stage_id": "event/biensao/ngay2",
-                    "stage_name": "Ngày 2: Bụng Rồng Xanh"
-                },
-                {
-                    "stage_id": "event/biensao/ngay3",
-                    "stage_name": "Ngày 3: Nai Ngửa Cổ"
-                },
-                {
-                    "stage_id": "event/biensao/ngay4",
-                    "stage_name": "Ngày 4: Chòm Sao Nhân Duyên"
-                },
-                {
-                    "stage_id": "event/biensao/ngay5",
-                    "stage_name": "Ngày 5: Chim Thần"
-                },
-                {
-                    "stage_id": "event/biensao/ngay6",
-                    "stage_name": "Ngày 6: Túc Phân Cửu Dã"
-                },
-                {
-                    "stage_id": "event/biensao/ngay7",
-                    "stage_name": "Ngày 7: Trăm Sao Quy Về Một"
-                }
-            ]
-        },
-        {
-            "chapter_name": "Hồi Ức Khó Quên (Comeback)",
-            "stages": []
-        },
-        {
-            "chapter_name": "Phe Chiến (Comeback)",
-            "stages": []
-        },
-        {
             "chapter_name": "Cổ Tích Đồng Xanh (6 bước chọn)",
             "stages": [
                 {
                     "stage_id": "event/dapan",
                     "stage_name": "Đáp án sự kiện"
+                }
+            ]
+        },
+        {
+            "chapter_name": "Ánh Sáng Lấp Lánh",
+            "stages": [
+                {
+                    "stage_id": "event/asll/ky4",
+                    "stage_name": "Kỳ 4 - Oánh Nhụy Do Miên"
+                },
+                {
+                    "stage_id": "asll/ky5",
+                    "stage_name": "Kỳ 5 - Phong Linh Thiên Dực"
+                },
+                {
+                    "stage_id": "asll/ky6",
+                    "stage_name": "Kỳ 6 - Cô Tinh Lĩnh Hằng"
+                },
+                {
+                    "stage_id": "asll/ky7",
+                    "stage_name": "Kỳ 7 - Hổ Dược Sương Hành"
                 }
             ]
         }

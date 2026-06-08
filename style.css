@@ -726,6 +726,33 @@ dialog::backdrop {
     box-shadow: 0 2px 6px rgba(107, 91, 149, 0.3);
 }
 
+.item-custom-red-badge {
+    position: relative;
+    display: block;
+    width: fit-content;
+    margin: -12px auto 8px auto; 
+    font-size: 8px;
+    font-weight: 800;
+    color: #FFFFFF;
+    background: linear-gradient(135deg, #f84e76, #ff5a3c); 
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+    padding: 2.5px 7px;
+    border-radius: 4px;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    z-index: 2;
+    box-shadow: 0 2px 6px rgba(255, 75, 43, 0.3);
+}
+
+.item-card .item-custom-red-badge {
+    position: relative;
+    top: auto;
+    left: auto;
+    transform: none;
+    margin: -12px auto 8px auto;
+}
+
 .item-card .item-craft-badge {
     position: relative;
     top: auto;

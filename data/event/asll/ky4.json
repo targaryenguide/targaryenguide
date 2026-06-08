@@ -1,0 +1,296 @@
+{
+    "ky4": {
+        "is_answer_event": true,
+        "tags": [
+            "Sự kiện chưa ra mắt bản Việt!!!"
+        ],
+        "recommendations": {
+            "Bộ phận trang phục + Khung": [
+                {
+                    "id": "3298",
+                    "category": "hair",
+                    "name": "Chưa ra mắt",
+                    "suit": "Chưa ra mắt",
+                    "source": "Chưa mở cách nhận"
+                },
+                {
+                    "id": "3299",
+                    "category": "hair",
+                    "name": "Chưa ra mắt",
+                    "suit": "Chưa ra mắt",
+                    "source": "Thưởng thành tựu"
+                },
+                {
+                    "id": "1576",
+                    "category": "top",
+                    "name": "Chưa ra mắt",
+                    "suit": "Chưa ra mắt",
+                    "source": "Thưởng thành tựu"
+                },
+                {
+                    "id": "1199",
+                    "category": "bottom",
+                    "name": "Chưa ra mắt",
+                    "suit": "Chưa ra mắt",
+                    "source": "Chưa mở cách nhận"
+                },
+                {
+                    "id": "2813",
+                    "category": "dress",
+                    "name": "Chưa ra mắt",
+                    "suit": "Chưa ra mắt",
+                    "source": "Thưởng thành tựu"
+                },
+                {
+                    "id": "1619",
+                    "category": "leglet",
+                    "name": "Chưa ra mắt",
+                    "suit": "Chưa ra mắt",
+                    "source": "Chưa mở cách nhận"
+                },
+                {
+                    "id": "1620",
+                    "category": "hosiery",
+                    "name": "Chưa ra mắt",
+                    "suit": "Chưa ra mắt",
+                    "source": "Chưa mở cách nhận"
+                },
+                {
+                    "id": "2796",
+                    "category": "shoes",
+                    "name": "Chưa ra mắt",
+                    "suit": "Chưa ra mắt",
+                    "source": "Chưa mở cách nhận"
+                },
+                {
+                    "id": "12136",
+                    "category": "hairornament",
+                    "name": "Chưa ra mắt",
+                    "suit": "Chưa ra mắt",
+                    "source": "Chưa mở cách nhận"
+                },
+                {
+                    "id": "12140",
+                    "category": "hairornament",
+                    "name": "Chưa ra mắt",
+                    "suit": "Chưa ra mắt",
+                    "source": "Thưởng thành tựu"
+                },
+                {
+                    "id": "12137",
+                    "category": "earring",
+                    "name": "Chưa ra mắt",
+                    "suit": "Chưa ra mắt",
+                    "source": "Chưa mở cách nhận"
+                },
+                {
+                    "id": "12141",
+                    "category": "earring",
+                    "name": "Chưa ra mắt",
+                    "suit": "Chưa ra mắt",
+                    "source": "Chưa mở cách nhận"
+                },
+                {
+                    "id": "12139",
+                    "category": "necklace",
+                    "name": "Chưa ra mắt",
+                    "suit": "Chưa ra mắt",
+                    "source": "Chưa mở cách nhận"
+                },
+                {
+                    "id": "12138",
+                    "category": "faceaccessory",
+                    "name": "Chưa ra mắt",
+                    "suit": "Chưa ra mắt",
+                    "source": "Chưa mở cách nhận"
+                },
+                {
+                    "id": "12133",
+                    "category": "foreground",
+                    "name": "Chưa ra mắt",
+                    "suit": "Chưa ra mắt",
+                    "source": "Chưa mở cách nhận"
+                },
+                {
+                    "id": "12135",
+                    "category": "background",
+                    "name": "Chưa ra mắt",
+                    "suit": "Chưa ra mắt",
+                    "source": "Chưa mở cách nhận"
+                },
+                {
+                    "id": "12134",
+                    "category": "ground",
+                    "name": "Chưa ra mắt",
+                    "suit": "Chưa ra mắt",
+                    "source": "Chưa mở cách nhận"
+                },
+                {
+                    "id": "744",
+                    "category": "makeup",
+                    "name": "Chưa ra mắt",
+                    "suit": "Chưa ra mắt",
+                    "source": "Chưa mở cách nhận"
+                },
+                {
+                    "id": "Khung1",
+                    "category": "special",
+                    "name": "Khung Thưởng",
+                    "suit": " ",
+                    "source": "Sưu tầm đủ 3500 đạo cụ (full nhiệm vụ)"
+                }
+            ],
+            "NV Sưu tầm trang phục (cả bộ + full màu)[FIXED]": [
+                {
+                    "id": "1284",
+                    "category": "suit",
+                    "name": "Hươu Con Trong Rừng",
+                    "suit": " ",
+                    "source": "Xưởng Mộng Ảo (Xưởng hội)",
+                    "custom_red_badge": "Chặng Hội 19"
+                },
+                {
+                    "id": "975",
+                    "category": "suit",
+                    "name": "Tia Sáng Và Giấc Mơ",
+                    "suit": " ",
+                    "source": "Nâng cấp",
+                    "custom_red_badge": "Quyển 1 - Chương 18"
+                },
+                {
+                    "id": "1059",
+                    "category": "suit",
+                    "name": "Thợ Bánh Ngọt",
+                    "suit": " ",
+                    "source": "Chế bản vẽ",
+                    "custom_red_badge": "Quyển 1 - Chương 19"
+                },
+                {
+                    "id": "1917",
+                    "category": "suit",
+                    "name": "Quả Mọng Và Ngọt Ngào",
+                    "suit": " ",
+                    "source": "Nâng cấp",
+                    "custom_red_badge": "Quyển 2 - Chương 8"
+                },
+                {
+                    "id": "2013",
+                    "category": "suit",
+                    "name": "Mộng Dài Đêm Tuyết",
+                    "suit": " ",
+                    "source": "Nâng cấp",
+                    "custom_red_badge": "Quyển 2 - Chương 9"
+                },
+                {
+                    "id": "1266",
+                    "category": "suit",
+                    "name": "Thợ Bánh Thú Vị",
+                    "suit": " ",
+                    "source": "Chế bản vẽ",
+                    "custom_red_badge": "Quyển 2 - Chương 14"
+                },
+                {
+                    "id": "2439",
+                    "category": "suit",
+                    "name": "Ảo Mộng Hương Phai",
+                    "suit": " ",
+                    "source": "Nâng cấp",
+                    "custom_red_badge": "Quyển 2 - Chương 14"
+                }
+            ],
+            "NV Sưu tầm bộ phận lẻ[FIXED]": [
+                {
+                    "id": "1044",
+                    "category": "hair",
+                    "name": "Thị Trấn Mơ",
+                    "suit": "Hiểm Nguy",
+                    "source": "Mộng Yvette - Chuyện Cổ Tích"
+                },
+                {
+                    "id": "1791",
+                    "category": "hair",
+                    "name": "Hoàng Hậu Tơ Lụa",
+                    "suit": "Pudding Ngọt Ngào",
+                    "source": "Chế bản vẽ"
+                },
+                {
+                    "id": "1281",
+                    "category": "hair",
+                    "name": "Kem Ngũ Sắc",
+                    "suit": "Hè Náo Nhiệt",
+                    "source": "Chế bản vẽ"
+                },
+                {
+                    "id": "650",
+                    "category": "hair",
+                    "name": "Tóc Bãi Biển",
+                    "suit": "Nữ Hoạt Náo",
+                    "source": "Thiết kế"
+                },
+                {
+                    "id": "1791",
+                    "category": "hair",
+                    "name": "Hoàng Hậu Tơ Lụa",
+                    "suit": "Pudding Ngọt Ngào",
+                    "source": "Chế bản vẽ"
+                },
+                {
+                    "id": "886",
+                    "category": "hair",
+                    "name": "Quỷ Nhỏ Halloween",
+                    "suit": "Kẹo Lá Phong",
+                    "source": "Chế bản vẽ"
+                },
+                {
+                    "id": "826",
+                    "category": "hair",
+                    "name": "Liliana-Xám",
+                    "suit": "Chuyện Lãng Mạn",
+                    "source": "Thiết kế"
+                },
+                {
+                    "id": "229",
+                    "category": "dress",
+                    "name": "Spring",
+                    "suit": "Đồ lẻ",
+                    "source": "Mua shop (kim cương)"
+                },
+                {
+                    "id": "341",
+                    "category": "dress",
+                    "name": "Đồng Phục-Caro",
+                    "suit": "Đồ lẻ",
+                    "source": "Thiết kế"
+                },
+                {
+                    "id": "863",
+                    "category": "dress",
+                    "name": "Hiểm Nguy",
+                    "suit": "Hiểm Nguy",
+                    "source": "Mộng Yvette - Chuyện Cổ Tích"
+                },
+                {
+                    "id": "031",
+                    "category": "hosiery",
+                    "name": "Hoa Bé-Tím",
+                    "suit": "Đồ lẻ",
+                    "source": "Thiết kế"
+                },
+                {
+                    "id": "1575",
+                    "category": "shoes",
+                    "name": "Ráng Chiều Như Lửa",
+                    "suit": "Hương Tường Vi",
+                    "source": "Thiết kế"
+                },
+                {
+                    "id": "1816",
+                    "category": "righthandheld",
+                    "name": "Thú Nhồi Bông",
+                    "suit": "Hiểm Nguy",
+                    "source": "Mộng Yvette - Chuyện Cổ Tích"
+                }
+            ]
+        }
+    }
+}

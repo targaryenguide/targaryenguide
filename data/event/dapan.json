@@ -5,7 +5,7 @@
            "Ấn vào ảnh để xem bộ và cách nhận nhé!"
         ],
         "recommendations": {
-            "VÒNG QUAY SẮC MÀU": [
+            "VÒNG QUAY SẮC MÀU[FIXED]": [
                 {
                     "id": "2155",
                     "category": "hair",
@@ -49,7 +49,7 @@
                     "source": "Nạp"
                 }
             ],
-            "NGỰA GỖ QUAY": [
+            "NGỰA GỖ QUAY[FIXED]": [
                 {
                     "id": "1858",
                     "category": "hair",
@@ -93,7 +93,7 @@
                     "source": "Chế bản vẽ"
                 }
             ],
-            "PHÔNG NỀN RỪNG XANH": [
+            "PHÔNG NỀN RỪNG XANH[FIXED]": [
                 {
                     "id": "2237",
                     "category": "hair",
@@ -137,7 +137,7 @@
                     "source": "Chế bản vẽ"
                 }
             ],
-            "MẠO HIỂM": [
+            "MẠO HIỂM[FIXED]": [
                 {
                     "id": "2079",
                     "category": "hair",
@@ -181,7 +181,7 @@
                     "source": "Sự kiện"
                 }
             ],
-            "VÀO DÒNG NƯỚC XIẾT": [
+            "VÀO DÒNG NƯỚC XIẾT[FIXED]": [
                 {
                     "id": "3263",
                     "category": "hair",
