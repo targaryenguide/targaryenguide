@@ -1,0 +1,155 @@
+{
+    "ky5": {
+        "is_answer_event": true,
+        "tags": [
+            "Sự kiện chưa ra mắt bản Việt!!!"
+        ],
+        "recommendations": {
+            "Bộ phận trang phục + Khung": [],
+            "NV Sưu tầm trang phục (cả bộ + full màu)[FIXED]": [
+                {
+                    "id": "1443",
+                    "category": "suit",
+                    "name": "Chưa ra mắt",
+                    "suit": " ",
+                    "source": "Xưởng Mộng Ảo (Xưởng hội)",
+                    "custom_red_badge": "Chặng Hội 20"
+                },
+                {
+                    "id": "813",
+                    "category": "suit",
+                    "name": "Tiếng Vọng Cô Đơn",
+                    "suit": " ",
+                    "source": "Chế bản vẽ",
+                    "custom_red_badge": "Quyển 2 - Chương 8"
+                },
+                {
+                    "id": "866",
+                    "category": "suit",
+                    "name": "Ngọc Quý Sa Mạc",
+                    "suit": " ",
+                    "source": "Chế bản vẽ",
+                    "custom_red_badge": "Quyển 2 - Chương 10"
+                },
+                {
+                    "id": "2334",
+                    "category": "suit",
+                    "name": "Bài Ca Du Mục",
+                    "suit": " ",
+                    "source": "Nâng cấp",
+                    "custom_red_badge": "Quyển 2 - Chương 13"
+                },
+                {
+                    "id": "1385",
+                    "category": "suit",
+                    "name": "Ngàn Sao Tiên Đoán",
+                    "suit": " ",
+                    "source": "Nâng cấp",
+                    "custom_red_badge": "Quyển 2 - Chương 15"
+                },
+                {
+                    "id": "2601",
+                    "category": "suit",
+                    "name": "Chưa ra mắt",
+                    "suit": " ",
+                    "source": "Vượt ải rơi",
+                    "custom_red_badge": "Quyển 3 - Chương 1"
+                },
+                {
+                    "id": "2932",
+                    "category": "suit",
+                    "name": "Chưa ra mắt",
+                    "suit": " ",
+                    "source": "Chế bản vẽ",
+                    "custom_red_badge": "Quyển 3 - Chương 3"
+                }
+            ],
+            "NV Sưu tầm bộ phận lẻ[FIXED]": [
+                {
+                    "id": "261",
+                    "category": "hair",
+                    "name": "Ngọc Châu-Bạc",
+                    "suit": "Đồ lẻ",
+                    "source": "Thiết kế"
+                },
+                {
+                    "id": "725",
+                    "category": "hair",
+                    "name": "Công Chúa Azhar",
+                    "suit": "Công Chúa Azhar",
+                    "source": "Chế bản vẽ"
+                },
+                {
+                    "id": "043",
+                    "category": "top",
+                    "name": "Văn Minh-Nâu",
+                    "suit": "Đồ lẻ",
+                    "source": "Thiết kế"
+                },
+                {
+                    "id": "079",
+                    "category": "bottom",
+                    "name": "Short Ren-Xanh",
+                    "suit": "Ngôi Sao Cổ Vũ",
+                    "source": "Thiết kế"
+                },
+                {
+                    "id": "387",
+                    "category": "bottom",
+                    "name": "Nồng Ấm-Dưới",
+                    "suit": "Vũ Công",
+                    "source": "Mua shop (kim cương)"
+                },
+                {
+                    "id": "020",
+                    "category": "dress",
+                    "name": "Thần Mặt Trăng",
+                    "suit": "Đồ lẻ",
+                    "source": "Thiết kế"
+                },
+                {
+                    "id": "519",
+                    "category": "dress",
+                    "name": "Thổ Cẩm Lam",
+                    "suit": "Thổ Cẩm Lam",
+                    "source": "Thiết kế"
+                },
+                {
+                    "id": "1809",
+                    "category": "dress",
+                    "name": "Ánh Sáng Hi Vọng",
+                    "suit": "Cổ Tích Freesia",
+                    "source": "Mộng Allie - Hoa Tường Vi Nở"
+                },
+                {
+                    "id": "1781",
+                    "category": "shoes",
+                    "name": "Đồng Thoại Mộng Ảo",
+                    "suit": "Cổ Tích Freesia",
+                    "source": "Mộng Allie - Hoa Tường Vi Nở"
+                },
+                {
+                    "id": "5833",
+                    "category": "righthandheld",
+                    "name": "Sưu Tầm Bất Ngờ",
+                    "suit": "Cổ Tích Freesia",
+                    "source": "Mộng Allie - Hoa Tường Vi Nở"
+                },
+                {
+                    "id": "5982",
+                    "category": "hairornament",
+                    "name": "Hoa Hồng Hoang Dã",
+                    "suit": "Điệu Hăng Say",
+                    "source": "Chế bản vẽ"
+                },
+                {
+                    "id": "10967",
+                    "category": "brooch",
+                    "name": "Vũ Điệu",
+                    "suit": "Dấu Chân Địa Đàng",
+                    "source": "Chế bản vẽ"
+                }
+            ]
+        }
+    }
+}

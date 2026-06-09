@@ -442,15 +442,15 @@
                     "stage_name": "Kỳ 4 - Oánh Nhụy Do Miên"
                 },
                 {
-                    "stage_id": "asll/ky5",
+                    "stage_id": "event/asll/ky5",
                     "stage_name": "Kỳ 5 - Phong Linh Thiên Dực"
                 },
                 {
-                    "stage_id": "asll/ky6",
+                    "stage_id": "event/asll/ky6",
                     "stage_name": "Kỳ 6 - Cô Tinh Lĩnh Hằng"
                 },
                 {
-                    "stage_id": "asll/ky7",
+                    "stage_id": "event/asll/ky7",
                     "stage_name": "Kỳ 7 - Hổ Dược Sương Hành"
                 }
             ]
