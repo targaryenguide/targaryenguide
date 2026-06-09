@@ -1,0 +1,155 @@
+{
+    "ky7": {
+        "is_answer_event": true,
+        "tags": [
+            "Sự kiện chưa ra mắt bản Việt!!!"
+        ],
+        "recommendations": {
+            "Bộ phận trang phục + Khung": [],
+            "NV Sưu tầm trang phục (cả bộ + full màu)[FIXED]": [
+                {
+                    "id": "2897",
+                    "category": "suit",
+                    "name": "Chưa ra mắt",
+                    "suit": " ",
+                    "source": "Xưởng Mộng Ảo (Xưởng hội)",
+                    "custom_red_badge": "Chặng Hội 21"
+                },
+                {
+                    "id": "838",
+                    "category": "suit",
+                    "name": "Quạt Lông Vũ",
+                    "suit": " ",
+                    "source": "Nâng cấp",
+                    "custom_red_badge": "Quyển 1 - Chương 16"
+                },
+                {
+                    "id": "1687",
+                    "category": "suit",
+                    "name": "Tiếng Mèo Màu Mực",
+                    "suit": " ",
+                    "source": "Chế bản vẽ",
+                    "custom_red_badge": "Quyển 2 - Chương 6"
+                },
+                {
+                    "id": "1913",
+                    "category": "suit",
+                    "name": "Cá Chép Cầu Phúc",
+                    "suit": " ",
+                    "source": "Nâng cấp",
+                    "custom_red_badge": "Quyển 2 - Chương 8"
+                },
+                {
+                    "id": "2082",
+                    "category": "suit",
+                    "name": "Bóng Sen Dưới Trăng",
+                    "suit": " ",
+                    "source": "Nâng cấp",
+                    "custom_red_badge": "Quyển 2 - Chương 10"
+                },
+                {
+                    "id": "1464",
+                    "category": "suit",
+                    "name": "Chưa ra mắt",
+                    "suit": " ",
+                    "source": "Nâng cấp",
+                    "custom_red_badge": "Quyển 3 - Chương 1"
+                },
+                {
+                    "id": "3188",
+                    "category": "suit",
+                    "name": "Chưa ra mắt",
+                    "suit": " ",
+                    "source": "Chế bản vẽ",
+                    "custom_red_badge": "Quyển 3 - Chương 5"
+                }
+            ],
+            "NV Sưu tầm bộ phận lẻ[FIXED]": [
+                {
+                    "id": "128",
+                    "category": "hair",
+                    "name": "Bướm Tím",
+                    "suit": "Hoa Bướm Hồng",
+                    "source": "Thiết kế"
+                },
+                {
+                    "id": "1197",
+                    "category": "hair",
+                    "name": "Buồn Man Mác",
+                    "suit": "Nước Lay Động",
+                    "source": "Mộng Việt Thiên Sương - Chim Ưng Và Tuyết"
+                },
+                {
+                    "id": "2787",
+                    "category": "hair",
+                    "name": "Chưa ra mắt",
+                    "suit": "Chưa ra mắt",
+                    "source": "Chưa mở ra cách nhận"
+                },
+                {
+                    "id": "635",
+                    "category": "hair",
+                    "name": "Mùa Thu Hồng",
+                    "suit": "Thỏ Mặt Trăng",
+                    "source": "Thiết kế"
+                },
+                {
+                    "id": "305",
+                    "category": "top",
+                    "name": "Chưa ra mắt",
+                    "suit": "Chưa ra mắt",
+                    "source": "Thiết kế"
+                },
+                {
+                    "id": "268",
+                    "category": "bottom",
+                    "name": "Váy Mây-Lam",
+                    "suit": "Đồ lẻ",
+                    "source": "Mua shop (Vàng)"
+                },
+                {
+                    "id": "1003",
+                    "category": "dress",
+                    "name": "Nước Lay Động",
+                    "suit": "Nước Lay Động",
+                    "source": "Mộng Việt Thiên Sương - Chim Ưng Và Tuyết"
+                },
+                {
+                    "id": "475",
+                    "category": "hosiery",
+                    "name": "Chưa ra mắt",
+                    "suit": "Chưa ra mắt",
+                    "source": "Chưa mở ra cách nhận"
+                },
+                {
+                    "id": "1070",
+                    "category": "shoes",
+                    "name": "Màu Hè Buồn",
+                    "suit": "Nước Lay Động",
+                    "source": "Mộng Việt Thiên Sương - Chim Ưng Và Tuyết"
+                },
+                {
+                    "id": "12684",
+                    "category": "lefthandornament",
+                    "name": "Một Chữ Ngàn Vàng",
+                    "suit": "Bóng Trúc Trong Tim",
+                    "source": "Chưa mở ra cách nhận"
+                },
+                {
+                    "id": "5035",
+                    "category": "hairpin",
+                    "name": "Mai Tuyết",
+                    "suit": "Hội Đèn Thượng Nguyên",
+                    "source": "Chế bản vẽ"
+                },
+                {
+                    "id": "5242",
+                    "category": "hairpin",
+                    "name": "Diều Gió-Lụa",
+                    "suit": "Diều Ức Nguyện",
+                    "source": "Thiết kế"
+                }
+            ]
+        }
+    }
+}
