@@ -5,7 +5,134 @@
             "Sự kiện chưa ra mắt bản Việt!!!"
         ],
         "recommendations": {
-            "Bộ phận trang phục + Khung": [],
+            "Bộ phận trang phục + Khung": [
+                {
+                    "id": "4091",
+                    "category": "hair",
+                    "name": "Chưa ra mắt",
+                    "suit": "Chưa ra mắt",
+                    "source": "Chưa mở cách nhận"
+                },
+                {
+                    "id": "4092",
+                    "category": "hair",
+                    "name": "Chưa ra mắt",
+                    "suit": "Chưa ra mắt",
+                    "source": "Thưởng thành tựu"
+                },
+                {
+                    "id": "1874",
+                    "category": "coat",
+                    "name": "Chưa ra mắt",
+                    "suit": "Chưa ra mắt",
+                    "source": "Chưa mở cách nhận"
+                },
+                {
+                    "id": "1949",
+                    "category": "top",
+                    "name": "Chưa ra mắt",
+                    "suit": "Chưa ra mắt",
+                    "source": "Chưa mở cách nhận"
+                },
+                {
+                    "id": "1537",
+                    "category": "bottom",
+                    "name": "Chưa ra mắt",
+                    "suit": "Chưa ra mắt",
+                    "source": "Chưa mở cách nhận"
+                },
+                {
+                    "id": "3530",
+                    "category": "dress",
+                    "name": "Chưa ra mắt",
+                    "suit": "Chưa ra mắt",
+                    "source": "Thưởng thành tựu"
+                },
+                {
+                    "id": "3440",
+                    "category": "shoes",
+                    "name": "Chưa ra mắt",
+                    "suit": "Chưa ra mắt",
+                    "source": "Chưa mở cách nhận"
+                },
+                {
+                    "id": "16044",
+                    "category": "hairornament",
+                    "name": "Chưa ra mắt",
+                    "suit": "Chưa ra mắt",
+                    "source": "Chưa mở cách nhận"
+                },
+                {
+                    "id": "16051",
+                    "category": "hairornament",
+                    "name": "Chưa ra mắt",
+                    "suit": "Chưa ra mắt",
+                    "source": "Thưởng thành tựu"
+                },
+                {
+                    "id": "16045",
+                    "category": "hairpin",
+                    "name": "Chưa ra mắt",
+                    "suit": "Chưa ra mắt",
+                    "source": "Chưa mở cách nhận"
+                },
+                {
+                    "id": "16046",
+                    "category": "righthandheld",
+                    "name": "Chưa ra mắt",
+                    "suit": "Chưa ra mắt",
+                    "source": "Chưa mở cách nhận"
+                },
+                {
+                    "id": "16047",
+                    "category": "gloves",
+                    "name": "Chưa ra mắt",
+                    "suit": "Chưa ra mắt",
+                    "source": "Chưa mở cách nhận"
+                },
+                {
+                    "id": "16048",
+                    "category": "righthandornament",
+                    "name": "Chưa ra mắt",
+                    "suit": "Chưa ra mắt",
+                    "source": "Chưa mở cách nhận"
+                },
+                {
+                    "id": "16049",
+                    "category": "brooch",
+                    "name": "Chưa ra mắt",
+                    "suit": "Chưa ra mắt",
+                    "source": "Chưa mở cách nhận"
+                },
+                {
+                    "id": "16050",
+                    "category": "waist",
+                    "name": "Chưa ra mắt",
+                    "suit": "Chưa ra mắt",
+                    "source": "Chưa mở cách nhận"
+                },
+                {
+                    "id": "16042",
+                    "category": "foreground",
+                    "name": "Chưa ra mắt",
+                    "suit": "Chưa ra mắt",
+                    "source": "Chưa mở cách nhận"
+                },
+                {
+                    "id": "16043",
+                    "category": "ground",
+                    "name": "Chưa ra mắt",
+                    "suit": "Chưa ra mắt",
+                    "source": "Chưa mở cách nhận"
+                },
+                {
+                    "id": "978",
+                    "category": "makeup",
+                    "name": "Chưa ra mắt",
+                    "suit": "Chưa ra mắt",
+                    "source": "Chưa mở cách nhận"
+                }
+            ],
             "NV Sưu tầm trang phục (cả bộ + full màu)[FIXED]": [
                 {
                     "id": "2897",
