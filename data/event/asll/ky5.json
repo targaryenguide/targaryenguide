@@ -5,22 +5,7 @@
             "Sự kiện chưa ra mắt bản Việt!!!"
         ],
         "recommendations": {
-            "Bộ phận trang phục + Khung": [
-                {
-                    "id": "4091",
-                    "category": "hair",
-                    "name": "Chưa ra mắt",
-                    "suit": "Chưa ra mắt",
-                    "source": "Chưa mở cách nhận"
-                },
-                {
-                    "id": "4092",
-                    "category": "hair",
-                    "name": "Chưa ra mắt",
-                    "suit": "Chưa ra mắt",
-                    "source": "Thưởng thành tựu"
-                }
-            ],
+            "Bộ phận trang phục + Khung": [],
             "NV Sưu tầm trang phục (cả bộ + full màu)[FIXED]": [
                 {
                     "id": "1443",
