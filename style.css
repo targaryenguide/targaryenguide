@@ -90,17 +90,27 @@ body {
 }
 
 .logo-container {
-    text-align: center;
-    margin-bottom: 25px;
-    padding: 0 10px;
+    width: 100%;
+    max-width: 260px;
+    margin: 0 auto 25px auto;
+    padding: 0 5px;
+    box-sizing: border-box;
+    display: block;
+}
+
+.logo-link {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .logo-img {
     width: 100%;
-    max-width: 260px;
     height: auto;
     display: block;
     margin: 0 auto;
+
     filter: drop-shadow(2px 0px 0px #FFFFFF) drop-shadow(-2px 0px 0px #FFFFFF) drop-shadow(0px 2px 0px #FFFFFF) drop-shadow(0px -2px 0px #FFFFFF) drop-shadow(1.5px 1.5px 0px #FFFFFF) drop-shadow(-1.5px -1.5px 0px #FFFFFF) drop-shadow(1.5px -1.5px 0px #FFFFFF) drop-shadow(-1.5px 1.5px 0px #FFFFFF);
 }
 
@@ -934,10 +944,22 @@ dialog::backdrop {
         gap: 10px;
     }
 
+    .mobile-logo-link {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        text-decoration: none;
+    }
+
     .mobile-logo-img {
-        height: 45px;
+        height: 42px;
         width: auto;
         object-fit: contain;
+        display: block;
+        cursor: pointer;
+
+        image-rendering: -webkit-optimize-contrast;
+
         filter: drop-shadow(2px 0px 0px #FFFFFF) drop-shadow(-2px 0px 0px #FFFFFF) drop-shadow(0px 2px 0px #FFFFFF) drop-shadow(0px -2px 0px #FFFFFF) drop-shadow(1.5px 1.5px 0px #FFFFFF) drop-shadow(-1.5px -1.5px 0px #FFFFFF) drop-shadow(1.5px -1.5px 0px #FFFFFF) drop-shadow(-1.5px 1.5px 0px #FFFFFF);
     }
 }
