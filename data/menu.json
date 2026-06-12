@@ -310,7 +310,8 @@
         },
         {
             "stage_id": "arena/nu_vuong",
-            "stage_name": "Nữ Vương 💖"
+            "stage_name": "Nữ Vương",
+            "done": true
         },
         {
             "stage_id": "arena/ngon_lua_ngay_dong",
@@ -326,7 +327,8 @@
         },
         {
             "stage_id": "arena/cong_vien_co_tich",
-            "stage_name": "Công Viên Cổ Tích 💖"
+            "stage_name": "Công Viên Cổ Tích",
+            "done": true
         },
         {
             "stage_id": "arena/thanh_thieu_nu",

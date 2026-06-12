@@ -111,7 +111,12 @@ function renderSidebar() {
 
         menuData.arena.forEach(stage => {
             const fileKey = stage.stage_id.split('/').pop();
-            createStageButton(stage.stage_name, fileKey, stage.stage_id, sidebarContainer);
+            // Đánh dấu ải hoàn thành cho phần Arena
+            const doneIcon = stage.done === true 
+                ? `<span class="cute-cat-container"><img src="assets/cute.png" class="cute-cat-done-img" alt="Done"></span>` 
+                : '';
+            const displayLabel = `${stage.stage_name} ${doneIcon}`;
+            createStageButton(displayLabel, fileKey, stage.stage_id, sidebarContainer);
         });
     } else if (currentTab === 'journey') {
         if (!menuData.journey) return;
@@ -138,9 +143,13 @@ function renderSidebar() {
                 stageList.className = 'nested-content-stages';
 
                 chapter.stages.forEach(stage => {
-                    const displayLabel = `Ải ${stage.stage_id.split('/').pop()}: ${stage.stage_name}`;
-                    const fileKey = stage.stage_id.split('/').pop();
-                    createStageButton(displayLabel, fileKey, stage.stage_id, stageList);
+                    const stageNum = stage.stage_id.split('/').pop();
+                    // Đánh dấu ải hoàn thành cho phần Hành trình bằng ảnh mèo PNG
+                    const doneIcon = stage.done === true 
+                        ? `<span class="cute-cat-container"><img src="assets/cute.png" class="cute-cat-done-img" alt="Done"></span>` 
+                        : '';
+                    const displayLabel = `Ải ${stageNum}: ${stage.stage_name} ${doneIcon}`;
+                    createStageButton(displayLabel, stageNum, stage.stage_id, stageList);
                 });
 
                 chapterWrapper.appendChild(stageList);
@@ -173,9 +182,13 @@ function renderSidebar() {
             stageList.className = 'nested-content';
 
             chapter.stages.forEach(stage => {
-                const displayLabel = `Ải ${stage.stage_id.split('/').pop()}: ${stage.stage_name}`;
-                const fileKey = stage.stage_id.split('/').pop();
-                createStageButton(displayLabel, fileKey, stage.stage_id, stageList);
+                const stageNum = stage.stage_id.split('/').pop();
+                // Đánh dấu ải hoàn thành cho phần Hội bằng ảnh mèo PNG
+                const doneIcon = stage.done === true 
+                    ? `<span class="cute-cat-container"><img src="assets/cute.png" class="cute-cat-done-img" alt="Done"></span>` 
+                    : '';
+                const displayLabel = `Ải ${stageNum}: ${stage.stage_name} ${doneIcon}`;
+                createStageButton(displayLabel, stageNum, stage.stage_id, stageList);
             });
 
             chapterWrapper.appendChild(stageList);
@@ -199,9 +212,13 @@ function renderSidebar() {
             stageList.className = 'nested-content';
 
             chapter.stages.forEach(stage => {
-                const displayLabel = `${stage.stage_name}`;
-                const fileKey = stage.stage_id.split('/').pop();
-                createStageButton(displayLabel, fileKey, stage.stage_id, stageList);
+                const stageNum = stage.stage_id.split('/').pop();
+                // Đánh dấu ải hoàn thành cho phần Sự kiện bằng ảnh mèo PNG
+                const doneIcon = stage.done === true 
+                    ? `<span class="cute-cat-container"><img src="assets/cute.png" class="cute-cat-done-img" alt="Done"></span>` 
+                    : '';
+                const displayLabel = `${stage.stage_name} ${doneIcon}`;
+                createStageButton(displayLabel, stageNum, stage.stage_id, stageList);
             });
 
             chapterWrapper.appendChild(stageList);
@@ -217,7 +234,7 @@ function renderSidebar() {
 function createStageButton(labelText, stageKey, fileLoadPath, container) {
     const btn = document.createElement('button');
     btn.className = 'stage-btn';
-    btn.innerText = labelText;
+    btn.innerHTML = labelText; // ĐÃ SỬA: Sửa từ lỗi chính tả btn.innerHTM sang btn.innerHTML chuẩn
     btn.addEventListener('click', () => {
         document.querySelectorAll('.stage-btn').forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
@@ -250,13 +267,14 @@ async function loadAndDisplayStage(fileLoadPath, stageKey, labelText) {
 
         const stageDetail = loadedStages[fileLoadPath][stageKey];
         if (!stageDetail) {
-            titleElement.innerText = labelText;
+            // Trường hợp displayLabel chứa HTML của mèo, ta cần xóa nó đi khi hiển thị lên tiêu đề chính
+            titleElement.innerHTML = labelText;
             attrElement.innerHTML = '<span class="stage-special-tag-item">Chưa có dữ liệu</span>';
             mainArea.innerHTML = '<div style="text-align:center; padding:40px; color:#A89598;">Chưa cập nhật gợi ý cho mục này.</div>';
             return;
         }
 
-        titleElement.innerText = labelText;
+        titleElement.innerHTML = labelText;
         attrElement.innerHTML = '';
 
         if (Array.isArray(stageDetail.attributes)) {
@@ -326,11 +344,11 @@ async function loadAndDisplayStage(fileLoadPath, stageKey, labelText) {
             contentGrid.className = 'category-content';
 
             if (isFixed) {
-                toggleBtn.classList.add('active');
+                toggleBtn.className = 'category-toggle-btn active';
                 toggleBtn.style.cursor = 'default';
                 toggleBtn.style.color = '#f85454';
                 toggleBtn.innerHTML = `<span>${categoryKey.toUpperCase()}</span>`;
-                contentGrid.classList.add('show');
+                contentGrid.className = 'category-content show';
             } else {
                 if (isAnswerEvent) {
                     toggleBtn.style.color = '#000000';
@@ -384,6 +402,7 @@ async function loadAndDisplayStage(fileLoadPath, stageKey, labelText) {
                         : `<div class="item-rank">#${currentRank}</div>`;
                 }
 
+                // SỬA ĐOẠN NÀY: Hiện điểm cho TẤT CẢ các bộ phận có dữ liệu điểm (item.score)
                 let scoreBadge = '';
                 if (!stageDetail.is_answer_event && item.score) {
                     scoreBadge = `<div class="item-score-badge">${String(item.score).toLocaleString()}</div>`;
