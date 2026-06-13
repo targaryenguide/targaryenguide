@@ -2,7 +2,7 @@
     "ky4": {
         "is_answer_event": true,
         "tags": [
-            "Sự kiện chưa ra mắt bản Việt!!!"
+            "Sự kiện sắp ra mắt bản Việt!!!"
         ],
         "recommendations": {
             "Bộ phận trang phục + Khung": [
@@ -168,7 +168,7 @@
                 {
                     "id": "1917",
                     "category": "suit",
-                    "name": "Quả Mọng Và Ngọt Ngào",
+                    "name": "Quả Mọng Ngọt Ngào",
                     "suit": " ",
                     "source": "Nâng cấp",
                     "custom_red_badge": "Quyển 2 - Chương 8"

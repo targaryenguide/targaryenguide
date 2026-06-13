@@ -441,19 +441,19 @@
             "stages": [
                 {
                     "stage_id": "event/asll/ky4",
-                    "stage_name": "Kỳ 4 - Oánh Nhụy Do Miên"
+                    "stage_name": "Kỳ 4 - Hoa Ngọc Say Giấc"
                 },
                 {
                     "stage_id": "event/asll/ky5",
-                    "stage_name": "Kỳ 5 - Phong Linh Thiên Dực"
+                    "stage_name": "Kỳ 5 - 'Phong Linh Thiên Dực'"
                 },
                 {
                     "stage_id": "event/asll/ky6",
-                    "stage_name": "Kỳ 6 - Cô Tĩnh Lĩnh Hàng"
+                    "stage_name": "Kỳ 6 - 'Cô Tĩnh Lĩnh Hàng'"
                 },
                 {
                     "stage_id": "event/asll/ky7",
-                    "stage_name": "Kỳ 7 - Hổ Dược Sương Hành"
+                    "stage_name": "Kỳ 7 - 'Hổ Dược Sương Hành'"
                 }
             ]
         }
