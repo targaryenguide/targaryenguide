@@ -78,7 +78,7 @@
                 },
                 {
                     "id": "4143",
-                    "name": "Cưỡi Gió Ngàn Dặm",
+                    "name": "Ánh Trăng Lung Linh",
                     "score": "6215",
                     "item_attrs": [
                         "Quý phái",
@@ -89,7 +89,7 @@
                 },
                 {
                     "id": "2277",
-                    "name": "Phong Nhã-Trắng",
+                    "name": "Ca Dao Gió Cát",
                     "score": "6210",
                     "item_attrs": [
                         "Thanh lịch",
@@ -180,7 +180,7 @@
                 },
                 {
                     "id": "1334",
-                    "name": "Thần Chiếu Cố",
+                    "name": "Hoa Sao-Hiếm",
                     "score": "24820",
                     "item_attrs": [
                         "Quý phái",
@@ -1350,7 +1350,7 @@
                 },
                 {
                     "id": "6111",
-                    "name": "Dáng Hoa",
+                    "name": "Lụa Sao Sa",
                     "score": "966",
                     "item_attrs": [
                         "Quý phái",
@@ -1856,8 +1856,8 @@
                     "name": "Lời Yêu",
                     "score": "990",
                     "item_attrs": [
-                        "Trưởng thành",
-                        "Gợi cảm"
+                        "Quý phái",
+                        "Thanh lịch"
                     ],
                     "suit": "Bài Ca Du Hành",
                     "source": "Sự kiện - Chưa mở cách nhận"
@@ -1867,8 +1867,8 @@
                     "name": "Vòng Cổ Hồng",
                     "score": "990",
                     "item_attrs": [
-                        "Thanh lịch",
-                        "Trưởng thành"
+                        "Quý phái",
+                        "Thanh lịch"
                     ],
                     "suit": "Vũ Hội Anna",
                     "source": "Quà Vip 11"
@@ -2858,8 +2858,8 @@
                     "name": "Chuỗi Pha Lê",
                     "score": "972",
                     "item_attrs": [
-                        "Đơn giản",
-                        "Dễ thương"
+                        "Thanh lịch",
+                        "Trong sáng"
                     ],
                     "suit": "Phù Vân Hoa Lệ",
                     "source": "Hội cùng ghép",
@@ -3308,7 +3308,7 @@
                 },
                 {
                     "id": "6558",
-                    "name": "Cảnh Xây Mộng",
+                    "name": "Cánh Xây Mộng",
                     "score": "992",
                     "item_attrs": [
                         "Quý phái",
