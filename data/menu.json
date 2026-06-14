@@ -282,7 +282,8 @@
         },
         {
             "stage_id": "arena/ngoi_sao_van_phong",
-            "stage_name": "Ngôi Sao Văn Phòng"
+            "stage_name": "Ngôi Sao Văn Phòng",
+            "done": true
         },
         {
             "stage_id": "arena/chuyen_ngay_he",
