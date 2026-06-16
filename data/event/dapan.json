@@ -2,213 +2,44 @@
     "dapan": {
         "is_answer_event": true,
         "tags": [
-           "Ấn vào ảnh để xem bộ và cách nhận nhé!"
+            "Ấn vào ảnh để xem bộ và cách nhận nhé!"
         ],
         "recommendations": {
-            "VÒNG QUAY SẮC MÀU[FIXED]": [
+            "TRỜI MÂY VẠN DẶM[FIXED]": [
                 {
-                    "id": "2155",
+                    "id": "607",
                     "category": "hair",
-                    "name": "Ngọt Ngào Bùng Nổ",
-                    "suit": "Mộng Ngọt Lấp Lánh",
-                    "source": "Mua shop (Vàng)"
-                },
-                {
-                    "id": "2071",
-                    "category": "dress",
-                    "name": "Khúc Ca Trăng Sáng",
-                    "suit": "Bài Ca Cá Voi",
-                    "source": "Chế bản vẽ"
-                },
-                {
-                    "id": "2220",
-                    "category": "shoes",
-                    "name": "Dạo Bước",
-                    "suit": "Vũ Điệu Hoa Gió (Live2D)",
-                    "source": "Big event Tâm Trí Rối Bời"
-                },
-                {
-                    "id": "8895",
-                    "category": "hairornament",
-                    "name": "Hoa Phủi Bụi",
-                    "suit": "Kho Báu Thời Gian",
-                    "source": "Chế bản vẽ"
-                },
-                {
-                    "id": "704",
-                    "category": "makeup",
-                    "name": "Ánh Sáng Mờ Ảo",
-                    "suit": "Ánh Sáng Ảo Tinh",
-                    "source": "Sự kiện Đồng Thoại Mộng Ảo"
-                },
-                {
-                    "id": "4789",
-                    "category": "background",
-                    "name": "Hộp Nhạc Nhiệm Màu",
-                    "suit": "Lời Mời Rực Rỡ",
-                    "source": "Nạp"
-                }
-            ],
-            "NGỰA GỖ QUAY[FIXED]": [
-                {
-                    "id": "1858",
-                    "category": "hair",
-                    "name": "Nước Mâm Xôi",
-                    "suit": "Đồng Ca Ban Trưa",
-                    "source": "Big event Cảnh Đảo Mây"
-                },
-                {
-                    "id": "3504",
-                    "category": "dress",
-                    "name": "Điệu Nhảy Mây Màu",
-                    "suit": "Bài Ca Du Hành",
-                    "source": "Sự kiện"
-                },
-                {
-                    "id": "1585",
-                    "category": "shoes",
-                    "name": "Thủy Tinh",
-                    "suit": "Tô Điểm Ước Mơ",
-                    "source": "Sự kiện"
-                },
-                {
-                    "id": "6132",
-                    "category": "hairornament",
-                    "name": "Nón Biển Cả",
-                    "suit": "Giấc Mộng Biển Hoa",
-                    "source": "Mua shop (Vàng)"
-                },
-                {
-                    "id": "097",
-                    "category": "makeup",
-                    "name": "Tuyết Đêm Noel",
-                    "suit": "Gặp Gỡ Noel",
-                    "source": "Chế bản vẽ"
-                },
-                {
-                    "id": "2045",
-                    "category": "background",
-                    "name": "Ngựa Gỗ Quay",
-                    "suit": "Lạc Bước Cổ Tích",
-                    "source": "Chế bản vẽ"
-                }
-            ],
-            "PHÔNG NỀN RỪNG XANH[FIXED]": [
-                {
-                    "id": "2237",
-                    "category": "hair",
-                    "name": "Hoa Lộ Thảo",
+                    "name": "Mềm Mại",
                     "suit": "Đồ lẻ",
-                    "source": "Quà phúc lợi (chưa mở cách nhận)"
+                    "source": "Chế bản vẽ"
                 },
                 {
-                    "id": "843",
+                    "id": "197",
                     "category": "dress",
-                    "name": "Cánh Bướm",
-                    "suit": "Vũ Điệu Xanh",
-                    "source": "Giấc Mơ FuSu"
-                },
-                {
-                    "id": "1768",
-                    "category": "coat",
-                    "name": "Sương Mỏng Giữa Rừng",
-                    "suit": "U Cảnh Rực Rỡ",
-                    "source": "Big event Ân Điển Tiệc Xưa"
-                },
-                {
-                    "id": "3201",
-                    "category": "shoes",
-                    "name": "Con Đường Cổ Tích",
-                    "suit": "Khu Rừng Mộng Mị",
-                    "source": "Sự kiện"
-                },
-                {
-                    "id": "14959",
-                    "category": "hairornament",
-                    "name": "Hoa Thơm Tố Ảnh",
-                    "suit": "U Cảnh Rực Rỡ",
-                    "source": "Big event Ân Điển Tiệc Xưa"
-                },
-                {
-                    "id": "036",
-                    "category": "makeup",
-                    "name": "Tinh Linh-Xuân",
-                    "suit": "Thiếu Nữ Xuân",
-                    "source": "Chế bản vẽ"
-                }
-            ],
-            "MẠO HIỂM[FIXED]": [
-                {
-                    "id": "2079",
-                    "category": "hair",
-                    "name": "Lạnh Lùng",
-                    "suit": "Kiếm Sĩ Biển Sương",
-                    "source": "Nạp"
-                },
-                {
-                    "id": "2017",
-                    "category": "dress",
-                    "name": "Xuất Hành Thuận Lợi",
-                    "suit": "Thám Hiểm Viễn Chinh",
-                    "source": "Chế bản vẽ"
-                },
-                {
-                    "id": "1533",
-                    "category": "coat",
-                    "name": "Gặp Gỡ Biển Xa",
-                    "suit": "Du Hành Thế Giới",
-                    "source": "Sự kiện"
-                },
-                {
-                    "id": "1572",
-                    "category": "shoes",
-                    "name": "Thám Hiểm Rừng Xanh",
-                    "suit": "Cuộc Thám Hiểm",
-                    "source": "Chế bản vẽ"
-                },
-                {
-                    "id": "411",
-                    "category": "hairornament",
-                    "name": "Trinh Thám",
+                    "name": "Sóng Xanh",
                     "suit": "Đồ lẻ",
-                    "source": "Mua shop (Vàng)"
+                    "source": "Lầu Mê Hoặc/Lầu Mộng Mơ"
                 },
                 {
-                    "id": "15609",
-                    "category": "righthandheld",
-                    "name": "Bản Đồ Kho Báu",
-                    "suit": "Nhà Thám Hiểm Mèo",
-                    "source": "Sự kiện"
-                }
-            ],
-            "VÀO DÒNG NƯỚC XIẾT[FIXED]": [
-                {
-                    "id": "3263",
-                    "category": "hair",
-                    "name": "Lúa Mạch Thơm Ngọt",
-                    "suit": "Khúc Ca Lụa Là",
-                    "source": "Sự kiện"
-                },
-                {
-                    "id": "1787",
-                    "category": "dress",
-                    "name": "Sóng Trắng",
-                    "suit": "Trời Mưa Mới Tạnh",
-                    "source": "Big event Ký Ức Mộng Ảnh"
-                },
-                {
-                    "id": "879",
+                    "id": "890",
                     "category": "coat",
-                    "name": "Áo Mưa Ếch Xanh",
-                    "suit": "Ếch Kêu Mùa Hè",
-                    "source": "Shop Thần Bí"
+                    "name": "Gió Mát",
+                    "suit": "Gió Mát",
+                    "source": "Vượt ải rơi (Ải 7-6 Thiếu Nữ, Quyển 2)"
                 },
                 {
-                    "id": "415",
+                    "id": "2317",
                     "category": "shoes",
-                    "name": "Giày Đi Mưa",
+                    "name": "Trái Tim Trục Nhật",
+                    "suit": "Bài Ca Mặt Trời",
+                    "source": "Sự kiện - Chưa mở ra cách nhận"
+                },
+                {
+                    "id": "469",
+                    "category": "hairornament",
+                    "name": "Nón Cói-Nâu",
                     "suit": "Đồ lẻ",
-                    "source": "Mua shop (Kim cương)/Lầu Mê Hoặc"
+                    "source": "Mua shop (Kim cương)/Vượt ải rơi"
                 },
                 {
                     "id": "162",
@@ -216,13 +47,182 @@
                     "name": "Ô Trà Xanh",
                     "suit": "Đồ lẻ",
                     "source": "Chế bản vẽ"
+                }
+            ],
+            "Tiết Mục Huyền Ảo[FIXED]": [
+                {
+                    "id": "2767",
+                    "category": "hair",
+                    "name": "Tiếng Vọng Vang Xa",
+                    "suit": "Tín Ngưỡng Bóng Đêm",
+                    "source": "Big event Tường Vi Rực Rỡ"
                 },
                 {
-                    "id": "690",
+                    "id": "2961",
+                    "category": "dress",
+                    "name": "Đàn Ca Đêm Lặng",
+                    "suit": "Kỳ Mộng Đêm Khuya",
+                    "source": "Sự kiện Gacha"
+                },
+                {
+                    "id": "833",
+                    "category": "coat",
+                    "name": "Bài Ca Buồn",
+                    "suit": "Tường Vy Than Thở",
+                    "source": "Sự kiện Gacha"
+                },
+                {
+                    "id": "2565",
+                    "category": "shoes",
+                    "name": "Trăn Trở",
+                    "suit": "Ảo Ảnh Đêm Đen",
+                    "source": "Chế bản vẽ"
+                },
+                {
+                    "id": "2106",
+                    "category": "hairornament",
+                    "name": "Nón Ma Mị-Tối",
+                    "suit": "Chúc Phúc Sao",
+                    "source": "Thiết kế"
+                },
+                {
+                    "id": "10920",
+                    "category": "lefthandheld",
+                    "name": "Ánh Sáng Gậy Thần",
+                    "suit": "Nguyên Lý Phép Thuật",
+                    "source": "Chế bản vẽ"
+                }
+            ],
+            "Ca Tụng Năm Tháng[FIXED]": [
+                {
+                    "id": "1533",
+                    "category": "hair",
+                    "name": "Điệu Nhớ Nhung",
+                    "suit": "Tiết Tấu Ánh Trăng",
+                    "source": "Sự kiện Hạnh phúc"
+                },
+                {
+                    "id": "893",
+                    "category": "dress",
+                    "name": "Hoa Sương Mù",
+                    "suit": "Sương Mơ Màng",
+                    "source": "Chế bản vẽ"
+                },
+                {
+                    "id": "52",
+                    "category": "shoes",
+                    "name": "Thiên Kim",
+                    "suit": "Bá Tước Thiên Kim",
+                    "source": "Lầu Mộng Mơ"
+                },
+                {
+                    "id": "450",
+                    "category": "necklace",
+                    "name": "Dây Bạch Tuyết",
+                    "suit": "Thiên Nga Trắng",
+                    "source": "Chế bản vẽ"
+                },
+                {
+                    "id": "2425",
+                    "category": "hairornament",
+                    "name": "Mưa Tháng Bảy",
+                    "suit": "Khúc Ca Thời Gian",
+                    "source": "Mua shop (Vàng)"
+                },
+                {
+                    "id": "356",
                     "category": "makeup",
-                    "name": "Tâm Nguyện Chớm Nở",
-                    "suit": "Trong Xanh Thi Vị",
-                    "source": "Big event Quyển Sách Ước Mơ"
+                    "name": "Một Nửa Ước Mơ",
+                    "suit": "Hòa Tấu Ánh Trăng",
+                    "source": "Chế bản vẽ"
+                }
+            ],
+            "Hình Lưu Niệm Rung Động[FIXED]": [
+                {
+                    "id": "2413",
+                    "category": "hair",
+                    "name": "Mộng Cảnh Vàng",
+                    "suit": "Thợ Săn Ngược Dòng",
+                    "source": "Nạp"
+                },
+                {
+                    "id": "655",
+                    "category": "top",
+                    "name": "Gặp Gỡ Mùa Hè",
+                    "suit": "Lời Chào Tạm Biệt",
+                    "source": "Big event Năm Tháng Tươi Đẹp"
+                },
+                {
+                    "id": "607",
+                    "category": "bottom",
+                    "name": "Ánh Mặt Trời",
+                    "suit": "Lời Chào Tạm Biệt",
+                    "source": "Big event Năm Tháng Tươi Đẹp"
+                },
+                {
+                    "id": "1644",
+                    "category": "shoes",
+                    "name": "Giữ Chặt Tiếng Lòng",
+                    "suit": "Thiếu Nữ Mặt Trời",
+                    "source": "Chế bản vẽ"
+                },
+                {
+                    "id": "7751",
+                    "category": "hairornament",
+                    "name": "Nón Ấm Phủ Nhung",
+                    "suit": "Trinh Thám Bác Học",
+                    "source": "Sự kiện - Chưa mở ra cách nhận"
+                },
+                {
+                    "id": "16753",
+                    "category": "necklace",
+                    "name": "Khoảnh Khắc Đọng Lại",
+                    "suit": "Du Hành Theo Gió Xa",
+                    "source": "Nạp Chiến Lệnh"
+                }
+            ],
+            "Thuyền Hoa Tuần Du[FIXED]": [
+                {
+                    "id": "2887",
+                    "category": "hair",
+                    "name": "Ngôi Sao Thất Lạc",
+                    "suit": "Mây Mờ Tinh Sương",
+                    "source": "Nạp"
+                },
+                {
+                    "id": "1671",
+                    "category": "dress",
+                    "name": "Mơ Sao Băng",
+                    "suit": "Mơ Biển Sao",
+                    "source": "Nạp Shop thần bí"
+                },
+                {
+                    "id": "1854",
+                    "category": "shoes",
+                    "name": "Xuân Nảy Mầm",
+                    "suit": "Trời Trong Mưa Ấm",
+                    "source": "Chế bản vẽ"
+                },
+                {
+                    "id": "12882",
+                    "category": "hairornament",
+                    "name": "Vòng Nho Xanh",
+                    "suit": "Âm Thanh Chim Chóc",
+                    "source": "Sự kiện - Chưa mở ra cách nhận"
+                },
+                {
+                    "id": "11828",
+                    "category": "lefthandheld",
+                    "name": "Sân Trắng Hoàng Hôn",
+                    "suit": "Tình Ca Tường Vi",
+                    "source": "Nạp"
+                },
+                {
+                    "id": "576",
+                    "category": "makeup",
+                    "name": "Ánh Sáng Lưu Luyến",
+                    "suit": "Tập Thơ Thuần Khiết",
+                    "source": "Chế bản vẽ"
                 }
             ]
         }
