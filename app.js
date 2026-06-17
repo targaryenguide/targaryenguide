@@ -111,9 +111,8 @@ function renderSidebar() {
 
         menuData.arena.forEach(stage => {
             const fileKey = stage.stage_id.split('/').pop();
-            // Đánh dấu ải hoàn thành cho phần Arena
             const doneIcon = stage.done === true 
-                ? `<span class="cute-cat-container"><img src="assets/cute.png" class="cute-cat-done-img" alt="Done"></span>` 
+                ? `<span class="cute-cat-container"><img src="assets/cute.webp" class="cute-cat-done-img" alt="Done"></span>` 
                 : '';
             const displayLabel = `${stage.stage_name} ${doneIcon}`;
             createStageButton(displayLabel, fileKey, stage.stage_id, sidebarContainer);
@@ -144,7 +143,6 @@ function renderSidebar() {
 
                 chapter.stages.forEach(stage => {
                     const stageNum = stage.stage_id.split('/').pop();
-                    // Đánh dấu ải hoàn thành cho phần Hành trình bằng ảnh mèo PNG
                     const doneIcon = stage.done === true 
                         ? `<span class="cute-cat-container"><img src="assets/cute.png" class="cute-cat-done-img" alt="Done"></span>` 
                         : '';
@@ -183,7 +181,6 @@ function renderSidebar() {
 
             chapter.stages.forEach(stage => {
                 const stageNum = stage.stage_id.split('/').pop();
-                // Đánh dấu ải hoàn thành cho phần Hội bằng ảnh mèo PNG
                 const doneIcon = stage.done === true 
                     ? `<span class="cute-cat-container"><img src="assets/cute.png" class="cute-cat-done-img" alt="Done"></span>` 
                     : '';
@@ -213,7 +210,6 @@ function renderSidebar() {
 
             chapter.stages.forEach(stage => {
                 const stageNum = stage.stage_id.split('/').pop();
-                // Đánh dấu ải hoàn thành cho phần Sự kiện bằng ảnh mèo PNG
                 const doneIcon = stage.done === true 
                     ? `<span class="cute-cat-container"><img src="assets/cute.png" class="cute-cat-done-img" alt="Done"></span>` 
                     : '';
@@ -234,7 +230,7 @@ function renderSidebar() {
 function createStageButton(labelText, stageKey, fileLoadPath, container) {
     const btn = document.createElement('button');
     btn.className = 'stage-btn';
-    btn.innerHTML = labelText; // ĐÃ SỬA: Sửa từ lỗi chính tả btn.innerHTM sang btn.innerHTML chuẩn
+    btn.innerHTML = labelText;
     btn.addEventListener('click', () => {
         document.querySelectorAll('.stage-btn').forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
@@ -267,7 +263,6 @@ async function loadAndDisplayStage(fileLoadPath, stageKey, labelText) {
 
         const stageDetail = loadedStages[fileLoadPath][stageKey];
         if (!stageDetail) {
-            // Trường hợp displayLabel chứa HTML của mèo, ta cần xóa nó đi khi hiển thị lên tiêu đề chính
             titleElement.innerHTML = labelText;
             attrElement.innerHTML = '<span class="stage-special-tag-item">Chưa có dữ liệu</span>';
             mainArea.innerHTML = '<div style="text-align:center; padding:40px; color:#A89598;">Chưa cập nhật gợi ý cho mục này.</div>';
@@ -402,7 +397,6 @@ async function loadAndDisplayStage(fileLoadPath, stageKey, labelText) {
                         : `<div class="item-rank">#${currentRank}</div>`;
                 }
 
-                // SỬA ĐOẠN NÀY: Hiện điểm cho TẤT CẢ các bộ phận có dữ liệu điểm (item.score)
                 let scoreBadge = '';
                 if (!stageDetail.is_answer_event && item.score) {
                     scoreBadge = `<div class="item-score-badge">${String(item.score).toLocaleString()}</div>`;
@@ -430,19 +424,26 @@ async function loadAndDisplayStage(fileLoadPath, stageKey, labelText) {
                 }
 
                 const itemCategoryFolder = stageDetail.is_answer_event ? (item.category || 'accessory') : categoryKey;
-                const realImgPath = `assets/items/${itemCategoryFolder}/${item.id}.png`;
+                
+                // ĐOẠN ĐÃ SỬA: Cấu hình tải song song WEBP và dự phòng PNG cho danh sách thẻ card
+                const webpImgPath = `assets/items/${itemCategoryFolder}/${item.id}.webp`;
+                const pngImgPath = `assets/items/${itemCategoryFolder}/${item.id}.png`;
                 const backupImg = `https://picsum.photos/100?random=${item.id}`;
 
                 card.innerHTML = `
                     ${rankBadge}
                     ${scoreBadge}
-                    <img src="${realImgPath}" onerror="this.onerror=null; this.src='${backupImg}';" alt="${item.name}" loading="lazy">
+                    <img src="${webpImgPath}" 
+                         onerror="if(!this.dataset.triedPng){ this.dataset.triedPng=true; this.src='${pngImgPath}'; } else { this.onerror=null; this.src='${backupImg}'; }" 
+                         alt="${item.name}" 
+                         loading="lazy">
                     ${craftBadge}
                     <div class="item-name">${item.name}</div>
                     <div class="item-mini-attrs-wrap">${attrTagsHTML}</div>
                 `;
 
-                card.addEventListener('click', () => openModal(item, itemCategoryFolder, realImgPath, backupImg));
+                // Truyền link ảnh định dạng .webp gốc vào modal để modal tự quản lý việc fallback
+                card.addEventListener('click', () => openModal(item, itemCategoryFolder, webpImgPath, backupImg));
                 contentGrid.appendChild(card);
             });
 
@@ -465,13 +466,27 @@ function formatTitleCase(str) {
     });
 }
 
-function openModal(item, categoryKey, realImg, backupImg) {
+// ĐOẠN ĐÃ SỬA: Hàm openModal xử lý thông minh fallback WEBP -> PNG -> Picsum
+function openModal(item, categoryKey, webpImg, backupImg) {
     const modal = document.getElementById('item-modal');
     document.getElementById('modal-title').innerText = item.name;
 
     const imgElement = document.getElementById('modal-img');
-    imgElement.src = realImg;
-    imgElement.onerror = () => { imgElement.src = backupImg; };
+    const pngImg = webpImg.replace('.webp', '.png');
+
+    // Reset cờ kiểm tra mỗi khi mở vật phẩm mới để tránh lưu cache trạng thái cũ
+    delete imgElement.dataset.triedPng;
+
+    imgElement.src = webpImg;
+    imgElement.onerror = () => {
+        if (!imgElement.dataset.triedPng) {
+            imgElement.dataset.triedPng = "true";
+            imgElement.src = pngImg;
+        } else {
+            imgElement.onerror = null;
+            imgElement.src = backupImg;
+        }
+    };
 
     const rawCategory = categoryNames[categoryKey] || categoryKey;
     const formattedCategory = formatTitleCase(rawCategory);

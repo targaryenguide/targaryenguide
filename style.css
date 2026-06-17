@@ -789,8 +789,8 @@ dialog::backdrop {
 }
 
 .cute-cat-done-img {
-    width: 23px;  
-    height: 23px;
+    width: 25px;  
+    height: 25px;
     object-fit: contain;
     filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1)); 
     animation: popInCat 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);

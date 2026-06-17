@@ -1,5 +1,5 @@
 {
-    "dep_tuyet_tran": {
+    "dep_tuyet_tran1": {
         "attributes": [
             "Quý phái",
             "Thanh lịch",
@@ -10,6 +10,176 @@
         "tags": [
             "Trung Cổ",
             "Hiện đại"
-        ]
+        ],
+        "recommendations": {
+            "hair": [
+                {
+                    "id": "1908",
+                    "name": "Aranya",
+                    "score": "11540",
+                    "item_attrs": [
+                        "Quý phái",
+                        "Thanh lịch"
+                    ],
+                    "suit": "Suối Linh Tuyết Nhẹ",
+                    "source": "Big event Chiến Đỉnh Mây"
+                },
+                {
+                    "id": "2240",
+                    "name": "Sương U Lan",
+                    "score": "11220",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trong sáng"
+                    ],
+                    "suit": "Tiếng Mưa Vang Vọng",
+                    "source": "Nạp/Thiết kế"
+                },
+                {
+                    "id": "2238",
+                    "name": "Nhuộm Màu U Lan",
+                    "score": "11185",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trong sáng"
+                    ],
+                    "suit": "Tiếng Mưa Vang Vọng",
+                    "source": "Nạp"
+                },
+                {
+                    "id": "3110",
+                    "name": "Nỗi Buồn Mong Manh",
+                    "score": "11180",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trong sáng"
+                    ],
+                    "suit": "Giấc Mộng Lang Hoàn",
+                    "source": "Big event Quyển Sách Mơ Ước"
+                },
+                {
+                    "id": "128",
+                    "name": "Bướm Tím",
+                    "score": "11150",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trưởng thành"
+                    ],
+                    "suit": "Hoa Bướm Hồng",
+                    "source": "Thiết kế",
+                    "suggest": true
+                },
+                {
+                    "id": "3469",
+                    "name": "Lãnh Đạo Linh Hồn",
+                    "score": "11135",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trong sáng"
+                    ],
+                    "suit": "Ánh Sáng Thiêng Liêng",
+                    "source": "Nạp -> Thưởng thành tựu đủ bộ"
+                },
+                {
+                    "id": "3450",
+                    "name": "Trăng Bạc Lấp Lánh",
+                    "score": "11135",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trong sáng"
+                    ],
+                    "suit": "Tọa Ẩn Vong Ưu",
+                    "source": "Nạp -> Thưởng thành tựu đủ bộ"
+                },
+                {
+                    "id": "57",
+                    "name": "Mây Hồng",
+                    "score": "11130",
+                    "item_attrs": [
+                        "Quý phái",
+                        "Trưởng thành"
+                    ],
+                    "suit": "Đồ lẻ",
+                    "source": "Mua shop (Kim cương)"
+                },
+                {
+                    "id": "3606",
+                    "name": "Ánh Trăng Tràn Đầy",
+                    "score": "11125",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trong sáng"
+                    ],
+                    "suit": "Hương Trời Dưới Trăng",
+                    "source": "Sự kiện - Chưa mở cách nhận"
+                },
+                {
+                    "id": "2239",
+                    "name": "Tranh U Lan",
+                    "score": "11105",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trong sáng"
+                    ],
+                    "suit": "Tiếng Mưa Vang Vọng",
+                    "source": "Nạp/Thiết kế"
+                },
+                {
+                    "id": "2366",
+                    "name": "Thanh Tú Mỹ Miều",
+                    "score": "11100",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trong sáng"
+                    ],
+                    "suit": "Bài Thơ Kinh Điển",
+                    "source": "Sự kiện Đồng Thoại Mộng Ảo"
+                },
+                {
+                    "id": "3449",
+                    "name": "Vui Mừng Quên Sầu",
+                    "score": "11095",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trong sáng"
+                    ],
+                    "suit": "Tọa Ẩn Vong Ưu",
+                    "source": "Nạp"
+                },
+                {
+                    "id": "2367",
+                    "name": "Trầm Hương Xưa",
+                    "score": "11085",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trong sáng"
+                    ],
+                    "suit": "Bài Thơ Kinh Điển",
+                    "source": "Sự kiện Đồng Thoại Mộng Ảo -> Thưởng thành tựu bộ"
+                },
+                {
+                    "id": "3001",
+                    "name": "Lời Chúc May Mắn",
+                    "score": "11070",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trưởng thành"
+                    ],
+                    "suit": "Hồng Đỏ Như Ý",
+                    "source": "Nạp -> Thưởng thành tựu đủ bộ"
+                },
+                {
+                    "id": "3607",
+                    "name": "Ánh Sáng Rực Rỡ",
+                    "score": "11070",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trong sáng"
+                    ],
+                    "suit": "Hương Trời Dưới Trăng",
+                    "source": "Sự kiện - Chưa mở cách nhận -> Thưởng thành tựu bộ"
+                }
+            ]
+        }
     }
 }
