@@ -282,8 +282,7 @@
         },
         {
             "stage_id": "arena/ngoi_sao_van_phong",
-            "stage_name": "Ngôi Sao Văn Phòng",
-            "done": true
+            "stage_name": "Ngôi Sao Văn Phòng"
         },
         {
             "stage_id": "arena/chuyen_ngay_he",
@@ -311,8 +310,7 @@
         },
         {
             "stage_id": "arena/nu_vuong",
-            "stage_name": "Nữ Vương",
-            "done": true
+            "stage_name": "Nữ Vương"
         },
         {
             "stage_id": "arena/ngon_lua_ngay_dong",
@@ -328,8 +326,7 @@
         },
         {
             "stage_id": "arena/cong_vien_co_tich",
-            "stage_name": "Công Viên Cổ Tích",
-            "done": true
+            "stage_name": "Công Viên Cổ Tích"
         },
         {
             "stage_id": "arena/thanh_thieu_nu",
