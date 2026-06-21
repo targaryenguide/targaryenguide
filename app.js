@@ -111,8 +111,8 @@ function renderSidebar() {
 
         menuData.arena.forEach(stage => {
             const fileKey = stage.stage_id.split('/').pop();
-            const doneIcon = stage.done === true 
-                ? `<span class="cute-cat-container"><img src="assets/cute.webp" class="cute-cat-done-img" alt="Done"></span>` 
+            const doneIcon = stage.done === true
+                ? `<span class="cute-cat-container"><img src="assets/cute.webp" class="cute-cat-done-img" alt="Done"></span>`
                 : '';
             const displayLabel = `${stage.stage_name} ${doneIcon}`;
             createStageButton(displayLabel, fileKey, stage.stage_id, sidebarContainer);
@@ -130,6 +130,11 @@ function renderSidebar() {
             const bookContent = document.createElement('div');
             bookContent.className = 'nested-content';
 
+            // --- Cập nhật lớp bọc trong để animation hoạt động ---
+            const bookInner = document.createElement('div');
+            bookInner.className = 'nested-content-inner';
+            bookContent.appendChild(bookInner);
+
             book.chapters.forEach(chapter => {
                 const chapterWrapper = document.createElement('div');
                 chapterWrapper.className = 'nested-chapter-block';
@@ -141,13 +146,20 @@ function renderSidebar() {
                 const stageList = document.createElement('div');
                 stageList.className = 'nested-content-stages';
 
+                // --- Cập nhật lớp bọc trong để animation hoạt động ---
+                const stageInner = document.createElement('div');
+                stageInner.className = 'nested-stages-inner';
+                stageList.appendChild(stageInner);
+
                 chapter.stages.forEach(stage => {
                     const stageNum = stage.stage_id.split('/').pop();
-                    const doneIcon = stage.done === true 
-                        ? `<span class="cute-cat-container"><img src="assets/cute.png" class="cute-cat-done-img" alt="Done"></span>` 
+                    const doneIcon = stage.done === true
+                        ? `<span class="cute-cat-container"><img src="assets/cute.png" class="cute-cat-done-img" alt="Done"></span>`
                         : '';
                     const displayLabel = `Ải ${stageNum}: ${stage.stage_name} ${doneIcon}`;
-                    createStageButton(displayLabel, stageNum, stage.stage_id, stageList);
+
+                    // Sử dụng hàm submenu mới tạo
+                    createStageWithSubmenus(displayLabel, stageNum, stage.stage_id, stageInner);
                 });
 
                 chapterWrapper.appendChild(stageList);
@@ -156,7 +168,7 @@ function renderSidebar() {
                     chapterToggle.classList.toggle('active');
                     stageList.classList.toggle('show');
                 });
-                bookContent.appendChild(chapterWrapper);
+                bookInner.appendChild(chapterWrapper);
             });
 
             bookWrapper.appendChild(bookContent);
@@ -179,13 +191,20 @@ function renderSidebar() {
             const stageList = document.createElement('div');
             stageList.className = 'nested-content';
 
+            // --- Cập nhật lớp bọc trong để animation hoạt động ---
+            const stageInner = document.createElement('div');
+            stageInner.className = 'nested-content-inner';
+            stageList.appendChild(stageInner);
+
             chapter.stages.forEach(stage => {
                 const stageNum = stage.stage_id.split('/').pop();
-                const doneIcon = stage.done === true 
-                    ? `<span class="cute-cat-container"><img src="assets/cute.png" class="cute-cat-done-img" alt="Done"></span>` 
+                const doneIcon = stage.done === true
+                    ? `<span class="cute-cat-container"><img src="assets/cute.png" class="cute-cat-done-img" alt="Done"></span>`
                     : '';
                 const displayLabel = `Ải ${stageNum}: ${stage.stage_name} ${doneIcon}`;
-                createStageButton(displayLabel, stageNum, stage.stage_id, stageList);
+
+                // Sử dụng hàm submenu
+                createStageWithSubmenus(displayLabel, stageNum, stage.stage_id, stageInner);
             });
 
             chapterWrapper.appendChild(stageList);
@@ -208,13 +227,18 @@ function renderSidebar() {
             const stageList = document.createElement('div');
             stageList.className = 'nested-content';
 
+            // --- Cập nhật lớp bọc trong để animation hoạt động ---
+            const stageInner = document.createElement('div');
+            stageInner.className = 'nested-content-inner';
+            stageList.appendChild(stageInner);
+
             chapter.stages.forEach(stage => {
                 const stageNum = stage.stage_id.split('/').pop();
-                const doneIcon = stage.done === true 
-                    ? `<span class="cute-cat-container"><img src="assets/cute.png" class="cute-cat-done-img" alt="Done"></span>` 
+                const doneIcon = stage.done === true
+                    ? `<span class="cute-cat-container"><img src="assets/cute.png" class="cute-cat-done-img" alt="Done"></span>`
                     : '';
                 const displayLabel = `${stage.stage_name} ${doneIcon}`;
-                createStageButton(displayLabel, stageNum, stage.stage_id, stageList);
+                createStageButton(displayLabel, stageNum, stage.stage_id, stageInner);
             });
 
             chapterWrapper.appendChild(stageList);
@@ -240,6 +264,57 @@ function createStageButton(labelText, stageKey, fileLoadPath, container) {
     container.appendChild(btn);
 }
 
+function createStageWithSubmenus(displayLabel, stageNum, fileLoadPath, container) {
+    const stageWrapper = document.createElement('div');
+    stageWrapper.className = 'nested-stage-block';
+
+    const stageToggle = document.createElement('div');
+    stageToggle.className = 'nested-toggle-btn level3';
+    stageToggle.innerHTML = `<span>${displayLabel}</span><span class="sub-arrow">▼</span>`;
+    stageWrapper.appendChild(stageToggle);
+
+    const subContent = document.createElement('div');
+    subContent.className = 'nested-content-sub';
+
+    const subInner = document.createElement('div');
+    subInner.className = 'nested-inner-sub';
+
+    const btnStandard = document.createElement('button');
+    btnStandard.className = 'sub-stage-btn stage-btn';
+    btnStandard.innerHTML = 'Trọng lượng tiêu chuẩn';
+    btnStandard.addEventListener('click', () => {
+        document.querySelectorAll('.stage-btn').forEach(b => b.classList.remove('active'));
+        btnStandard.classList.add('active');
+        if (window.innerWidth <= 768) toggleMobileMenu();
+        loadAndDisplayStage(`${fileLoadPath}_standard`, stageNum, `${displayLabel} - Tiêu Chuẩn`);
+    });
+    subInner.appendChild(btnStandard);
+
+    const btnHigh = document.createElement('button');
+    btnHigh.className = 'sub-stage-btn stage-btn';
+    btnHigh.innerHTML = 'Trọng lượng siêu cao';
+    btnHigh.addEventListener('click', () => {
+        document.querySelectorAll('.stage-btn').forEach(b => b.classList.remove('active'));
+        btnHigh.classList.add('active');
+        if (window.innerWidth <= 768) toggleMobileMenu();
+
+        loadAndDisplayStage(`${fileLoadPath}_high`, stageNum, `${displayLabel} - Siêu Cao`);
+    });
+    subInner.appendChild(btnHigh);
+
+    subContent.appendChild(subInner);
+
+    // Sự kiện mở/đóng menu con
+    stageToggle.addEventListener('click', (e) => {
+        e.stopPropagation();
+        stageToggle.classList.toggle('active');
+        subContent.classList.toggle('show');
+    });
+
+    stageWrapper.appendChild(subContent);
+    container.appendChild(stageWrapper);
+}
+
 async function loadAndDisplayStage(fileLoadPath, stageKey, labelText) {
     const mainArea = document.getElementById('stage-details-area');
     const titleElement = document.getElementById('stage-title');
@@ -247,7 +322,7 @@ async function loadAndDisplayStage(fileLoadPath, stageKey, labelText) {
 
     titleElement.innerText = "Đang tải dữ liệu...";
     attrElement.innerHTML = '';
-    
+
     // Đã thay thế dòng cũ bằng khung Loading Spinner mới
     mainArea.innerHTML = `
         <div style="text-align:center; padding:60px 20px;">
@@ -348,7 +423,7 @@ async function loadAndDisplayStage(fileLoadPath, stageKey, labelText) {
 
             const contentGrid = document.createElement('div');
             contentGrid.className = 'category-content';
-            
+
             contentAnimWrapper.appendChild(contentGrid);
 
             if (isFixed) {
@@ -356,7 +431,7 @@ async function loadAndDisplayStage(fileLoadPath, stageKey, labelText) {
                 toggleBtn.style.cursor = 'default';
                 toggleBtn.style.color = '#f85454';
                 toggleBtn.innerHTML = `<span>${categoryKey.toUpperCase()}</span>`;
-                contentAnimWrapper.className = 'category-anim-wrapper show'; 
+                contentAnimWrapper.className = 'category-anim-wrapper show';
             } else {
                 if (isAnswerEvent) {
                     toggleBtn.style.color = '#000000';
@@ -367,7 +442,7 @@ async function loadAndDisplayStage(fileLoadPath, stageKey, labelText) {
 
                 toggleBtn.addEventListener('click', () => {
                     toggleBtn.classList.toggle('active');
-                    contentAnimWrapper.classList.toggle('show'); 
+                    contentAnimWrapper.classList.toggle('show');
                 });
             }
 
@@ -437,7 +512,7 @@ async function loadAndDisplayStage(fileLoadPath, stageKey, labelText) {
                 }
 
                 const itemCategoryFolder = stageDetail.is_answer_event ? (item.category || 'accessory') : categoryKey;
-                
+
                 const webpImgPath = `assets/items/${itemCategoryFolder}/${item.id}.webp`;
                 const pngImgPath = `assets/items/${itemCategoryFolder}/${item.id}.png`;
                 const backupImg = `https://picsum.photos/100?random=${item.id}`;
@@ -460,7 +535,7 @@ async function loadAndDisplayStage(fileLoadPath, stageKey, labelText) {
 
             wrapper.appendChild(toggleBtn);
             // Nạp contentAnimWrapper vào thay vì contentGrid
-            wrapper.appendChild(contentAnimWrapper); 
+            wrapper.appendChild(contentAnimWrapper);
             mainArea.appendChild(wrapper);
         }
 
@@ -514,7 +589,7 @@ const itemModal = document.getElementById('item-modal');
 itemModal.addEventListener('click', (event) => {
     const rect = itemModal.getBoundingClientRect();
     const isInDialog = (rect.top <= event.clientY && event.clientY <= rect.top + rect.height
-      && rect.left <= event.clientX && event.clientX <= rect.left + rect.width);
+        && rect.left <= event.clientX && event.clientX <= rect.left + rect.width);
     if (!isInDialog) {
         itemModal.close();
     }
