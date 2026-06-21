@@ -247,7 +247,14 @@ async function loadAndDisplayStage(fileLoadPath, stageKey, labelText) {
 
     titleElement.innerText = "Đang tải dữ liệu...";
     attrElement.innerHTML = '';
-    mainArea.innerHTML = '<div style="text-align:center; padding:40px; color:#FF6B8B; font-weight:bold;">Đang chuẩn bị trang phục...</div>';
+    
+    // Đã thay thế dòng cũ bằng khung Loading Spinner mới
+    mainArea.innerHTML = `
+        <div style="text-align:center; padding:60px 20px;">
+            <div class="loading-spinner"></div>
+            <div style="color:var(--primary-pink); font-weight:700; font-size: 15px;">Đang chuẩn bị trang phục...</div>
+        </div>
+    `;
 
     const changelogBoard = document.getElementById('changelog-board');
     if (changelogBoard) {
@@ -332,18 +339,24 @@ async function loadAndDisplayStage(fileLoadPath, stageKey, labelText) {
             const wrapper = document.createElement('div');
             wrapper.className = 'category-wrapper';
 
+            // Cấu trúc mới hỗ trợ Smooth Animation
             const toggleBtn = document.createElement('button');
             toggleBtn.className = 'category-toggle-btn';
 
+            const contentAnimWrapper = document.createElement('div');
+            contentAnimWrapper.className = 'category-anim-wrapper';
+
             const contentGrid = document.createElement('div');
             contentGrid.className = 'category-content';
+            
+            contentAnimWrapper.appendChild(contentGrid);
 
             if (isFixed) {
                 toggleBtn.className = 'category-toggle-btn active';
                 toggleBtn.style.cursor = 'default';
                 toggleBtn.style.color = '#f85454';
                 toggleBtn.innerHTML = `<span>${categoryKey.toUpperCase()}</span>`;
-                contentGrid.className = 'category-content show';
+                contentAnimWrapper.className = 'category-anim-wrapper show'; 
             } else {
                 if (isAnswerEvent) {
                     toggleBtn.style.color = '#000000';
@@ -354,7 +367,7 @@ async function loadAndDisplayStage(fileLoadPath, stageKey, labelText) {
 
                 toggleBtn.addEventListener('click', () => {
                     toggleBtn.classList.toggle('active');
-                    contentGrid.classList.toggle('show');
+                    contentAnimWrapper.classList.toggle('show'); 
                 });
             }
 
@@ -425,7 +438,6 @@ async function loadAndDisplayStage(fileLoadPath, stageKey, labelText) {
 
                 const itemCategoryFolder = stageDetail.is_answer_event ? (item.category || 'accessory') : categoryKey;
                 
-                // ĐOẠN ĐÃ SỬA: Cấu hình tải song song WEBP và dự phòng PNG cho danh sách thẻ card
                 const webpImgPath = `assets/items/${itemCategoryFolder}/${item.id}.webp`;
                 const pngImgPath = `assets/items/${itemCategoryFolder}/${item.id}.png`;
                 const backupImg = `https://picsum.photos/100?random=${item.id}`;
@@ -442,13 +454,13 @@ async function loadAndDisplayStage(fileLoadPath, stageKey, labelText) {
                     <div class="item-mini-attrs-wrap">${attrTagsHTML}</div>
                 `;
 
-                // Truyền link ảnh định dạng .webp gốc vào modal để modal tự quản lý việc fallback
                 card.addEventListener('click', () => openModal(item, itemCategoryFolder, webpImgPath, backupImg));
                 contentGrid.appendChild(card);
             });
 
             wrapper.appendChild(toggleBtn);
-            wrapper.appendChild(contentGrid);
+            // Nạp contentAnimWrapper vào thay vì contentGrid
+            wrapper.appendChild(contentAnimWrapper); 
             mainArea.appendChild(wrapper);
         }
 
@@ -466,7 +478,6 @@ function formatTitleCase(str) {
     });
 }
 
-// ĐOẠN ĐÃ SỬA: Hàm openModal xử lý thông minh fallback WEBP -> PNG -> Picsum
 function openModal(item, categoryKey, webpImg, backupImg) {
     const modal = document.getElementById('item-modal');
     document.getElementById('modal-title').innerText = item.name;
@@ -474,7 +485,6 @@ function openModal(item, categoryKey, webpImg, backupImg) {
     const imgElement = document.getElementById('modal-img');
     const pngImg = webpImg.replace('.webp', '.png');
 
-    // Reset cờ kiểm tra mỗi khi mở vật phẩm mới để tránh lưu cache trạng thái cũ
     delete imgElement.dataset.triedPng;
 
     imgElement.src = webpImg;
@@ -498,5 +508,16 @@ function openModal(item, categoryKey, webpImg, backupImg) {
     `;
     modal.showModal();
 }
+
+// Bắt sự kiện click ra ngoài để đóng modal
+const itemModal = document.getElementById('item-modal');
+itemModal.addEventListener('click', (event) => {
+    const rect = itemModal.getBoundingClientRect();
+    const isInDialog = (rect.top <= event.clientY && event.clientY <= rect.top + rect.height
+      && rect.left <= event.clientX && event.clientX <= rect.left + rect.width);
+    if (!isInDialog) {
+        itemModal.close();
+    }
+});
 
 window.addEventListener('DOMContentLoaded', loadMenuData);
