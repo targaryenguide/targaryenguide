@@ -111,11 +111,24 @@ function renderSidebar() {
 
         menuData.arena.forEach(stage => {
             const fileKey = stage.stage_id.split('/').pop();
+
             const doneIcon = stage.done === true
-                ? `<span class="cute-cat-container"><img src="assets/cute.webp" class="cute-cat-done-img" alt="Done"></span>`
+                ? `<span class="cute-cat-container"><img src="assets/cute.webp" class="cute-cat-done-img" style="width: 22px; height: 22px;" alt="Done"></span>`
                 : '';
-            const displayLabel = `${stage.stage_name} ${doneIcon}`;
-            createStageButton(displayLabel, fileKey, stage.stage_id, sidebarContainer);
+            const btn = document.createElement('button');
+            btn.className = 'arena-stage-btn stage-btn';
+            btn.innerHTML = `<span>${stage.stage_name}</span> ${doneIcon}`;
+
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.stage-btn').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                if (window.innerWidth <= 768) toggleMobileMenu();
+
+                // Gọi data
+                loadAndDisplayStage(stage.stage_id, fileKey, stage.stage_name);
+            });
+
+            sidebarContainer.appendChild(btn);
         });
     } else if (currentTab === 'journey') {
         if (!menuData.journey) return;
@@ -153,15 +166,19 @@ function renderSidebar() {
 
                 chapter.stages.forEach(stage => {
                     const stageNum = stage.stage_id.split('/').pop();
-                    const doneIcon = stage.done === true
-                        ? `<span class="cute-cat-container"><img src="assets/cute.png" class="cute-cat-done-img" alt="Done"></span>`
+
+                    const isStandardDone = stage.done_standard === true || stage.done === true;
+                    const isHighDone = stage.done_high === true || stage.done === true;
+                    const isAllDone = isStandardDone && isHighDone;
+
+                    const parentIcon = isAllDone
+                        ? `<span class="cute-cat-container"><img src="assets/cute.webp" class="cute-cat-done-img" alt="Done"></span>`
                         : '';
-                    const displayLabel = `Ải ${stageNum}: ${stage.stage_name} ${doneIcon}`;
 
-                    // Sử dụng hàm submenu mới tạo
-                    createStageWithSubmenus(displayLabel, stageNum, stage.stage_id, stageInner);
+                    const displayLabel = `Ải ${stageNum}: ${stage.stage_name} ${parentIcon}`;
+
+                    createStageWithSubmenus(displayLabel, stageNum, stage.stage_id, stageInner, isStandardDone, isHighDone);
                 });
-
                 chapterWrapper.appendChild(stageList);
                 chapterToggle.addEventListener('click', (e) => {
                     e.stopPropagation();
@@ -198,13 +215,18 @@ function renderSidebar() {
 
             chapter.stages.forEach(stage => {
                 const stageNum = stage.stage_id.split('/').pop();
-                const doneIcon = stage.done === true
-                    ? `<span class="cute-cat-container"><img src="assets/cute.png" class="cute-cat-done-img" alt="Done"></span>`
-                    : '';
-                const displayLabel = `Ải ${stageNum}: ${stage.stage_name} ${doneIcon}`;
 
-                // Sử dụng hàm submenu
-                createStageWithSubmenus(displayLabel, stageNum, stage.stage_id, stageInner);
+                const isStandardDone = stage.done_standard === true || stage.done === true;
+                const isHighDone = stage.done_high === true || stage.done === true;
+                const isAllDone = isStandardDone && isHighDone;
+
+                const parentIcon = isAllDone
+                    ? `<span class="cute-cat-container"><img src="assets/cute.webp" class="cute-cat-done-img" alt="Done"></span>`
+                    : '';
+
+                const displayLabel = `Ải ${stageNum}: ${stage.stage_name} ${parentIcon}`;
+
+                createStageWithSubmenus(displayLabel, stageNum, stage.stage_id, stageInner, isStandardDone, isHighDone);
             });
 
             chapterWrapper.appendChild(stageList);
@@ -264,7 +286,7 @@ function createStageButton(labelText, stageKey, fileLoadPath, container) {
     container.appendChild(btn);
 }
 
-function createStageWithSubmenus(displayLabel, stageNum, fileLoadPath, container) {
+function createStageWithSubmenus(displayLabel, stageNum, fileLoadPath, container, doneStandard, doneHigh) {
     const stageWrapper = document.createElement('div');
     stageWrapper.className = 'nested-stage-block';
 
@@ -279,9 +301,11 @@ function createStageWithSubmenus(displayLabel, stageNum, fileLoadPath, container
     const subInner = document.createElement('div');
     subInner.className = 'nested-inner-sub';
 
+    const subIcon = `<span class="cute-cat-container"><img src="assets/cute.webp" class="cute-cat-done-img" style="width: 18px; height: 18px;" alt="Done"></span>`;
+
     const btnStandard = document.createElement('button');
     btnStandard.className = 'sub-stage-btn stage-btn';
-    btnStandard.innerHTML = 'Trọng lượng tiêu chuẩn';
+    btnStandard.innerHTML = `Trọng lượng tiêu chuẩn ${doneStandard ? subIcon : ''}`;
     btnStandard.addEventListener('click', () => {
         document.querySelectorAll('.stage-btn').forEach(b => b.classList.remove('active'));
         btnStandard.classList.add('active');
@@ -289,22 +313,19 @@ function createStageWithSubmenus(displayLabel, stageNum, fileLoadPath, container
         loadAndDisplayStage(`${fileLoadPath}_standard`, stageNum, `${displayLabel} - Tiêu Chuẩn`);
     });
     subInner.appendChild(btnStandard);
-
     const btnHigh = document.createElement('button');
     btnHigh.className = 'sub-stage-btn stage-btn';
-    btnHigh.innerHTML = 'Trọng lượng siêu cao';
+    btnHigh.innerHTML = `Trọng lượng siêu cao ${doneHigh ? subIcon : ''}`;
     btnHigh.addEventListener('click', () => {
         document.querySelectorAll('.stage-btn').forEach(b => b.classList.remove('active'));
         btnHigh.classList.add('active');
         if (window.innerWidth <= 768) toggleMobileMenu();
-
         loadAndDisplayStage(`${fileLoadPath}_high`, stageNum, `${displayLabel} - Siêu Cao`);
     });
     subInner.appendChild(btnHigh);
 
     subContent.appendChild(subInner);
 
-    // Sự kiện mở/đóng menu con
     stageToggle.addEventListener('click', (e) => {
         e.stopPropagation();
         stageToggle.classList.toggle('active');

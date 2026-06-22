@@ -49,7 +49,9 @@
                     "stages": [
                         {
                             "stage_id": "journey/Q1/11-3",
-                            "stage_name": "Họa Sĩ Annabel (6)"
+                            "stage_name": "Họa Sĩ Annabel (6)",
+                            "done_standard": false,
+                            "done_high": false
                         },
                         {
                             "stage_id": "journey/Q1/11-5",
