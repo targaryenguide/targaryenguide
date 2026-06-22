@@ -3181,6 +3181,52 @@
                     "suit": "Tất Nguyệt Ô",
                     "source": "Sự kiện Biển Sao"
                 }
+            ],
+            "earring": [
+                {
+                    "id": "7103",
+                    "name": "Trăng Vô Biên",
+                    "score": "1800",
+                    "item_attrs": [
+                        "Quý phái",
+                        "Thanh lịch"
+                    ],
+                    "suit": "Nguyệt Quang Cửu Sắc",
+                    "source": "Nạp -> Thưởng thành tựu bộ"
+                },
+                {
+                    "id": "13690",
+                    "name": "Gió Cuốn Mây Tan",
+                    "score": "1786",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trưởng thành"
+                    ],
+                    "suit": "Hương Trời Dưới Trăng",
+                    "source": "Sự kiện -> Thưởng thành tựu bộ"
+                },
+                {
+                    "id": "14050",
+                    "name": "Nghe Tiếng Xưa",
+                    "score": "1734",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trưởng thành"
+                    ],
+                    "suit": "Quỷ Kim Dương",
+                    "source": "Sự kiện Biển Sao -> Thưởng thành tựu bộ"
+                },
+                {
+                    "id": "13344",
+                    "name": "Tao Nhã Thướt Tha",
+                    "score": "1718",
+                    "item_attrs": [
+                        "Quý phái",
+                        "Thanh lịch"
+                    ],
+                    "suit": "Giấc Mộng Hương Sân",
+                    "source": "Nạp"
+                }
             ]
         }
     }
