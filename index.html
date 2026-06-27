@@ -14,7 +14,7 @@
     <header class="mobile-header">
         <button id="menu-toggle-btn" class="menu-trigger-btn">Chọn Ải</button>
         <a href="index.html" style="display: flex; align-items: center;">
-            <img src="logo.png" alt="Targaryen Guide Logo" class="mobile-logo-img">
+            <img src="logo1.png" alt="Targaryen Guide Logo" class="mobile-logo-img">
         </a>
     </header>
 
@@ -23,8 +23,8 @@
     <div class="dashboard-container">
         <aside class="sidebar" id="sidebar">
             <div class="logo-container">
-                <a href="index.html" style="display: block; text-decoration: none;">
-                    <img src="logo.png" alt="Targaryen Guide Logo" class="logo-img">
+                <a href="index.html" class="logo-link">
+                    <img src="logo1.png" alt="Targaryen Guide Logo" class="logo-img">
                 </a>
             </div>
 
@@ -40,10 +40,16 @@
 
         <main class="main-content">
             <div id="stage-info">
-                <h2 id="stage-title" , style="color: #FF5C83;">Chào mừng đến với TARGARYEN GUIDE </h2>
-                <p id="stage-attributes" class="tags">Chọn một ải ở thanh menu bên trái để xem gợi ý phối đồ nhé! Các
-                    set đã được hoàn thiện hoặc cập nhập mới sẽ được tổng hợp ở bên dưới nhé</p>
+                <h2 id="stage-title"><Chào style="color: rgb(233, 94, 136);"> Chào mừng đến với TARGARYEN GUIDE
+                    </span>!!!</h2>
+                <p id="stage-attributes" class="tags">
+                    Chọn một ải ở thanh menu bên trái để xem gợi ý phối đồ nhé!
+                    <br><span class="highlight-bullet">•</span> Set đủ <b>top 20</b> sẽ được đánh dấu icon
+                    <br><span class="highlight-bullet">•</span> Set trọng lượng siêu cao sẽ ưu tiên điểm cộng kỹ năng
+                    vào 2 thuộc tính mạnh, tối đa hóa điểm nhận được
+                </p>
             </div>
+
             <div id="changelog-board" class="notice-board">
                 <div class="notice-header">
                     <span>SET ĐÃ HOÀN THIỆN</span>
@@ -51,11 +57,7 @@
                 <div class="notice-body">
                     <ul class="changelog-list">
                         <li><span class="badge-new">NEW</span> <b>Khu Thi Đấu:</b>
-                            <span class="badge-info">Nữ Vương</span>
-                            <span class="badge-info">Công Viên Cổ Tích</span>
-                        </li>
-                        <li><span class="badge-new">NEW</span> <b>Khu Thi Đấu:</b>
-                            <span class="badge-info">Ngôi Sao Văn Phòng</span>
+                            <span class="badge-info">Đẹp Tuyệt Trần</span>
                         </li>
                         <li><span class="badge-new">NEW</span> <b>Chặng Chính (Q1):</b> Chưa có ải nào hoàn thiện </li>
                         <li><span class="badge-new">NEW</span> <b>Chặng Chính (Q2):</b> Chưa có ải nào hoàn thiện </li>
@@ -64,23 +66,13 @@
                     </ul>
                 </div>
 
-                <div class="notice-header" style="background: #aab7d9;">
-                    <span>SET CẬP NHẬP MỚI</span>
+                <div class="notice-header notice-header-update">
+                    <span>SET CẬP NHẬT MỚI</span>
                 </div>
                 <div class="notice-body">
                     <ul class="changelog-list">
                         <li><span class="badge-update">UPDATE</span> <b>14/06/2026</b>
-                            <span class="badge-info">Ngôi Sao Văn Phòng</span>
-                        </li>
-                        <li><span class="badge-update">UPDATE</span> <b>13/06/2026</b>
-                            <span class="badge-info">Công Viên Cổ Tích (Top 10)</span>
-                        </li>
-                        <li><span class="badge-update">UPDATE</span> <b>08/06/2026</b>
-                            <span class="badge-info">Nhiệm vụ thu thập Ánh Sáng Lấp Lánh (Kỳ 4) + Bộ phận trang
-                                phục</span>
-                        </li>
-                        <li><span class="badge-update">UPDATE</span> <b>04/06/2026</b>
-                            <span class="badge-info">Nữ Vương (Top 10)</span>
+                            <span class="badge-info">Đẹp Tuyệt Trần (Top 20)</span>
                         </li>
                     </ul>
                 </div>
@@ -91,7 +83,9 @@
 
     <dialog id="item-modal">
         <h3 id="modal-title"></h3>
-        <img id="modal-img" src="" alt="Hình ảnh vật phẩm">
+        <div class="modal-img-container">
+            <img id="modal-img" src="" alt="Hình ảnh vật phẩm">
+        </div>
         <div id="modal-details"></div>
         <button class="btn-close" onclick="document.getElementById('item-modal').close()">Đóng</button>
     </dialog>

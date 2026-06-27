@@ -63,13 +63,14 @@ function toggleMobileMenu() {
     sidebar.classList.toggle('open');
     overlay.classList.toggle('active');
 }
-menuBtn.addEventListener('click', toggleMobileMenu);
-overlay.addEventListener('click', toggleMobileMenu);
+if (menuBtn) menuBtn.addEventListener('click', toggleMobileMenu);
+if (overlay) overlay.addEventListener('click', toggleMobileMenu);
 
-const logoElement = document.querySelector('.logo');
+const logoElement = document.querySelector('.logo-img');
 if (logoElement) {
     logoElement.style.cursor = 'pointer';
-    logoElement.addEventListener('click', () => {
+    logoElement.addEventListener('click', (e) => {
+        e.preventDefault();
         window.location.reload();
     });
 }
@@ -124,7 +125,6 @@ function renderSidebar() {
                 btn.classList.add('active');
                 if (window.innerWidth <= 768) toggleMobileMenu();
 
-                // Gọi data
                 loadAndDisplayStage(stage.stage_id, fileKey, stage.stage_name);
             });
 
@@ -143,7 +143,6 @@ function renderSidebar() {
             const bookContent = document.createElement('div');
             bookContent.className = 'nested-content';
 
-            // --- Cập nhật lớp bọc trong để animation hoạt động ---
             const bookInner = document.createElement('div');
             bookInner.className = 'nested-content-inner';
             bookContent.appendChild(bookInner);
@@ -159,7 +158,6 @@ function renderSidebar() {
                 const stageList = document.createElement('div');
                 stageList.className = 'nested-content-stages';
 
-                // --- Cập nhật lớp bọc trong để animation hoạt động ---
                 const stageInner = document.createElement('div');
                 stageInner.className = 'nested-stages-inner';
                 stageList.appendChild(stageInner);
@@ -208,7 +206,6 @@ function renderSidebar() {
             const stageList = document.createElement('div');
             stageList.className = 'nested-content';
 
-            // --- Cập nhật lớp bọc trong để animation hoạt động ---
             const stageInner = document.createElement('div');
             stageInner.className = 'nested-content-inner';
             stageList.appendChild(stageInner);
@@ -249,7 +246,6 @@ function renderSidebar() {
             const stageList = document.createElement('div');
             stageList.className = 'nested-content';
 
-            // --- Cập nhật lớp bọc trong để animation hoạt động ---
             const stageInner = document.createElement('div');
             stageInner.className = 'nested-content-inner';
             stageList.appendChild(stageInner);
@@ -313,6 +309,7 @@ function createStageWithSubmenus(displayLabel, stageNum, fileLoadPath, container
         loadAndDisplayStage(`${fileLoadPath}_standard`, stageNum, `${displayLabel} - Tiêu Chuẩn`);
     });
     subInner.appendChild(btnStandard);
+
     const btnHigh = document.createElement('button');
     btnHigh.className = 'sub-stage-btn stage-btn';
     btnHigh.innerHTML = `Trọng lượng siêu cao ${doneHigh ? subIcon : ''}`;
@@ -344,11 +341,10 @@ async function loadAndDisplayStage(fileLoadPath, stageKey, labelText) {
     titleElement.innerText = "Đang tải dữ liệu...";
     attrElement.innerHTML = '';
 
-    // Đã thay thế dòng cũ bằng khung Loading Spinner mới
     mainArea.innerHTML = `
         <div style="text-align:center; padding:60px 20px;">
             <div class="loading-spinner"></div>
-            <div style="color:var(--primary-pink); font-weight:700; font-size: 15px;">Đang chuẩn bị trang phục...</div>
+            <div style="color:var(--primary-pink); font-weight:700; font-size: 15px; letter-spacing: 0.5px;">Đang chuẩn bị trang phục...</div>
         </div>
     `;
 
@@ -435,7 +431,6 @@ async function loadAndDisplayStage(fileLoadPath, stageKey, labelText) {
             const wrapper = document.createElement('div');
             wrapper.className = 'category-wrapper';
 
-            // Cấu trúc mới hỗ trợ Smooth Animation
             const toggleBtn = document.createElement('button');
             toggleBtn.className = 'category-toggle-btn';
 
@@ -538,14 +533,17 @@ async function loadAndDisplayStage(fileLoadPath, stageKey, labelText) {
                 const pngImgPath = `assets/items/${itemCategoryFolder}/${item.id}.png`;
                 const backupImg = `https://picsum.photos/100?random=${item.id}`;
 
+                // Sửa lại cấu trúc bọc ảnh chuyên nghiệp để badge không lỗi layout hàng
                 card.innerHTML = `
                     ${rankBadge}
                     ${scoreBadge}
-                    <img src="${webpImgPath}" 
-                         onerror="if(!this.dataset.triedPng){ this.dataset.triedPng=true; this.src='${pngImgPath}'; } else { this.onerror=null; this.src='${backupImg}'; }" 
-                         alt="${item.name}" 
-                         loading="lazy">
-                    ${craftBadge}
+                    <div class="item-image-container">
+                        <img src="${webpImgPath}" 
+                             onerror="if(!this.dataset.triedPng){ this.dataset.triedPng=true; this.src='${pngImgPath}'; } else { this.onerror=null; this.src='${backupImg}'; }" 
+                             alt="${item.name}" 
+                             loading="lazy">
+                        ${craftBadge}
+                    </div>
                     <div class="item-name">${item.name}</div>
                     <div class="item-mini-attrs-wrap">${attrTagsHTML}</div>
                 `;
@@ -555,7 +553,6 @@ async function loadAndDisplayStage(fileLoadPath, stageKey, labelText) {
             });
 
             wrapper.appendChild(toggleBtn);
-            // Nạp contentAnimWrapper vào thay vì contentGrid
             wrapper.appendChild(contentAnimWrapper);
             mainArea.appendChild(wrapper);
         }
@@ -579,41 +576,46 @@ function openModal(item, categoryKey, webpImg, backupImg) {
     document.getElementById('modal-title').innerText = item.name;
 
     const imgElement = document.getElementById('modal-img');
-    const pngImg = webpImg.replace('.webp', '.png');
+    const pngImg = webpImg.replace('.webp');
 
-    delete imgElement.dataset.triedPng;
-
-    imgElement.src = webpImg;
-    imgElement.onerror = () => {
-        if (!imgElement.dataset.triedPng) {
-            imgElement.dataset.triedPng = "true";
-            imgElement.src = pngImg;
-        } else {
-            imgElement.onerror = null;
-            imgElement.src = backupImg;
-        }
-    };
+    if (imgElement) {
+        delete imgElement.dataset.triedPng;
+        imgElement.src = webpImg;
+        imgElement.onerror = () => {
+            if (!imgElement.dataset.triedPng) {
+                imgElement.dataset.triedPng = "true";
+                imgElement.src = pngImg;
+            } else {
+                imgElement.onerror = null;
+                imgElement.src = backupImg;
+            }
+        };
+    }
 
     const rawCategory = categoryNames[categoryKey] || categoryKey;
     const formattedCategory = formatTitleCase(rawCategory);
 
-    document.getElementById('modal-details').innerHTML = `
-        <p class="modal-info-p"><b>Loại:</b> ${formattedCategory}</p>
-        <p class="modal-info-p"><b>Bộ:</b> ${item.suit || "Không có"}</p>
-        <p class="modal-info-p"><b>Cách nhận:</b> ${item.source || "Chưa cập nhật"}</p>
-    `;
-    modal.showModal();
+    const detailsElement = document.getElementById('modal-details');
+    if (detailsElement) {
+        detailsElement.innerHTML = `
+            <p class="modal-info-p"><b>↬ Loại:</b> ${formattedCategory}</p>
+            <p class="modal-info-p"><b>↬ Bộ:</b> ${item.suit || "Không có"}</p>
+            <p class="modal-info-p"><b>↬ Cách nhận:</b> ${item.source || "Chưa cập nhật"}</p>
+        `;
+    }
+    if (modal) modal.showModal();
 }
 
-// Bắt sự kiện click ra ngoài để đóng modal
 const itemModal = document.getElementById('item-modal');
-itemModal.addEventListener('click', (event) => {
-    const rect = itemModal.getBoundingClientRect();
-    const isInDialog = (rect.top <= event.clientY && event.clientY <= rect.top + rect.height
-        && rect.left <= event.clientX && event.clientX <= rect.left + rect.width);
-    if (!isInDialog) {
-        itemModal.close();
-    }
-});
+if (itemModal) {
+    itemModal.addEventListener('click', (event) => {
+        const rect = itemModal.getBoundingClientRect();
+        const isInDialog = (rect.top <= event.clientY && event.clientY <= rect.top + rect.height
+            && rect.left <= event.clientX && event.clientX <= rect.left + rect.width);
+        if (!isInDialog) {
+            itemModal.close();
+        }
+    });
+}
 
 window.addEventListener('DOMContentLoaded', loadMenuData);
