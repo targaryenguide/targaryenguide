@@ -442,26 +442,6 @@ async function loadAndDisplayStage(fileLoadPath, stageKey, labelText) {
 
             contentAnimWrapper.appendChild(contentGrid);
 
-            if (isFixed) {
-                toggleBtn.className = 'category-toggle-btn active';
-                toggleBtn.style.cursor = 'default';
-                toggleBtn.style.color = '#f85454';
-                toggleBtn.innerHTML = `<span>${categoryKey.toUpperCase()}</span>`;
-                contentAnimWrapper.className = 'category-anim-wrapper show';
-            } else {
-                if (isAnswerEvent) {
-                    toggleBtn.style.color = '#000000';
-                    toggleBtn.innerHTML = `<span>${categoryKey.toUpperCase()}</span><span class="arrow">▼</span>`;
-                } else {
-                    toggleBtn.innerHTML = `<span>${categoryNames[categoryKey] || categoryKey.toUpperCase()}</span><span class="arrow">▼</span>`;
-                }
-
-                toggleBtn.addEventListener('click', () => {
-                    toggleBtn.classList.toggle('active');
-                    contentAnimWrapper.classList.toggle('show');
-                });
-            }
-
             let top20Items = [];
             if (stageDetail.is_answer_event) {
                 top20Items = itemsList;
@@ -473,84 +453,113 @@ async function loadAndDisplayStage(fileLoadPath, stageKey, labelText) {
                 }).slice(0, 20);
             }
 
-            let currentRank = 1;
-            let highestScore = null;
+            let isRendered = false;
+            const renderItems = () => {
+                if (isRendered) return;
 
-            top20Items.forEach((item, index) => {
-                const card = document.createElement('div');
-                card.className = 'item-card';
+                let currentRank = 1;
+                let highestScore = null;
 
-                let rankBadge = '';
-                if (stageDetail.is_answer_event) {
-                    let catText = categoryNames[item.category] || String(item.category).toUpperCase();
-                    rankBadge = `<div class="item-rank" style="background:#FFF0F2; color:#FF5A7E; font-size:9px; border:1px solid rgba(255,107,139,0.15); font-weight:800; border-radius:6px; padding:2px 6px;">${catText}</div>`;
-                } else {
-                    const currentScore = parseInt(String(item.score).replace(/,/g, '')) || 0;
-                    if (index === 0) {
-                        highestScore = currentScore;
-                        currentRank = 1;
+                top20Items.forEach((item, index) => {
+                    const card = document.createElement('div');
+                    card.className = 'item-card';
+
+                    let rankBadge = '';
+                    if (stageDetail.is_answer_event) {
+                        let catText = categoryNames[item.category] || String(item.category).toUpperCase();
+                        rankBadge = `<div class="item-rank" style="background:#FFF0F2; color:#FF5A7E; font-size:9px; border:1px solid rgba(255,107,139,0.15); font-weight:800; border-radius:6px; padding:2px 6px;">${catText}</div>`;
                     } else {
-                        if (currentScore === highestScore) {
+                        const currentScore = parseInt(String(item.score).replace(/,/g, '')) || 0;
+                        if (index === 0) {
+                            highestScore = currentScore;
                             currentRank = 1;
                         } else {
-                            currentRank = index + 1;
+                            if (currentScore === highestScore) {
+                                currentRank = 1;
+                            } else {
+                                currentRank = index + 1;
+                            }
                         }
+                        rankBadge = currentRank === 1
+                            ? `<div class="item-rank rank-first">#1</div>`
+                            : `<div class="item-rank">#${currentRank}</div>`;
                     }
-                    rankBadge = currentRank === 1
-                        ? `<div class="item-rank rank-first">#1</div>`
-                        : `<div class="item-rank">#${currentRank}</div>`;
+
+                    let scoreBadge = '';
+                    if (!stageDetail.is_answer_event && item.score) {
+                        scoreBadge = `<div class="item-score-badge">${String(item.score).toLocaleString()}</div>`;
+                    }
+
+                    let craftBadge = '';
+                    if (item.required === true) {
+                        craftBadge = `<div class="item-craft-badge">YÊU CẦU CHẾ TẠO</div>`;
+                    }
+                    if (item.note === true) {
+                        craftBadge = `<div class="item-note-badge">YÊU CẦU VƯỢT ẢI</div>`;
+                    }
+                    if (item.suggest === true) {
+                        craftBadge = `<div class="item-suggest-badge">KHÔNG TỐN KIM CƯƠNG</div>`;
+                    }
+                    if (item.custom_red_badge && typeof item.custom_red_badge === 'string') {
+                        craftBadge = `<div class="item-custom-red-badge">${item.custom_red_badge.toUpperCase()}</div>`;
+                    }
+
+                    let attrTagsHTML = '';
+                    if (Array.isArray(item.item_attrs)) {
+                        item.item_attrs.forEach(attr => {
+                            attrTagsHTML += `<span class="mini-attr-tag ${getAttrClass(attr)}">${attr}</span>`;
+                        });
+                    }
+
+                    const itemCategoryFolder = stageDetail.is_answer_event ? (item.category || 'accessory') : categoryKey;
+
+                    const webpImgPath = `assets/items/${itemCategoryFolder}/${item.id}.webp`;
+                    const pngImgPath = `assets/items/${itemCategoryFolder}/${item.id}.png`;
+                    const backupImg = `https://picsum.photos/100?random=${item.id}`;
+
+                    card.innerHTML = `
+                        ${rankBadge}
+                        ${scoreBadge}
+                        <div class="item-image-container">
+                            <img src="${webpImgPath}" 
+                                 decoding="async"
+                                 onerror="if(!this.dataset.triedPng){ this.dataset.triedPng=true; this.src='${pngImgPath}'; } else { this.onerror=null; this.src='${backupImg}'; }" 
+                                 alt="${item.name}" 
+                                 loading="lazy">
+                            ${craftBadge}
+                        </div>
+                        <div class="item-name">${item.name}</div>
+                        <div class="item-mini-attrs-wrap">${attrTagsHTML}</div>
+                    `;
+
+                    card.addEventListener('click', () => openModal(item, itemCategoryFolder, webpImgPath, backupImg));
+                    contentGrid.appendChild(card);
+                });
+
+                isRendered = true;
+            };
+
+            if (isFixed) {
+                toggleBtn.className = 'category-toggle-btn active';
+                toggleBtn.style.cursor = 'default';
+                toggleBtn.style.color = '#f85454';
+                toggleBtn.innerHTML = `<span>${categoryKey.toUpperCase()}</span>`;
+                contentAnimWrapper.className = 'category-anim-wrapper show';
+                renderItems();
+            } else {
+                if (isAnswerEvent) {
+                    toggleBtn.style.color = '#000000';
+                    toggleBtn.innerHTML = `<span>${categoryKey.toUpperCase()}</span><span class="arrow">▼</span>`;
+                } else {
+                    toggleBtn.innerHTML = `<span>${categoryNames[categoryKey] || categoryKey.toUpperCase()}</span><span class="arrow">▼</span>`;
                 }
 
-                let scoreBadge = '';
-                if (!stageDetail.is_answer_event && item.score) {
-                    scoreBadge = `<div class="item-score-badge">${String(item.score).toLocaleString()}</div>`;
-                }
-
-                let craftBadge = '';
-                if (item.required === true) {
-                    craftBadge = `<div class="item-craft-badge">YÊU CẦU CHẾ TẠO</div>`;
-                }
-                if (item.note === true) {
-                    craftBadge = `<div class="item-note-badge">YÊU CẦU VƯỢT ẢI</div>`;
-                }
-                if (item.suggest === true) {
-                    craftBadge = `<div class="item-suggest-badge">KHÔNG TỐN KIM CƯƠNG</div>`;
-                }
-                if (item.custom_red_badge && typeof item.custom_red_badge === 'string') {
-                    craftBadge = `<div class="item-custom-red-badge">${item.custom_red_badge.toUpperCase()}</div>`;
-                }
-
-                let attrTagsHTML = '';
-                if (Array.isArray(item.item_attrs)) {
-                    item.item_attrs.forEach(attr => {
-                        attrTagsHTML += `<span class="mini-attr-tag ${getAttrClass(attr)}">${attr}</span>`;
-                    });
-                }
-
-                const itemCategoryFolder = stageDetail.is_answer_event ? (item.category || 'accessory') : categoryKey;
-
-                const webpImgPath = `assets/items/${itemCategoryFolder}/${item.id}.webp`;
-                const pngImgPath = `assets/items/${itemCategoryFolder}/${item.id}.png`;
-                const backupImg = `https://picsum.photos/100?random=${item.id}`;
-
-                // Sửa lại cấu trúc bọc ảnh chuyên nghiệp để badge không lỗi layout hàng
-                card.innerHTML = `
-                    ${rankBadge}
-                    ${scoreBadge}
-                    <div class="item-image-container">
-                        <img src="${webpImgPath}" 
-                             onerror="if(!this.dataset.triedPng){ this.dataset.triedPng=true; this.src='${pngImgPath}'; } else { this.onerror=null; this.src='${backupImg}'; }" 
-                             alt="${item.name}" 
-                             loading="lazy">
-                        ${craftBadge}
-                    </div>
-                    <div class="item-name">${item.name}</div>
-                    <div class="item-mini-attrs-wrap">${attrTagsHTML}</div>
-                `;
-
-                card.addEventListener('click', () => openModal(item, itemCategoryFolder, webpImgPath, backupImg));
-                contentGrid.appendChild(card);
-            });
+                toggleBtn.addEventListener('click', () => {
+                    renderItems();
+                    toggleBtn.classList.toggle('active');
+                    contentAnimWrapper.classList.toggle('show');
+                });
+            }
 
             wrapper.appendChild(toggleBtn);
             wrapper.appendChild(contentAnimWrapper);
