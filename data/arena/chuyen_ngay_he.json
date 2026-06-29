@@ -1,11 +1,238 @@
 {
-    "chuyen_ngay_he": {
+    "chuyen_ngay_he1": {
         "attributes": [
             "Đơn giản",
             "Thanh lịch",
             "Dễ thương",
             "Trong sáng",
             "Mát mẻ"
-        ]
+        ],
+        "recommendations": {
+            "hair": [
+                {
+                    "id": "4090",
+                    "name": "Ánh Sáng Như Mộng",
+                    "score": "6225",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trong sáng"
+                    ],
+                    "suit": "Cực Quang Đêm Sương",
+                    "source": "Sự kiện -> Thưởng thành tựu bộ"
+                },
+                {
+                    "id": "3636",
+                    "name": "Tình Sầu Trăm Kết",
+                    "score": "6220",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Mát mẻ"
+                    ],
+                    "suit": "Sợi Tơ Nhảy Múa",
+                    "source": "Sự kiện -> Thưởng thành tựu bộ"
+                },
+                {
+                    "id": "2767",
+                    "name": "Tiếng Vọng Vang Xa",
+                    "score": "6215",
+                    "item_attrs": [
+                        "Đơn giản",
+                        "Thanh lịch"
+                    ],
+                    "suit": "Tín Ngưỡng Bóng Đêm",
+                    "source": "Big event Tường Vi Rực Rỡ (bộ phụ)"
+                },
+                {
+                    "id": "1450",
+                    "name": "Lời Chúc Ấm Áp",
+                    "score": "6095",
+                    "item_attrs": [
+                        "Đơn giản",
+                        "Thanh lịch"
+                    ],
+                    "suit": "Búp Bê Nhỏ",
+                    "source": "Chế bản vẽ",
+                    "suggest": true
+                },
+                {
+                    "id": "2769",
+                    "name": "Tiếng Vọng Vang Xa-Mộng",
+                    "score": "6090",
+                    "item_attrs": [
+                        "Đơn giản",
+                        "Thanh lịch"
+                    ],
+                    "suit": "Tín Ngưỡng Bóng Đêm",
+                    "source": "Big event Tường Vi Rực Rỡ (bộ phụ) -> Thiết kế"
+                },
+                {
+                    "id": "494",
+                    "name": "Girl Nhảy Múa",
+                    "score": "6080",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trưởng thành"
+                    ],
+                    "suit": "Thiên Nga Đen",
+                    "source": "Nâng cấp",
+                    "suggest": true
+                },
+                {
+                    "id": "2768",
+                    "name": "Tiếng Vọng Vang Xa-Xanh",
+                    "score": "6080",
+                    "item_attrs": [
+                        "Đơn giản",
+                        "Thanh lịch"
+                    ],
+                    "suit": "Tín Ngưỡng Bóng Đêm",
+                    "source": "Big event Tường Vi Rực Rỡ (bộ phụ) -> Thiết kế"
+                },
+                {
+                    "id": "1937",
+                    "name": "Giai Điệu-Bích",
+                    "score": "6065",
+                    "item_attrs": [
+                        "Đơn giản",
+                        "Trong sáng"
+                    ],
+                    "suit": "Chim Hót Vang",
+                    "source": "Big event Thủy Triều Ký Ức (bộ phụ) -> Thiết kế"
+                },
+                {
+                    "id": "3004",
+                    "name": "Gặp Lại Ánh Dương",
+                    "score": "6065",
+                    "item_attrs": [
+                        "Đơn giản",
+                        "Thanh lịch"
+                    ],
+                    "suit": "Cánh Thư Hoa Hồng",
+                    "source": "Nạp"
+                },
+                {
+                    "id": "3836",
+                    "name": "Mộng Du Kỳ Mộng",
+                    "score": "6060",
+                    "item_attrs": [
+                        "Đơn giản",
+                        "Trong sáng"
+                    ],
+                    "suit": "Cửa Sổ Hoàng Hôn",
+                    "source": "Sự kiện -> Thưởng thành tựu bộ"
+                },
+                {
+                    "id": "3385",
+                    "name": "Tuyết Tinh Lóng Lánh",
+                    "score": "6055",
+                    "item_attrs": [
+                        "Đơn giản",
+                        "Trong sáng"
+                    ],
+                    "suit": "Vạn Vật Xanh Tươi",
+                    "source": "Nạp"
+                },
+                {
+                    "id": "4089",
+                    "name": "Ánh Sáng Đêm Cực",
+                    "score": "6035",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trong sáng"
+                    ],
+                    "suit": "Cực Quang Đêm Sương",
+                    "source": "Sự kiện"
+                },
+                {
+                    "id": "1315",
+                    "name": "Thơ Đêm Tối",
+                    "score": "6030",
+                    "item_attrs": [
+                        "Đơn giản",
+                        "Trong sáng"
+                    ],
+                    "suit": "U Minh Tiên Chủ",
+                    "source": "Big event Ma Quái (bộ chính)"
+                },
+                {
+                    "id": "1314",
+                    "name": "Yuri",
+                    "score": "6000",
+                    "item_attrs": [
+                        "Đơn giản",
+                        "Trong sáng"
+                    ],
+                    "suit": "U Minh Tiên Chủ",
+                    "source": "Big event Ma Quái (bộ chính)"
+                },
+                {
+                    "id": "2973",
+                    "name": "Hoa Điểu Kết Duyên",
+                    "score": "5890",
+                    "item_attrs": [
+                        "Đơn giản",
+                        "Trong sáng"
+                    ],
+                    "suit": "Nắng Xuân Năm Mới",
+                    "source": "Big event Ánh Sáng Ngưng Tụ (bộ phụ)"
+                },
+                {
+                    "id": "2975",
+                    "name": "Hoa Điểu Kết Duyên-Hi",
+                    "score": "5805",
+                    "item_attrs": [
+                        "Đơn giản",
+                        "Trong sáng"
+                    ],
+                    "suit": "Nắng Xuân Năm Mới",
+                    "source": "Big event Ánh Sáng Ngưng Tụ (bộ phụ) -> Thiết kế"
+                },
+                {
+                    "id": "3904",
+                    "name": "Khai Sáng Ước Mơ",
+                    "score": "5790",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Dễ thương"
+                    ],
+                    "suit": "Hành Trình Mơ Mộng",
+                    "source": "Sự kiện"
+                },
+                {
+                    "id": "2974",
+                    "name": "Hoa Điểu Kết Duyên-Dạ",
+                    "score": "5775",
+                    "item_attrs": [
+                        "Đơn giản",
+                        "Trong sáng"
+                    ],
+                    "suit": "Nắng Xuân Năm Mới",
+                    "source": "Big event Ánh Sáng Ngưng Tụ (bộ phụ)"
+                },
+                {
+                    "id": "1955",
+                    "name": "Dáng Vẻ Tinh Nghịch",
+                    "score": "5765",
+                    "item_attrs": [
+                        "Đơn giản",
+                        "Dễ thương"
+                    ],
+                    "suit": "Bạc Hà Tươi Mát",
+                    "source": "Nạp"
+                },
+                {
+                    "id": "199",
+                    "name": "Tóc Ánh Sao",
+                    "score": "5750",
+                    "item_attrs": [
+                        "Đơn giản",
+                        "Thanh lịch"
+                    ],
+                    "suit": "Đồ lẻ",
+                    "source": "Lầu Mê Hoặc/Lầu Mộng Mơ",
+                    "suggest": true
+                }
+            ]
+        }
     }
 }

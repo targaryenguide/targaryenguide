@@ -7,6 +7,7 @@
     <title>TARGARYEN GUIDE</title>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="preload" href="data/menu.json" as="fetch" crossorigin="anonymous">
 </head>
 
 <body>
@@ -40,8 +41,10 @@
 
         <main class="main-content">
             <div id="stage-info">
-                <h2 id="stage-title"><Chào style="color: rgb(233, 94, 136);"> Chào mừng đến với TARGARYEN GUIDE
-                    </span>!!!</h2>
+                <h2 id="stage-title">
+                    <Chào style="color: rgb(233, 94, 136);"> Chào mừng đến với TARGARYEN GUIDE
+                        </span>!!!
+                </h2>
                 <p id="stage-attributes" class="tags">
                     Chọn một ải ở thanh menu bên trái để xem gợi ý phối đồ nhé!
                     <br><span class="highlight-bullet">•</span> Khuyến khích sử dụng web trên máy tính/laptop
@@ -91,7 +94,7 @@
         <button class="btn-close" onclick="document.getElementById('item-modal').close()">Đóng</button>
     </dialog>
 
-    <script src="app.js"></script>
+    <script src="app.js" defer></script>
 </body>
 
 </html>

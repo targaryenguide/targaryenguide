@@ -651,6 +651,8 @@ body {
     border: 1px solid var(--border-color);
     box-shadow: 0 6px 18px var(--card-shadow);
     transition: var(--global-transition);
+    content-visibility: auto;
+    contain-intrinsic-size: 60px;
 }
 
 .category-wrapper:has(.category-toggle-btn.active) {

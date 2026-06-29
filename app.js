@@ -456,9 +456,11 @@ async function loadAndDisplayStage(fileLoadPath, stageKey, labelText) {
             let isRendered = false;
             const renderItems = () => {
                 if (isRendered) return;
-
+                
                 let currentRank = 1;
                 let highestScore = null;
+
+                const fragment = document.createDocumentFragment();
 
                 top20Items.forEach((item, index) => {
                     const card = document.createElement('div');
@@ -533,9 +535,10 @@ async function loadAndDisplayStage(fileLoadPath, stageKey, labelText) {
                     `;
 
                     card.addEventListener('click', () => openModal(item, itemCategoryFolder, webpImgPath, backupImg));
-                    contentGrid.appendChild(card);
+                    fragment.appendChild(card);
                 });
 
+                contentGrid.appendChild(fragment);
                 isRendered = true;
             };
 
@@ -585,7 +588,7 @@ function openModal(item, categoryKey, webpImg, backupImg) {
     document.getElementById('modal-title').innerText = item.name;
 
     const imgElement = document.getElementById('modal-img');
-    const pngImg = webpImg.replace('.webp');
+    const pngImg = webpImg.replace('.webp', '.png');
 
     if (imgElement) {
         delete imgElement.dataset.triedPng;
