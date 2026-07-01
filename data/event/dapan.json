@@ -2,229 +2,118 @@
     "dapan": {
         "is_answer_event": true,
         "tags": [
-            "Ấn vào ảnh để xem bộ và cách nhận nhé!"
+            "Bộ gợi ý chỉ mang tính tham khảo", 
+            "Phối theo 2 thuộc tính được yêu cầu ở từng ải là qua"
         ],
         "recommendations": {
-            "TRỜI MÂY VẠN DẶM[FIXED]": [
+            " XEM CÁI NÀY NẾU BẠN LƯỜI (THAM KHẢO SỰ KIỆN LOVE NIKKI)": [
                 {
-                    "id": "607",
-                    "category": "hair",
-                    "name": "Mềm Mại",
-                    "suit": "Đồ lẻ",
-                    "source": "Chế bản vẽ"
+                    "id": "339",
+                    "category": "suit",
+                    "name": "Ánh Sáng Ngọt Ngào",
+                    "suit": " ",
+                    "source": "Đăng nhập nhận",
+                    "custom_red_badge": "Ải 1"
                 },
                 {
-                    "id": "197",
-                    "category": "dress",
-                    "name": "Sóng Xanh",
-                    "suit": "Đồ lẻ",
-                    "source": "Lầu Mê Hoặc/Lầu Mộng Mơ"
+                    "id": "2791",
+                    "category": "suit",
+                    "name": "Hẹn Ước Hoa Hồng",
+                    "suit": " ",
+                    "source": "Mua shop (Vàng)",
+                    "custom_red_badge": "Ải 4 - Dáng thành tựu"
                 },
                 {
-                    "id": "890",
-                    "category": "coat",
-                    "name": "Gió Mát",
-                    "suit": "Gió Mát",
-                    "source": "Vượt ải rơi (Ải 7-6 Thiếu Nữ, Quyển 2)"
-                },
-                {
-                    "id": "2317",
-                    "category": "shoes",
-                    "name": "Trái Tim Trục Nhật",
-                    "suit": "Bài Ca Mặt Trời",
-                    "source": "Sự kiện - Chưa mở ra cách nhận"
-                },
-                {
-                    "id": "469",
-                    "category": "hairornament",
-                    "name": "Nón Cói-Nâu",
-                    "suit": "Đồ lẻ",
-                    "source": "Mua shop (Kim cương)/Vượt ải rơi"
-                },
-                {
-                    "id": "162",
-                    "category": "righthandheld",
-                    "name": "Ô Trà Xanh",
-                    "suit": "Đồ lẻ",
-                    "source": "Chế bản vẽ"
-                }
-            ],
-            "Tiết Mục Huyền Ảo[FIXED]": [
-                {
-                    "id": "2767",
-                    "category": "hair",
-                    "name": "Tiếng Vọng Vang Xa",
-                    "suit": "Tín Ngưỡng Bóng Đêm",
-                    "source": "Big event Tường Vi Rực Rỡ"
-                },
-                {
-                    "id": "2961",
-                    "category": "dress",
-                    "name": "Đàn Ca Đêm Lặng",
-                    "suit": "Kỳ Mộng Đêm Khuya",
-                    "source": "Sự kiện Gacha"
-                },
-                {
-                    "id": "833",
-                    "category": "coat",
-                    "name": "Bài Ca Buồn",
-                    "suit": "Tường Vy Than Thở",
-                    "source": "Sự kiện Gacha"
-                },
-                {
-                    "id": "2565",
-                    "category": "shoes",
-                    "name": "Trăn Trở",
-                    "suit": "Ảo Ảnh Đêm Đen",
-                    "source": "Chế bản vẽ"
-                },
-                {
-                    "id": "2106",
-                    "category": "hairornament",
-                    "name": "Nón Ma Mị-Tối",
-                    "suit": "Chúc Phúc Sao",
-                    "source": "Thiết kế"
-                },
-                {
-                    "id": "10920",
-                    "category": "lefthandheld",
-                    "name": "Ánh Sáng Gậy Thần",
-                    "suit": "Nguyên Lý Phép Thuật",
-                    "source": "Chế bản vẽ"
-                }
-            ],
-            "Ca Tụng Năm Tháng[FIXED]": [
-                {
-                    "id": "1533",
-                    "category": "hair",
-                    "name": "Điệu Nhớ Nhung",
-                    "suit": "Tiết Tấu Ánh Trăng",
-                    "source": "Sự kiện Hạnh phúc"
-                },
-                {
-                    "id": "893",
-                    "category": "dress",
-                    "name": "Hoa Sương Mù",
-                    "suit": "Sương Mơ Màng",
-                    "source": "Chế bản vẽ"
-                },
-                {
-                    "id": "52",
-                    "category": "shoes",
-                    "name": "Thiên Kim",
-                    "suit": "Bá Tước Thiên Kim",
-                    "source": "Lầu Mộng Mơ"
-                },
-                {
-                    "id": "450",
-                    "category": "necklace",
-                    "name": "Dây Bạch Tuyết",
-                    "suit": "Thiên Nga Trắng",
-                    "source": "Chế bản vẽ"
-                },
-                {
-                    "id": "2425",
-                    "category": "hairornament",
-                    "name": "Mưa Tháng Bảy",
-                    "suit": "Khúc Ca Thời Gian",
-                    "source": "Mua shop (Vàng)"
-                },
-                {
-                    "id": "356",
-                    "category": "makeup",
-                    "name": "Một Nửa Ước Mơ",
-                    "suit": "Hòa Tấu Ánh Trăng",
-                    "source": "Chế bản vẽ"
-                }
-            ],
-            "Hình Lưu Niệm Rung Động[FIXED]": [
-                {
-                    "id": "2413",
-                    "category": "hair",
-                    "name": "Mộng Cảnh Vàng",
-                    "suit": "Thợ Săn Ngược Dòng",
-                    "source": "Nạp"
-                },
-                {
-                    "id": "655",
-                    "category": "top",
-                    "name": "Gặp Gỡ Mùa Hè",
-                    "suit": "Lời Chào Tạm Biệt",
-                    "source": "Big event Năm Tháng Tươi Đẹp"
-                },
-                {
-                    "id": "607",
-                    "category": "bottom",
-                    "name": "Ánh Mặt Trời",
-                    "suit": "Lời Chào Tạm Biệt",
-                    "source": "Big event Năm Tháng Tươi Đẹp"
-                },
-                {
-                    "id": "1644",
-                    "category": "shoes",
-                    "name": "Giữ Chặt Tiếng Lòng",
-                    "suit": "Thiếu Nữ Mặt Trời",
-                    "source": "Chế bản vẽ"
-                },
-                {
-                    "id": "7751",
-                    "category": "hairornament",
-                    "name": "Nón Ấm Phủ Nhung",
-                    "suit": "Trinh Thám Bác Học",
-                    "source": "Sự kiện - Chưa mở ra cách nhận"
-                },
-                {
-                    "id": "16753",
-                    "category": "necklace",
-                    "name": "Khoảnh Khắc Đọng Lại",
-                    "suit": "Du Hành Theo Gió Xa",
-                    "source": "Nạp Chiến Lệnh"
-                }
-            ],
-            "Thuyền Hoa Tuần Du[FIXED]": [
-                {
-                    "id": "2887",
-                    "category": "hair",
-                    "name": "Ngôi Sao Thất Lạc",
-                    "suit": "Mây Mờ Tinh Sương",
-                    "source": "Nạp"
-                },
-                {
-                    "id": "1671",
-                    "category": "dress",
-                    "name": "Mơ Sao Băng",
-                    "suit": "Mơ Biển Sao",
-                    "source": "Nạp Shop thần bí"
-                },
-                {
-                    "id": "1854",
-                    "category": "shoes",
-                    "name": "Xuân Nảy Mầm",
-                    "suit": "Trời Trong Mưa Ấm",
-                    "source": "Chế bản vẽ"
-                },
-                {
-                    "id": "12882",
-                    "category": "hairornament",
-                    "name": "Vòng Nho Xanh",
-                    "suit": "Âm Thanh Chim Chóc",
-                    "source": "Sự kiện - Chưa mở ra cách nhận"
-                },
-                {
-                    "id": "11828",
-                    "category": "lefthandheld",
-                    "name": "Sân Trắng Hoàng Hôn",
-                    "suit": "Tình Ca Tường Vi",
-                    "source": "Nạp"
-                },
-                {
-                    "id": "576",
-                    "category": "makeup",
-                    "name": "Ánh Sáng Lưu Luyến",
-                    "suit": "Tập Thơ Thuần Khiết",
-                    "source": "Chế bản vẽ"
+                    "id": "1460",
+                    "category": "suit",
+                    "name": "Sương Núi",
+                    "suit": " ",
+                    "source": "Sự kiện",
+                    "custom_red_badge": "Ải 5 - Dáng thường"
                 }
             ]
-        }
+        },
+        "qna": [
+            {
+                "question": "Điều gì KHÔNG cần thiết trước khi tập luyện?",
+                "answer": "Ăn cá nướng"
+            },
+            {
+                "question": "Bạn có thể bắt đầu tập các bài tập nhẹ bao lâu sau bữa ăn?",
+                "answer": "Ít nhất 30 phút đến 1 tiếng"
+            },
+            {
+                "question": "Tên đầy đủ của Thế vận hội là gì?",
+                "answer": "Thế vận hội Olympic"
+            },
+            {
+                "question": "Thời điểm nào phù hợp nhất để tập thể dục ngoài trời?",
+                "answer": "9:00-10:00"
+            },
+            {
+                "question": "Bạn nên đi loại giày nào khi chạy bộ?",
+                "answer": "Giày thể thao mềm, có độ hỗ trợ tốt"
+            },
+            {
+                "question": "Bạn nên làm gì khi đổ mồ hôi sau khi tập luyện?",
+                "answer": "Lau mồ hôi, nghỉ ngơi, sau đó mới tắm"
+            },
+            {
+                "question": "Con vật nào chạy nhanh nhất?",
+                "answer": "Đà điểu"
+            },
+            {
+                "question": "Thế vận hội được tổ chức bao lâu một lần?",
+                "answer": "4 năm một lần"
+            },
+            {
+                "question": "Hành động đúng đắn ngay lập tức khi bị chuột rút chân lúc tập luyện là gì?",
+                "answer": "Dừng lại, sau đó duỗi cơ và xoa bóp"
+            },
+            {
+                "question": "Thiết bị phòng gym nào được sử dụng để chạy?",
+                "answer": "Máy chạy bộ"
+            },
+            {
+                "question": "Bạn nên uống gì để bù nước sau khi đổ mồ hôi trong lúc tập luyện?",
+                "answer": "Nước ấm hoặc nước pha chút muối"
+            },
+            {
+                "question": "Một bà cụ trong khu dân cư quyết định bắt đầu tập thể dục. Đâu là môn mà Aron có khả năng gợi ý nhất?",
+                "answer": "Thái Cực Quyền"
+            },
+            {
+                "question": "Chim cánh cụt có vẻ chậm chạp khi lạch bạch, nhưng đó thực chất là cách di chuyển tiết kiệm năng lượng. Điều này chủ yếu giúp chúng...",
+                "answer": "Tiết kiệm năng lượng và giữ thăng bằng trên băng"
+            },
+            {
+                "question": "Bạn nên làm gì khi tập thể dục ngoài trời vào mùa hè?",
+                "answer": "Uống nước đầy đủ và tránh nắng"
+            },
+            {
+                "question": "Tại sao nên hít vào bằng mũi và thở ra bằng miệng khi chạy bộ?",
+                "answer": "Để bảo vệ đường hô hấp"
+            },
+            {
+                "question": "Điều gì có thể nằm trong các bài khởi động trước khi tập luyện?",
+                "answer": "Giãn cơ động"
+            },
+            {
+                "question": "Đâu KHÔNG PHẢI là khu vực nguy hiểm cần tránh khi đi cắm trại?",
+                "answer": "Công viên cắm trại"
+            },
+            {
+                "question": "Một người bạn định đưa em gái đi bơi. Màu đồ bơi nào mà Aron có khả năng gợi ý nhất?",
+                "answer": "Màu cam neon rực rỡ"
+            },
+            {
+                "question": "Người trượt tuyết KHÔNG nên làm gì?",
+                "answer": "Nướng cá trên đường trượt tuyết"
+            },
+            {
+                "question": "Đâu KHÔNG PHẢI là một môn thể thao?",
+                "answer": "Chạy trong giấc mơ"
+            }
+        ]
     }
 }

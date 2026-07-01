@@ -1141,3 +1141,81 @@ dialog::backdrop {
         object-fit: contain;
     }
 }
+
+/* =========================================
+   Q&A SECTION STYLES (CÂU HỎI ĐÁP ÁN)
+   ========================================= */
+.qna-wrapper {
+    background: white;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 20px 28px;
+    border: 1px solid var(--border-color);
+    box-shadow: 0 6px 18px var(--card-shadow);
+}
+
+.qna-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--primary-pink);
+    margin-bottom: 15px;
+    border-bottom: 1px dashed var(--border-color);
+    padding-bottom: 15px;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+.qna-content {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.qna-item {
+    background: #FFFDFD;
+    border: 1px solid #F5EAEB;
+    border-radius: 12px;
+    padding: 14px 18px;
+    box-shadow: 0 2px 6px rgba(245, 195, 205, 0.05);
+    transition: var(--global-transition);
+}
+
+.qna-item:hover {
+    border-color: var(--primary-pink);
+    box-shadow: 0 4px 12px var(--hover-shadow);
+    transform: translateY(-2px);
+}
+
+.qna-question {
+    font-size: 14px;
+    color: var(--text-main);
+    font-weight: 700;
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+.q-label {
+    color: #5BB9FF;
+    margin-right: 4px;
+}
+
+.qna-answer {
+    font-size: 13.5px;
+    color: var(--text-main);
+    line-height: 1.5;
+}
+
+.a-label {
+    color: var(--primary-pink);
+    font-weight: 700;
+    margin-right: 4px;
+}
+
+.highlight-answer {
+    color: #FF5A7E;
+    font-weight: 700;
+    background: #FFF0F2;
+    padding: 2px 8px;
+    border-radius: 6px;
+    border: 1px solid rgba(255, 107, 139, 0.15);
+}

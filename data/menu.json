@@ -427,5 +427,15 @@
             "stages": []
         }
     ],
-    "event": []
+    "event": [
+        {
+            "chapter_name": "Tiệc Trà Gió Xuân",
+            "stages": [
+                {
+                    "stage_id": "event/dapan",
+                    "stage_name": "Đáp án hỏi đáp và bộ gợi ý vượt ải"
+                }
+            ]
+        }
+    ]
 }
