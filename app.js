@@ -413,7 +413,20 @@ async function loadAndDisplayStage(fileLoadPath, stageKey, labelText) {
         mainArea.innerHTML = '';
         let hasDataToDisplay = false;
 
-        // --- PHẦN 1: RENDER TRANG PHỤC (RECOMMENDATIONS) LÊN TRƯỚC ---
+        // --- PHẦN 1: THÊM LỜI CẢM ƠN (CREDIT) ĐÁNG YÊU ---
+        if (stageDetail.credit) {
+            hasDataToDisplay = true;
+            const creditWrapper = document.createElement('div');
+            creditWrapper.className = 'cute-credit-wrapper';
+            creditWrapper.innerHTML = `
+                <span class="credit-icon-anim"></span>
+                <span class="credit-message">Cảm ơn bạn<b class="credit-name">${stageDetail.credit}</b> vì đã giúp chúng tớ chỉnh sửa và hoàn thiện set ❤️</span>
+                <span class="credit-icon-anim" style="animation-delay: 0.5s;"></span>
+            `;
+            mainArea.appendChild(creditWrapper);
+        }
+
+        // --- PHẦN 2: RENDER TRANG PHỤC (RECOMMENDATIONS) ---
         if (stageDetail.recommendations && Object.keys(stageDetail.recommendations).length > 0) {
             hasDataToDisplay = true;
             for (let [categoryKey, itemsList] of Object.entries(stageDetail.recommendations)) {
@@ -455,7 +468,7 @@ async function loadAndDisplayStage(fileLoadPath, stageKey, labelText) {
                 let isRendered = false;
                 const renderItems = () => {
                     if (isRendered) return;
-                    
+
                     let currentRank = 1;
                     let highestScore = null;
 
@@ -569,7 +582,7 @@ async function loadAndDisplayStage(fileLoadPath, stageKey, labelText) {
             }
         }
 
-        // --- PHẦN 2: RENDER CÂU HỎI & ĐÁP ÁN (Q&A) XUỐNG DƯỚI ---
+        // --- PHẦN 3: RENDER CÂU HỎI & ĐÁP ÁN (Q&A) ---
         if (stageDetail.qna && stageDetail.qna.length > 0) {
             hasDataToDisplay = true;
             const qnaWrapper = document.createElement('div');
@@ -577,7 +590,7 @@ async function loadAndDisplayStage(fileLoadPath, stageKey, labelText) {
 
             const qnaTitle = document.createElement('div');
             qnaTitle.className = 'qna-title';
-            qnaTitle.innerHTML = '<span>CÂU HỎI & ĐÁP ÁN</span>';
+            qnaTitle.innerHTML = '<span>📝 CÂU HỎI & ĐÁP ÁN (Q&A)</span>';
 
             const qnaContent = document.createElement('div');
             qnaContent.className = 'qna-content';
@@ -597,7 +610,7 @@ async function loadAndDisplayStage(fileLoadPath, stageKey, labelText) {
             mainArea.appendChild(qnaWrapper);
         }
 
-        // --- PHẦN 3: XỬ LÝ TRƯỜNG HỢP KHÔNG CÓ DỮ LIỆU CẢ 2 ---
+        // --- XỬ LÝ TRƯỜNG HỢP KHÔNG CÓ DỮ LIỆU ---
         if (!hasDataToDisplay) {
             mainArea.innerHTML = '<div style="text-align:center; padding:40px; color:#A89598; font-style:italic;">Gợi ý đang được cập nhật...</div>';
         }

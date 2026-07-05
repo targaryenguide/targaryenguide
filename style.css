@@ -1219,3 +1219,79 @@ dialog::backdrop {
     border-radius: 6px;
     border: 1px solid rgba(255, 107, 139, 0.15);
 }
+
+/* =========================================
+   CUTE CREDIT SECTION (LỜI CẢM ƠN)
+   ========================================= */
+.cute-credit-wrapper {
+    background: linear-gradient(135deg, var(--soft-pink), #FFE4E8);
+    border: 2px dashed var(--border-color);
+    border-radius: 20px;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    box-shadow: 0 4px 15px var(--card-shadow);
+    transition: var(--global-transition);
+    text-align: center;
+    width: 100%;
+}
+
+.cute-credit-wrapper:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(255, 107, 139, 0.15);
+    border-color: var(--primary-pink);
+}
+
+.credit-message {
+    font-size: 13.5px;
+    color: var(--text-main);
+    font-weight: 600;
+    letter-spacing: 0.3px;
+}
+
+.credit-name {
+    color: var(--primary-pink);
+    font-weight: 800;
+    font-size: 14.5px;
+    background: white;
+    padding: 4px 12px;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(255, 107, 139, 0.1);
+    margin-left: 5px;
+    display: inline-block;
+}
+
+.credit-icon-anim {
+    font-size: 18px;
+    animation: floatCredit 2s ease-in-out infinite;
+    display: inline-block;
+}
+
+@keyframes floatCredit {
+    0% {
+        transform: translateY(0px) scale(1);
+    }
+
+    50% {
+        transform: translateY(-4px) scale(1.1);
+    }
+
+    100% {
+        transform: translateY(0px) scale(1);
+    }
+}
+
+@media (max-width: 768px) {
+    .cute-credit-wrapper {
+        flex-direction: column;
+        gap: 6px;
+        padding: 15px 12px;
+    }
+
+    .credit-name {
+        margin-top: 5px;
+    }
+}

@@ -300,7 +300,8 @@
         },
         {
             "stage_id": "arena/van_dong",
-            "stage_name": "Vận Động"
+            "stage_name": "Vận Động",
+            "done": true
         },
         {
             "stage_id": "arena/phong_hoa_nhac",
