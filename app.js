@@ -23,8 +23,8 @@ const categoryNames = {
     righthandornament: "VÒNG TAY PHẢI",
     lefthandornament: "VÒNG TAY TRÁI",
     gloves: "GĂNG TAY",
-    righthandheld: "TÚI PHẢI",
-    lefthandheld: "TÚI TRÁI",
+    righthandholding: "TÚI PHẢI",
+    lefthandholding: "TÚI TRÁI",
     waist: "DÂY LƯNG",
     faceaccessory: "MẶT NẠ",
     brooch: "CÀI ÁO",
@@ -644,7 +644,7 @@ function openModal(item, categoryKey, webpImg, backupImg) {
     if (detailsElement) {
         detailsElement.innerHTML = `
             <p class="modal-info-p"><b>↬ Loại:</b> ${formattedCategory}</p>
-            <p class="modal-info-p"><b>↬ Bộ:</b> ${item.suit || "Không có"}</p>
+            <p class="modal-info-p"><b>↬ Bộ:</b> ${item.suit || "Chưa cập nhập"}</p>
             <p class="modal-info-p"><b>↬ Cách nhận:</b> ${item.source || "Chưa cập nhật"}</p>
         `;
     }
