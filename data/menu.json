@@ -310,7 +310,8 @@
         },
         {
             "stage_id": "arena/lien_hoan_mua_he",
-            "stage_name": "Liên Hoan Mùa Hè"
+            "stage_name": "Liên Hoan Mùa Hè",
+            "done": true
         },
         {
             "stage_id": "arena/nu_vuong",

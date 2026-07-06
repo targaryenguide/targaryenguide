@@ -1921,23 +1921,23 @@
                     "isTarget": false
                 },
                 {
-                    "id": "1494",
-                    "name": "71494",
-                    "score": "4670",
+                    "id": "2043",
+                    "name": "Đua Thuyền Rồng",
+                    "score": "4665",
                     "item_attrs": [
-                        "Đơn giản",
-                        "Dễ thương"
+                        "Năng động",
+                        "Trong sáng"
                     ],
                     "suit": "",
                     "source": "",
                     "isTarget": false
                 },
                 {
-                    "id": "2043",
-                    "name": "Đua Thuyền Rồng",
-                    "score": "4665",
+                    "id": "107",
+                    "name": "Giày Đỏ-Quý",
+                    "score": "4640",
                     "item_attrs": [
-                        "Năng động",
+                        "Dễ thương",
                         "Trong sáng"
                     ],
                     "suit": "",
@@ -2975,18 +2975,6 @@
                     "isTarget": false
                 },
                 {
-                    "id": "3820",
-                    "name": "83820",
-                    "score": "926",
-                    "item_attrs": [
-                        "Đơn giản",
-                        "Trong sáng"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
                     "id": "13593",
                     "name": "Bướm Pha Lê Bay Lượn",
                     "score": "924",
@@ -3149,6 +3137,18 @@
                     "item_attrs": [
                         "Năng động",
                         "Dễ thương"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
+                },
+                {
+                    "id": "12873",
+                    "name": "Sao Sáng Đưa Mộng",
+                    "score": "902",
+                    "item_attrs": [
+                        "Đơn giản",
+                        "Trong sáng"
                     ],
                     "suit": "",
                     "source": "",
