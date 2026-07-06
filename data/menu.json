@@ -280,7 +280,8 @@
         },
         {
             "stage_id": "arena/giao_thoi",
-            "stage_name": "Giao Thời"
+            "stage_name": "Giao Thời",
+            "done": true
         },
         {
             "stage_id": "arena/ngoi_sao_van_phong",

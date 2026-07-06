@@ -420,7 +420,7 @@ async function loadAndDisplayStage(fileLoadPath, stageKey, labelText) {
             creditWrapper.className = 'cute-credit-wrapper';
             creditWrapper.innerHTML = `
                 <span class="credit-icon-anim"></span>
-                <span class="credit-message">Cảm ơn bạn<b class="credit-name">${stageDetail.credit}</b> vì đã giúp chúng tớ chỉnh sửa và hoàn thiện set ❤️</span>
+                <span class="credit-message">Cảm ơn<b class="credit-name">${stageDetail.credit}</b> vì đã giúp chúng tớ chỉnh sửa và hoàn thiện set ❤️</span>
                 <span class="credit-icon-anim" style="animation-delay: 0.5s;"></span>
             `;
             mainArea.appendChild(creditWrapper);
@@ -590,7 +590,7 @@ async function loadAndDisplayStage(fileLoadPath, stageKey, labelText) {
 
             const qnaTitle = document.createElement('div');
             qnaTitle.className = 'qna-title';
-            qnaTitle.innerHTML = '<span>📝 CÂU HỎI & ĐÁP ÁN (Q&A)</span>';
+            qnaTitle.innerHTML = '<span> CÂU HỎI & ĐÁP ÁN</span>';
 
             const qnaContent = document.createElement('div');
             qnaContent.className = 'qna-content';
