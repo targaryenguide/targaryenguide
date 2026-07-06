@@ -338,7 +338,8 @@
         },
         {
             "stage_id": "arena/dep_tuyet_tran",
-            "stage_name": "Đẹp Tuyệt Trần"
+            "stage_name": "Đẹp Tuyệt Trần",
+            "done": true
         },
         {
             "stage_id": "arena/dep_thanh_tu",
