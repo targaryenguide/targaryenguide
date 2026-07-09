@@ -7,6 +7,7 @@
             "Gợi cảm",
             "Mát mẻ"
         ],
+        "credit": "Lars Nguyenn",
         "recommendations": {
             "hair": [
                 {
@@ -226,8 +227,8 @@
                     "isTarget": false
                 },
                 {
-                    "id": "1054",
-                    "name": "Người Đẹp Hồng",
+                    "id": "1892",
+                    "name": "Sắc Xuân",
                     "score": "5760",
                     "item_attrs": [
                         "Đơn giản",
@@ -238,11 +239,11 @@
                     "isTarget": false
                 },
                 {
-                    "id": "1892",
-                    "name": "Sắc Xuân",
-                    "score": "5760",
+                    "id": "517",
+                    "name": "Thi Vị",
+                    "score": "5755",
                     "item_attrs": [
-                        "Đơn giản",
+                        "Thanh lịch",
                         "Trưởng thành"
                     ],
                     "suit": "",
@@ -282,18 +283,6 @@
                     "item_attrs": [
                         "Đơn giản",
                         "Thanh lịch"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
-                    "id": "941",
-                    "name": "30941",
-                    "score": "2440",
-                    "item_attrs": [
-                        "Thanh lịch",
-                        "Gợi cảm"
                     ],
                     "suit": "",
                     "source": "",
@@ -360,35 +349,11 @@
                     "isTarget": false
                 },
                 {
-                    "id": "1751",
-                    "name": "Thơ Văn Cao Siêu",
-                    "score": "2290",
-                    "item_attrs": [
-                        "Thanh lịch",
-                        "Trưởng thành"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
                     "id": "1499",
                     "name": "Màu Hoa Sương Mỏng",
                     "score": "2275",
                     "item_attrs": [
                         "Thanh lịch",
-                        "Trưởng thành"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
-                    "id": "1787",
-                    "name": "Vẫy Tay Tạo Gió",
-                    "score": "2270",
-                    "item_attrs": [
-                        "Đơn giản",
                         "Trưởng thành"
                     ],
                     "suit": "",
@@ -414,18 +379,6 @@
                     "item_attrs": [
                         "Đơn giản",
                         "Thanh lịch"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
-                    "id": "1788",
-                    "name": "Vẫy Tay Tạo Gió-Trúc",
-                    "score": "2240",
-                    "item_attrs": [
-                        "Đơn giản",
-                        "Trưởng thành"
                     ],
                     "suit": "",
                     "source": "",
@@ -490,6 +443,54 @@
                     "suit": "",
                     "source": "",
                     "isTarget": false
+                },
+                {
+                    "id": "270",
+                    "name": "Hè Nóng-Đen",
+                    "score": "2215",
+                    "item_attrs": [
+                        "Trưởng thành",
+                        "Gợi cảm"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
+                },
+                {
+                    "id": "1078",
+                    "name": "Dấu Ấn Thời Gian",
+                    "score": "2195",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trưởng thành"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
+                },
+                {
+                    "id": "1077",
+                    "name": "Tiêu Đề Trong Sách",
+                    "score": "2170",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trưởng thành"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
+                },
+                {
+                    "id": "1233",
+                    "name": "Khuôn Trăng Dịu Dàng",
+                    "score": "2155",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Mát mẻ"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
                 }
             ],
             "dress": [
@@ -548,42 +549,6 @@
                     "item_attrs": [
                         "Đơn giản",
                         "Thanh lịch"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
-                    "id": "1941",
-                    "name": "21941",
-                    "score": "24195",
-                    "item_attrs": [
-                        "Thanh lịch",
-                        "Gợi cảm"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
-                    "id": "1942",
-                    "name": "21942",
-                    "score": "24165",
-                    "item_attrs": [
-                        "Thanh lịch",
-                        "Gợi cảm"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
-                    "id": "1940",
-                    "name": "21940",
-                    "score": "23935",
-                    "item_attrs": [
-                        "Trưởng thành",
-                        "Gợi cảm"
                     ],
                     "suit": "",
                     "source": "",
@@ -674,18 +639,6 @@
                     "isTarget": false
                 },
                 {
-                    "id": "3284",
-                    "name": "Mực Xám Và Tuyết",
-                    "score": "22510",
-                    "item_attrs": [
-                        "Thanh lịch",
-                        "Trưởng thành"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
                     "id": "3472",
                     "name": "Truy Tìm Lời Giải",
                     "score": "22465",
@@ -725,6 +678,54 @@
                     "id": "504",
                     "name": "Hiền Hòa-Hồng",
                     "score": "22350",
+                    "item_attrs": [
+                        "Trưởng thành",
+                        "Gợi cảm"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
+                },
+                {
+                    "id": "293",
+                    "name": "Cỏ Biếc",
+                    "score": "22340",
+                    "item_attrs": [
+                        "Đơn giản",
+                        "Trưởng thành"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
+                },
+                {
+                    "id": "503",
+                    "name": "Hiền Hòa-Xám",
+                    "score": "22290",
+                    "item_attrs": [
+                        "Trưởng thành",
+                        "Gợi cảm"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
+                },
+                {
+                    "id": "3723",
+                    "name": "Gió Vàng Dẫn Lối",
+                    "score": "22145",
+                    "item_attrs": [
+                        "Trưởng thành",
+                        "Gợi cảm"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
+                },
+                {
+                    "id": "505",
+                    "name": "Hiền Hòa-Xanh",
+                    "score": "22035",
                     "item_attrs": [
                         "Trưởng thành",
                         "Gợi cảm"
@@ -784,54 +785,6 @@
                     "isTarget": false
                 },
                 {
-                    "id": "1894",
-                    "name": "Bài Ca Hoa Hồng",
-                    "score": "11455",
-                    "item_attrs": [
-                        "Thanh lịch",
-                        "Trưởng thành"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
-                    "id": "1895",
-                    "name": "Bài Ca Hoa Hồng-Phấn",
-                    "score": "11455",
-                    "item_attrs": [
-                        "Thanh lịch",
-                        "Trưởng thành"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
-                    "id": "1896",
-                    "name": "Bài Ca Hoa Hồng-Trạm",
-                    "score": "11455",
-                    "item_attrs": [
-                        "Thanh lịch",
-                        "Trưởng thành"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
-                    "id": "1897",
-                    "name": "Bài Ca Hoa Hồng-Thanh",
-                    "score": "11455",
-                    "item_attrs": [
-                        "Thanh lịch",
-                        "Trưởng thành"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
                     "id": "550",
                     "name": "Xuân Tàn",
                     "score": "11420",
@@ -871,30 +824,6 @@
                     "id": "536",
                     "name": "Áo Tinh Tế",
                     "score": "11400",
-                    "item_attrs": [
-                        "Đơn giản",
-                        "Thanh lịch"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
-                    "id": "1826",
-                    "name": "Mật Mã Không Gian-Lôi",
-                    "score": "11360",
-                    "item_attrs": [
-                        "Đơn giản",
-                        "Thanh lịch"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
-                    "id": "1825",
-                    "name": "Mật Mã Không Gian",
-                    "score": "11350",
                     "item_attrs": [
                         "Đơn giản",
                         "Thanh lịch"
@@ -974,6 +903,78 @@
                     "suit": "",
                     "source": "",
                     "isTarget": false
+                },
+                {
+                    "id": "92",
+                    "name": "Yếm Bướm-Quý",
+                    "score": "10920",
+                    "item_attrs": [
+                        "Đơn giản",
+                        "Gợi cảm"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
+                },
+                {
+                    "id": "292",
+                    "name": "Gile Độc Đáo",
+                    "score": "10875",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trưởng thành"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
+                },
+                {
+                    "id": "138",
+                    "name": "Quyến Rũ",
+                    "score": "10805",
+                    "item_attrs": [
+                        "Đơn giản",
+                        "Gợi cảm"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
+                },
+                {
+                    "id": "672",
+                    "name": "Hào Phóng",
+                    "score": "10625",
+                    "item_attrs": [
+                        "Đơn giản",
+                        "Trưởng thành"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
+                },
+                {
+                    "id": "4",
+                    "name": "Chững Chạc",
+                    "score": "10530",
+                    "item_attrs": [
+                        "Đơn giản",
+                        "Trưởng thành"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
+                },
+                {
+                    "id": "484",
+                    "name": "Kỳ Nghỉ-Trên",
+                    "score": "10475",
+                    "item_attrs": [
+                        "Đơn giản",
+                        "Thanh lịch"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
                 }
             ],
             "bottom": [
@@ -1038,54 +1039,6 @@
                     "isTarget": false
                 },
                 {
-                    "id": "1484",
-                    "name": "Chương Thơ Trầm Mặc",
-                    "score": "11345",
-                    "item_attrs": [
-                        "Thanh lịch",
-                        "Trưởng thành"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
-                    "id": "1485",
-                    "name": "Chương Thơ Trầm Mặc-Phấn",
-                    "score": "11345",
-                    "item_attrs": [
-                        "Thanh lịch",
-                        "Trưởng thành"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
-                    "id": "1486",
-                    "name": "Chương Thơ Trầm Mặc-Trạm",
-                    "score": "11345",
-                    "item_attrs": [
-                        "Thanh lịch",
-                        "Trưởng thành"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
-                    "id": "1487",
-                    "name": "Chương Thơ Trầm Mặc-Thanh",
-                    "score": "11345",
-                    "item_attrs": [
-                        "Thanh lịch",
-                        "Trưởng thành"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
                     "id": "1611",
                     "name": "Gió Trời Xanh Biếc",
                     "score": "11260",
@@ -1110,36 +1063,12 @@
                     "isTarget": false
                 },
                 {
-                    "id": "479",
-                    "name": "업무수행",
-                    "score": "11200",
-                    "item_attrs": [
-                        "Đơn giản",
-                        "Thanh lịch"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
                     "id": "900",
                     "name": "Ánh Sáng Đêm Xa",
                     "score": "11200",
                     "item_attrs": [
                         "Thanh lịch",
                         "Trưởng thành"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
-                    "id": "1417",
-                    "name": "Vân Tinh Hành Động-Gió",
-                    "score": "11190",
-                    "item_attrs": [
-                        "Thanh lịch",
-                        "Gợi cảm"
                     ],
                     "suit": "",
                     "source": "",
@@ -1206,12 +1135,84 @@
                     "isTarget": false
                 },
                 {
-                    "id": "1415",
-                    "name": "Vân Tinh Hành Động",
-                    "score": "11010",
+                    "id": "1226",
+                    "name": "Kỵ Sĩ Bảo Vệ",
+                    "score": "10980",
+                    "item_attrs": [
+                        "Đơn giản",
+                        "Trưởng thành"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
+                },
+                {
+                    "id": "263",
+                    "name": "Váy Bụi-Đen",
+                    "score": "10850",
+                    "item_attrs": [
+                        "Trưởng thành",
+                        "Gợi cảm"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
+                },
+                {
+                    "id": "949",
+                    "name": "Ký Họa Trừu Tượng",
+                    "score": "10805",
                     "item_attrs": [
                         "Thanh lịch",
-                        "Gợi cảm"
+                        "Mát mẻ"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
+                },
+                {
+                    "id": "274",
+                    "name": "Váy Quý Phái",
+                    "score": "10715",
+                    "item_attrs": [
+                        "Đơn giản",
+                        "Trưởng thành"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
+                },
+                {
+                    "id": "1394",
+                    "name": "Ý Tưởng Tuyệt Vời",
+                    "score": "10700",
+                    "item_attrs": [
+                        "Đơn giản",
+                        "Thanh lịch"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
+                },
+                {
+                    "id": "148",
+                    "name": "Bác Sĩ-Váy",
+                    "score": "10685",
+                    "item_attrs": [
+                        "Đơn giản",
+                        "Trưởng thành"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
+                },
+                {
+                    "id": "579",
+                    "name": "Hẻm Nhỏ Mơ Hồ",
+                    "score": "10655",
+                    "item_attrs": [
+                        "Đơn giản",
+                        "Thanh lịch"
                     ],
                     "suit": "",
                     "source": "",
@@ -1219,18 +1220,6 @@
                 }
             ],
             "leglet": [
-                {
-                    "id": "887",
-                    "name": "60887",
-                    "score": "3585",
-                    "item_attrs": [
-                        "Đơn giản",
-                        "Gợi cảm"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
                 {
                     "id": "767",
                     "name": "Xiềng Xích Vô Hình",
@@ -1448,12 +1437,24 @@
                     "isTarget": false
                 },
                 {
-                    "id": "1828",
-                    "name": "Đồng Hành Đêm Dài",
-                    "score": "3000",
+                    "id": "285",
+                    "name": "Quyến Luyến-Bướm Tím",
+                    "score": "2990",
                     "item_attrs": [
                         "Thanh lịch",
-                        "Gợi cảm"
+                        "Trưởng thành"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
+                },
+                {
+                    "id": "892",
+                    "name": "Giữa Hè Mát Mẻ",
+                    "score": "2990",
+                    "item_attrs": [
+                        "Đơn giản",
+                        "Thanh lịch"
                     ],
                     "suit": "",
                     "source": "",
@@ -1594,30 +1595,6 @@
                     "isTarget": false
                 },
                 {
-                    "id": "1867",
-                    "name": "Vết Mực Nhạt Nhòa",
-                    "score": "3410",
-                    "item_attrs": [
-                        "Đơn giản",
-                        "Thanh lịch"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
-                    "id": "430",
-                    "name": "전생의인연",
-                    "score": "3395",
-                    "item_attrs": [
-                        "Đơn giản",
-                        "Thanh lịch"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
                     "id": "716",
                     "name": "Thời Đại Tương Lai",
                     "score": "3380",
@@ -1695,6 +1672,30 @@
                     "score": "3245",
                     "item_attrs": [
                         "Đơn giản",
+                        "Trưởng thành"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
+                },
+                {
+                    "id": "871",
+                    "name": "Sọc Giản Dị",
+                    "score": "3195",
+                    "item_attrs": [
+                        "Đơn giản",
+                        "Thanh lịch"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
+                },
+                {
+                    "id": "234",
+                    "name": "Vớ Cuốn-Xám",
+                    "score": "3185",
+                    "item_attrs": [
+                        "Thanh lịch",
                         "Trưởng thành"
                     ],
                     "suit": "",
@@ -1932,12 +1933,12 @@
                     "isTarget": false
                 },
                 {
-                    "id": "3283",
-                    "name": "Bài Ca Mặt Trăng-Trúc",
-                    "score": "4585",
+                    "id": "1136",
+                    "name": "Sao Sớm Hư Ảo",
+                    "score": "4565",
                     "item_attrs": [
                         "Đơn giản",
-                        "Trưởng thành"
+                        "Thanh lịch"
                     ],
                     "suit": "",
                     "source": "",
@@ -1982,42 +1983,6 @@
                     "isTarget": false
                 },
                 {
-                    "id": "411",
-                    "name": "Trầm Ngâm",
-                    "score": "1105",
-                    "item_attrs": [
-                        "Đơn giản",
-                        "Thanh lịch"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
-                    "id": "412",
-                    "name": "Thơ Không Lời",
-                    "score": "1105",
-                    "item_attrs": [
-                        "Đơn giản",
-                        "Thanh lịch"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
-                    "id": "413",
-                    "name": "Ý Nguyện Đêm",
-                    "score": "1105",
-                    "item_attrs": [
-                        "Đơn giản",
-                        "Thanh lịch"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
                     "id": "964",
                     "name": "Thấu Hiểu Tận Cùng",
                     "score": "1100",
@@ -2036,30 +2001,6 @@
                     "item_attrs": [
                         "Thanh lịch",
                         "Trưởng thành"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
-                    "id": "390",
-                    "name": "90390",
-                    "score": "1095",
-                    "item_attrs": [
-                        "Thanh lịch",
-                        "Gợi cảm"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
-                    "id": "391",
-                    "name": "90391",
-                    "score": "1095",
-                    "item_attrs": [
-                        "Thanh lịch",
-                        "Gợi cảm"
                     ],
                     "suit": "",
                     "source": "",
@@ -2184,6 +2125,66 @@
                     "suit": "",
                     "source": "",
                     "isTarget": false
+                },
+                {
+                    "id": "256",
+                    "name": "Tường Vi Bùng Cháy",
+                    "score": "1025",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trưởng thành"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
+                },
+                {
+                    "id": "611",
+                    "name": "Vẻ Đẹp Như Xưa",
+                    "score": "1025",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trưởng thành"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
+                },
+                {
+                    "id": "612",
+                    "name": "Vẻ Đẹp Tựa Tuyết",
+                    "score": "1025",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trưởng thành"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
+                },
+                {
+                    "id": "404",
+                    "name": "Diều Hâu Bay Lượn",
+                    "score": "1020",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Gợi cảm"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
+                },
+                {
+                    "id": "534",
+                    "name": "Sao Đêm Rực Rỡ",
+                    "score": "1020",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trưởng thành"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
                 }
             ],
             "spirit": [
@@ -2274,18 +2275,6 @@
                 {
                     "id": "140",
                     "name": "Ước Hẹn Tương Lai",
-                    "score": "2010",
-                    "item_attrs": [
-                        "Đơn giản",
-                        "Thanh lịch"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
-                    "id": "187",
-                    "name": "Tim Đèn Sáng Mãi",
                     "score": "2010",
                     "item_attrs": [
                         "Đơn giản",
@@ -2392,18 +2381,6 @@
                     "isTarget": false
                 },
                 {
-                    "id": "188",
-                    "name": "Gửi Gắm Nỗi Nhớ",
-                    "score": "1890",
-                    "item_attrs": [
-                        "Đơn giản",
-                        "Trong sáng"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
                     "id": "101",
                     "name": "Bích Tiêu Ngâm",
                     "score": "1820",
@@ -2419,6 +2396,30 @@
                     "id": "126",
                     "name": "Khóa Bát Quái",
                     "score": "1810",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trưởng thành"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
+                },
+                {
+                    "id": "139",
+                    "name": "Khởi Đầu Giấc Mơ",
+                    "score": "1810",
+                    "item_attrs": [
+                        "Đơn giản",
+                        "Thanh lịch"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
+                },
+                {
+                    "id": "151",
+                    "name": "Cái Chêm Bóng Tối",
+                    "score": "1805",
                     "item_attrs": [
                         "Thanh lịch",
                         "Trưởng thành"
@@ -2460,18 +2461,6 @@
                     "item_attrs": [
                         "Thanh lịch",
                         "Trưởng thành"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
-                    "id": "6236",
-                    "name": "86236",
-                    "score": "972",
-                    "item_attrs": [
-                        "Đơn giản",
-                        "Thanh lịch"
                     ],
                     "suit": "",
                     "source": "",
@@ -2598,30 +2587,6 @@
                     "isTarget": false
                 },
                 {
-                    "id": "14654",
-                    "name": "Tín Hiệu Ngược Dòng-Lôi",
-                    "score": "930",
-                    "item_attrs": [
-                        "Đơn giản",
-                        "Thanh lịch"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
-                    "id": "14730",
-                    "name": "Nỗi Sầu Chồng Chất",
-                    "score": "920",
-                    "item_attrs": [
-                        "Thanh lịch",
-                        "Trưởng thành"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
                     "id": "1011",
                     "name": "Nón Lông Vũ",
                     "score": "918",
@@ -2664,6 +2629,42 @@
                     "item_attrs": [
                         "Thanh lịch",
                         "Trưởng thành"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
+                },
+                {
+                    "id": "2404",
+                    "name": "Spring",
+                    "score": "912",
+                    "item_attrs": [
+                        "Đơn giản",
+                        "Thanh lịch"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
+                },
+                {
+                    "id": "7764",
+                    "name": "Trí Giả Bác Học",
+                    "score": "910",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trưởng thành"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
+                },
+                {
+                    "id": "620",
+                    "name": "Lịch Thiệp",
+                    "score": "908",
+                    "item_attrs": [
+                        "Đơn giản",
+                        "Thanh lịch"
                     ],
                     "suit": "",
                     "source": "",
@@ -3796,18 +3797,6 @@
                     "isTarget": false
                 },
                 {
-                    "id": "14549",
-                    "name": "Màn Che Buông Rũ",
-                    "score": "800",
-                    "item_attrs": [
-                        "Thanh lịch",
-                        "Trưởng thành"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
                     "id": "2308",
                     "name": "Cổ Ánh Sao",
                     "score": "796",
@@ -3844,18 +3833,6 @@
                     "isTarget": false
                 },
                 {
-                    "id": "6232",
-                    "name": "86232",
-                    "score": "788",
-                    "item_attrs": [
-                        "Thanh lịch",
-                        "Gợi cảm"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
                     "id": "4952",
                     "name": "Thế Giới Hoa",
                     "score": "784",
@@ -3874,6 +3851,30 @@
                     "item_attrs": [
                         "Thanh lịch",
                         "Trưởng thành"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
+                },
+                {
+                    "id": "9651",
+                    "name": "Suy Tư Hoa Phục",
+                    "score": "784",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trưởng thành"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
+                },
+                {
+                    "id": "14182",
+                    "name": "Ánh Trăng Tiêu Sầu",
+                    "score": "784",
+                    "item_attrs": [
+                        "Trưởng thành",
+                        "Gợi cảm"
                     ],
                     "suit": "",
                     "source": "",
@@ -4014,18 +4015,6 @@
                     "isTarget": false
                 },
                 {
-                    "id": "16091",
-                    "name": "Hẹn Ước Trùng Phùng",
-                    "score": "914",
-                    "item_attrs": [
-                        "Đơn giản",
-                        "Trưởng thành"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
                     "id": "16723",
                     "name": "Đôi Cánh Ngọc Ngà-Cam",
                     "score": "912",
@@ -4110,12 +4099,24 @@
                     "isTarget": false
                 },
                 {
-                    "id": "5361",
-                    "name": "Châu Nước Trời",
+                    "id": "10798",
+                    "name": "Tinh Thạch Sao Hỏa-Đỏ",
                     "score": "898",
                     "item_attrs": [
                         "Đơn giản",
-                        "Thanh lịch"
+                        "Trưởng thành"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
+                },
+                {
+                    "id": "16900",
+                    "name": "Con Đường Rực Rỡ",
+                    "score": "898",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trưởng thành"
                     ],
                     "suit": "",
                     "source": "",
@@ -4244,18 +4245,6 @@
                     "isTarget": false
                 },
                 {
-                    "id": "1847",
-                    "name": "Bán Chung",
-                    "score": "906",
-                    "item_attrs": [
-                        "Đơn giản",
-                        "Trưởng thành"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
                     "id": "5680",
                     "name": "Kim Loại Sáng Trắng",
                     "score": "906",
@@ -4352,12 +4341,24 @@
                     "isTarget": false
                 },
                 {
-                    "id": "15907",
-                    "name": "May Mắn Dẫn Lối-Chu",
-                    "score": "844",
+                    "id": "11822",
+                    "name": "Sao Đêm Lấp Lánh",
+                    "score": "838",
                     "item_attrs": [
-                        "Đơn giản",
-                        "Thanh lịch"
+                        "Thanh lịch",
+                        "Trưởng thành"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
+                },
+                {
+                    "id": "15788",
+                    "name": "Nguyên Lý Giải Đố",
+                    "score": "836",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trưởng thành"
                     ],
                     "suit": "",
                     "source": "",
@@ -4608,36 +4609,12 @@
             ],
             "gloves": [
                 {
-                    "id": "14746",
-                    "name": "Lăng Kính Thời Không",
-                    "score": "1000",
-                    "item_attrs": [
-                        "Thanh lịch",
-                        "Trưởng thành"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
                     "id": "4605",
                     "name": "Báu Vật Vô Tận",
                     "score": "996",
                     "item_attrs": [
                         "Đơn giản",
                         "Trưởng thành"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
-                    "id": "6239",
-                    "name": "86239",
-                    "score": "976",
-                    "item_attrs": [
-                        "Đơn giản",
-                        "Thanh lịch"
                     ],
                     "suit": "",
                     "source": "",
@@ -4668,48 +4645,12 @@
                     "isTarget": false
                 },
                 {
-                    "id": "2959",
-                    "name": "Taisho-Nam",
-                    "score": "962",
-                    "item_attrs": [
-                        "Đơn giản",
-                        "Thanh lịch"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
                     "id": "12261",
                     "name": "Kẹo Xinh Xắn",
                     "score": "942",
                     "item_attrs": [
                         "Trưởng thành",
                         "Gợi cảm"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
-                    "id": "14660",
-                    "name": "Bảo Vệ Tương Lai-Gió",
-                    "score": "920",
-                    "item_attrs": [
-                        "Đơn giản",
-                        "Thanh lịch"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
-                    "id": "15162",
-                    "name": "Dũng Cảm Tiến Lên",
-                    "score": "920",
-                    "item_attrs": [
-                        "Thanh lịch",
-                        "Trưởng thành"
                     ],
                     "suit": "",
                     "source": "",
@@ -4752,18 +4693,6 @@
                     "isTarget": false
                 },
                 {
-                    "id": "14652",
-                    "name": "Bảo Vệ Tương Lai",
-                    "score": "916",
-                    "item_attrs": [
-                        "Đơn giản",
-                        "Thanh lịch"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
                     "id": "7734",
                     "name": "Cầu Toàn-BK",
                     "score": "906",
@@ -4800,18 +4729,6 @@
                     "isTarget": false
                 },
                 {
-                    "id": "14656",
-                    "name": "Bảo Vệ Tương Lai-Lôi",
-                    "score": "902",
-                    "item_attrs": [
-                        "Đơn giản",
-                        "Thanh lịch"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
                     "id": "10797",
                     "name": "Vũ Trụ Khép Kín-Đỏ",
                     "score": "898",
@@ -4836,12 +4753,96 @@
                     "isTarget": false
                 },
                 {
-                    "id": "15165",
-                    "name": "Dũng Cảm Tiến Lên-Trúc",
-                    "score": "898",
+                    "id": "4565",
+                    "name": "Hồng Nhạn Trở Về",
+                    "score": "886",
                     "item_attrs": [
-                        "Thanh lịch",
+                        "Đơn giản",
+                        "Thanh lịch"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
+                },
+                {
+                    "id": "16008",
+                    "name": "Theo Dấu Mộng Dẫn",
+                    "score": "886",
+                    "item_attrs": [
+                        "Đơn giản",
+                        "Gợi cảm"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
+                },
+                {
+                    "id": "2613",
+                    "name": "Theo Dấu Vết",
+                    "score": "884",
+                    "item_attrs": [
+                        "Đơn giản",
+                        "Thanh lịch"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
+                },
+                {
+                    "id": "4201",
+                    "name": "Trang Điểm Đỏ Đen",
+                    "score": "872",
+                    "item_attrs": [
+                        "Đơn giản",
+                        "Thanh lịch"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
+                },
+                {
+                    "id": "1283",
+                    "name": "Tay Cực Quang",
+                    "score": "854",
+                    "item_attrs": [
+                        "Đơn giản",
                         "Trưởng thành"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
+                },
+                {
+                    "id": "1738",
+                    "name": "Đêm Vô Hạn",
+                    "score": "850",
+                    "item_attrs": [
+                        "Đơn giản",
+                        "Thanh lịch"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
+                },
+                {
+                    "id": "2406",
+                    "name": "Nét Thanh Tú",
+                    "score": "850",
+                    "item_attrs": [
+                        "Đơn giản",
+                        "Trưởng thành"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
+                },
+                {
+                    "id": "2499",
+                    "name": "Vòng Tròn Nhạc",
+                    "score": "848",
+                    "item_attrs": [
+                        "Trưởng thành",
+                        "Gợi cảm"
                     ],
                     "suit": "",
                     "source": "",
@@ -4922,18 +4923,6 @@
                     "isTarget": false
                 },
                 {
-                    "id": "14731",
-                    "name": "Ý Nhị Phong Nhã",
-                    "score": "916",
-                    "item_attrs": [
-                        "Thanh lịch",
-                        "Trưởng thành"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
                     "id": "5205",
                     "name": "Rổ Mây-Trắng",
                     "score": "912",
@@ -4958,18 +4947,6 @@
                     "isTarget": false
                 },
                 {
-                    "id": "12081",
-                    "name": "Thang Âm Biến Hóa",
-                    "score": "908",
-                    "item_attrs": [
-                        "Đơn giản",
-                        "Trưởng thành"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
                     "id": "5201",
                     "name": "Rổ Mây",
                     "score": "906",
@@ -4982,60 +4959,12 @@
                     "isTarget": false
                 },
                 {
-                    "id": "15634",
-                    "name": "Túi Gấm Huyền Bí",
-                    "score": "906",
-                    "item_attrs": [
-                        "Đơn giản",
-                        "Trưởng thành"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
-                    "id": "15163",
-                    "name": "Ánh Sáng Lạnh Giá",
-                    "score": "902",
-                    "item_attrs": [
-                        "Đơn giản",
-                        "Trưởng thành"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
-                    "id": "15166",
-                    "name": "Ánh Sáng Lạnh Giá-Trúc",
-                    "score": "902",
-                    "item_attrs": [
-                        "Đơn giản",
-                        "Trưởng thành"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
                     "id": "7727",
                     "name": "Vung Tiền Như Nước",
                     "score": "900",
                     "item_attrs": [
                         "Đơn giản",
                         "Thanh lịch"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
-                    "id": "12089",
-                    "name": "Thang Âm Biến Hóa-Ẩn",
-                    "score": "900",
-                    "item_attrs": [
-                        "Đơn giản",
-                        "Trưởng thành"
                     ],
                     "suit": "",
                     "source": "",
@@ -5084,6 +5013,78 @@
                     "item_attrs": [
                         "Đơn giản",
                         "Trưởng thành"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
+                },
+                {
+                    "id": "7733",
+                    "name": "Vung Tiền-BK",
+                    "score": "892",
+                    "item_attrs": [
+                        "Đơn giản",
+                        "Thanh lịch"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
+                },
+                {
+                    "id": "15789",
+                    "name": "Đấu Trí Tâm Lý",
+                    "score": "892",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trưởng thành"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
+                },
+                {
+                    "id": "1174",
+                    "name": "Bút Lông",
+                    "score": "890",
+                    "item_attrs": [
+                        "Đơn giản",
+                        "Thanh lịch"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
+                },
+                {
+                    "id": "16007",
+                    "name": "Thanh Âm Huyền Lưu",
+                    "score": "884",
+                    "item_attrs": [
+                        "Đơn giản",
+                        "Gợi cảm"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
+                },
+                {
+                    "id": "7766",
+                    "name": "Ánh Mắt Lịch Sử",
+                    "score": "880",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trưởng thành"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
+                },
+                {
+                    "id": "5178",
+                    "name": "Bình Minh Chưa Đến",
+                    "score": "874",
+                    "item_attrs": [
+                        "Đơn giản",
+                        "Thanh lịch"
                     ],
                     "suit": "",
                     "source": "",
@@ -5248,30 +5249,6 @@
                     "isTarget": false
                 },
                 {
-                    "id": "16002",
-                    "name": "Tuyệt Bút Nhân Gian-Cờ",
-                    "score": "876",
-                    "item_attrs": [
-                        "Đơn giản",
-                        "Thanh lịch"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
-                    "id": "15996",
-                    "name": "Tuyệt Bút Nhân Gian-Hiếm",
-                    "score": "868",
-                    "item_attrs": [
-                        "Đơn giản",
-                        "Thanh lịch"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
                     "id": "7046",
                     "name": "Roi Ban Ngày",
                     "score": "852",
@@ -5323,6 +5300,30 @@
                     "id": "11634",
                     "name": "Kiên Nghị-Ảnh",
                     "score": "840",
+                    "item_attrs": [
+                        "Đơn giản",
+                        "Thanh lịch"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
+                },
+                {
+                    "id": "2374",
+                    "name": "Sinh Mệnh Hư Ảo",
+                    "score": "836",
+                    "item_attrs": [
+                        "Đơn giản",
+                        "Thanh lịch"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
+                },
+                {
+                    "id": "8496",
+                    "name": "Vẫy Tay Sương Trần",
+                    "score": "836",
                     "item_attrs": [
                         "Đơn giản",
                         "Thanh lịch"
@@ -5411,18 +5412,6 @@
                     "score": "804",
                     "item_attrs": [
                         "Trưởng thành",
-                        "Gợi cảm"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
-                    "id": "14653",
-                    "name": "Cánh Máy Nguồn",
-                    "score": "804",
-                    "item_attrs": [
-                        "Thanh lịch",
                         "Gợi cảm"
                     ],
                     "suit": "",
@@ -5568,6 +5557,18 @@
                     "item_attrs": [
                         "Trưởng thành",
                         "Gợi cảm"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
+                },
+                {
+                    "id": "5018",
+                    "name": "Tâm Sự Tinh Linh",
+                    "score": "790",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trưởng thành"
                     ],
                     "suit": "",
                     "source": "",
@@ -5878,33 +5879,9 @@
                     "isTarget": false
                 },
                 {
-                    "id": "12553",
-                    "name": "Sương Kiếm Phong Tình",
-                    "score": "836",
-                    "item_attrs": [
-                        "Thanh lịch",
-                        "Trưởng thành"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
                     "id": "15290",
                     "name": "Lông Vũ Thất Tội",
                     "score": "824",
-                    "item_attrs": [
-                        "Thanh lịch",
-                        "Trưởng thành"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
-                    "id": "12547",
-                    "name": "Can Đảm Đấu Tranh",
-                    "score": "820",
                     "item_attrs": [
                         "Thanh lịch",
                         "Trưởng thành"
@@ -5998,36 +5975,12 @@
                     "isTarget": false
                 },
                 {
-                    "id": "6503",
-                    "name": "86503",
-                    "score": "796",
-                    "item_attrs": [
-                        "Thanh lịch",
-                        "Gợi cảm"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
                     "id": "7424",
                     "name": "Vương Miện Ám Ảnh",
                     "score": "794",
                     "item_attrs": [
                         "Thanh lịch",
                         "Gợi cảm"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
-                    "id": "13468",
-                    "name": "Ánh Sáng Lấp Lánh",
-                    "score": "794",
-                    "item_attrs": [
-                        "Thanh lịch",
-                        "Trưởng thành"
                     ],
                     "suit": "",
                     "source": "",
@@ -6049,6 +6002,54 @@
                     "id": "10207",
                     "name": "Ánh Mắt Lo Lắng",
                     "score": "792",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Gợi cảm"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
+                },
+                {
+                    "id": "15193",
+                    "name": "Khí Thế Bừng Bừng",
+                    "score": "792",
+                    "item_attrs": [
+                        "Đơn giản",
+                        "Trưởng thành"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
+                },
+                {
+                    "id": "16029",
+                    "name": "Ước Mong Trong Sáng",
+                    "score": "792",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trưởng thành"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
+                },
+                {
+                    "id": "16839",
+                    "name": "Góc Nhìn Chuẩn Xác",
+                    "score": "790",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trưởng thành"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
+                },
+                {
+                    "id": "6677",
+                    "name": "Trăng Thiên Thu",
+                    "score": "788",
                     "item_attrs": [
                         "Thanh lịch",
                         "Gợi cảm"
@@ -6168,36 +6169,12 @@
                     "isTarget": false
                 },
                 {
-                    "id": "11823",
-                    "name": "Cánh Bướm U Mộng",
-                    "score": "832",
-                    "item_attrs": [
-                        "Trưởng thành",
-                        "Gợi cảm"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
                     "id": "9686",
                     "name": "Âm Thanh Vang Động",
                     "score": "828",
                     "item_attrs": [
                         "Trưởng thành",
                         "Gợi cảm"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
-                    "id": "14659",
-                    "name": "Lời Hứa Vinh Quang-Gió",
-                    "score": "826",
-                    "item_attrs": [
-                        "Thanh lịch",
-                        "Trưởng thành"
                     ],
                     "suit": "",
                     "source": "",
@@ -6252,18 +6229,6 @@
                     "isTarget": false
                 },
                 {
-                    "id": "14651",
-                    "name": "Lời Hứa Vinh Quang",
-                    "score": "814",
-                    "item_attrs": [
-                        "Thanh lịch",
-                        "Trưởng thành"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
                     "id": "3997",
                     "name": "Dùi Ngọc",
                     "score": "812",
@@ -6294,6 +6259,42 @@
                     "item_attrs": [
                         "Thanh lịch",
                         "Trưởng thành"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
+                },
+                {
+                    "id": "7879",
+                    "name": "Vòng Tay Chức Vũ",
+                    "score": "806",
+                    "item_attrs": [
+                        "Trưởng thành",
+                        "Gợi cảm"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
+                },
+                {
+                    "id": "11299",
+                    "name": "Bình Minh Rực Rỡ",
+                    "score": "806",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Gợi cảm"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
+                },
+                {
+                    "id": "13967",
+                    "name": "Dệt Ngọc Ngưng Quang",
+                    "score": "804",
+                    "item_attrs": [
+                        "Trưởng thành",
+                        "Gợi cảm"
                     ],
                     "suit": "",
                     "source": "",
@@ -6356,18 +6357,6 @@
                     "item_attrs": [
                         "Thanh lịch",
                         "Gợi cảm"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
-                    "id": "15635",
-                    "name": "Lam Hồng Khắc Dấu",
-                    "score": "800",
-                    "item_attrs": [
-                        "Đơn giản",
-                        "Trưởng thành"
                     ],
                     "suit": "",
                     "source": "",
@@ -6540,6 +6529,18 @@
                     "suit": "",
                     "source": "",
                     "isTarget": false
+                },
+                {
+                    "id": "7672",
+                    "name": "Rồng Lượn Khói Mưa",
+                    "score": "772",
+                    "item_attrs": [
+                        "Trưởng thành",
+                        "Gợi cảm"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
                 }
             ],
             "wings": [
@@ -6700,18 +6701,6 @@
                     "isTarget": false
                 },
                 {
-                    "id": "15547",
-                    "name": "Dòng Điện Trói Buộc",
-                    "score": "766",
-                    "item_attrs": [
-                        "Trưởng thành",
-                        "Gợi cảm"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
                     "id": "3763",
                     "name": "Cánh Đêm",
                     "score": "760",
@@ -6782,6 +6771,18 @@
                     "suit": "",
                     "source": "",
                     "isTarget": false
+                },
+                {
+                    "id": "6934",
+                    "name": "Vận Mệnh Kháng Chiến",
+                    "score": "740",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Gợi cảm"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
                 }
             ],
             "tail": [
@@ -6816,18 +6817,6 @@
                     "item_attrs": [
                         "Đơn giản",
                         "Trưởng thành"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
-                    "id": "5331",
-                    "name": "Nhịp Đập Con Tim",
-                    "score": "868",
-                    "item_attrs": [
-                        "Đơn giản",
-                        "Gợi cảm"
                     ],
                     "suit": "",
                     "source": "",
@@ -7020,6 +7009,18 @@
                     "item_attrs": [
                         "Thanh lịch",
                         "Gợi cảm"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
+                },
+                {
+                    "id": "14474",
+                    "name": "Phấn Hồng Trăng Mơ-Thơm",
+                    "score": "760",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trưởng thành"
                     ],
                     "suit": "",
                     "source": "",
@@ -7366,18 +7367,6 @@
                     "isTarget": false
                 },
                 {
-                    "id": "5903",
-                    "name": "85903",
-                    "score": "824",
-                    "item_attrs": [
-                        "Thanh lịch",
-                        "Trưởng thành"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
                     "id": "10126",
                     "name": "Nguyệt Cảnh Thiên Đăng",
                     "score": "820",
@@ -7501,6 +7490,18 @@
                     "id": "7757",
                     "name": "Đêm Chở Ngàn Sao",
                     "score": "802",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trưởng thành"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
+                },
+                {
+                    "id": "9245",
+                    "name": "Trăng Sáng Hoa Nở",
+                    "score": "800",
                     "item_attrs": [
                         "Thanh lịch",
                         "Trưởng thành"
@@ -7632,30 +7633,6 @@
                     "isTarget": false
                 },
                 {
-                    "id": "13463",
-                    "name": "Vùng Đất Hoang Tàn",
-                    "score": "828",
-                    "item_attrs": [
-                        "Thanh lịch",
-                        "Trưởng thành"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
-                    "id": "5902",
-                    "name": "85902",
-                    "score": "822",
-                    "item_attrs": [
-                        "Thanh lịch",
-                        "Trưởng thành"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
                     "id": "10267",
                     "name": "Năm Tháng Thoi Đưa",
                     "score": "820",
@@ -7689,7 +7666,8 @@
                     ],
                     "suit": "",
                     "source": "",
-                    "isTarget": false
+                    "isTarget": false,
+                    "custom_red_badge": "Ảnh được bổ sung sau"
                 },
                 {
                     "id": "12926",
@@ -7746,6 +7724,30 @@
                     "item_attrs": [
                         "Thanh lịch",
                         "Trưởng thành"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
+                },
+                {
+                    "id": "16148",
+                    "name": "Bài Thơ Bất Diệt",
+                    "score": "800",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trưởng thành"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
+                },
+                {
+                    "id": "16759",
+                    "name": "Sân Vắng Lạc Vũ",
+                    "score": "800",
+                    "item_attrs": [
+                        "Đơn giản",
+                        "Gợi cảm"
                     ],
                     "suit": "",
                     "source": "",

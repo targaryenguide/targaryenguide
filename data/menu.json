@@ -276,7 +276,8 @@
     "arena": [
         {
             "stage_id": "arena/tiec_ven_bien",
-            "stage_name": "Tiệc Ven Biển"
+            "stage_name": "Tiệc Ven Biển",
+            "done": true
         },
         {
             "stage_id": "arena/giao_thoi",
@@ -285,7 +286,8 @@
         },
         {
             "stage_id": "arena/ngoi_sao_van_phong",
-            "stage_name": "Ngôi Sao Văn Phòng"
+            "stage_name": "Ngôi Sao Văn Phòng",
+            "done": true
         },
         {
             "stage_id": "arena/chuyen_ngay_he",
@@ -316,11 +318,13 @@
         },
         {
             "stage_id": "arena/nu_vuong",
-            "stage_name": "Nữ Vương"
+            "stage_name": "Nữ Vương",
+            "done": true
         },
         {
             "stage_id": "arena/ngon_lua_ngay_dong",
-            "stage_name": "Ngọn Lửa Ngày Đông"
+            "stage_name": "Ngọn Lửa Ngày Đông",
+            "done": true
         },
         {
             "stage_id": "arena/sherlock_holmes",
