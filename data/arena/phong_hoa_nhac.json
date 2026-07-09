@@ -7,6 +7,7 @@
             "Gợi cảm",
             "Giữ ấm"
         ],
+        "credit": "Lars Nguyenn",
         "recommendations": {
             "hair": [
                 {
@@ -76,30 +77,6 @@
                     "item_attrs": [
                         "Quý phái",
                         "Thanh lịch"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
-                    "id": "4092",
-                    "name": "Ngàn Dặm Tung Hoành",
-                    "score": "6440",
-                    "item_attrs": [
-                        "Trưởng thành",
-                        "Gợi cảm"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
-                    "id": "4091",
-                    "name": "Cưỡi Ngựa Ngàn Dặm",
-                    "score": "6425",
-                    "item_attrs": [
-                        "Trưởng thành",
-                        "Gợi cảm"
                     ],
                     "suit": "",
                     "source": "",
@@ -248,6 +225,30 @@
                     "suit": "",
                     "source": "",
                     "isTarget": false
+                },
+                {
+                    "id": "1852",
+                    "name": "Tuyết Năm Xưa",
+                    "score": "6215",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trưởng thành"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
+                },
+                {
+                    "id": "2785",
+                    "name": "Xá Tâm Liên Hoa",
+                    "score": "6215",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trưởng thành"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
                 }
             ],
             "coat": [
@@ -282,18 +283,6 @@
                     "item_attrs": [
                         "Thanh lịch",
                         "Trưởng thành"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
-                    "id": "1874",
-                    "name": "Rồng Hổ Sánh Đôi",
-                    "score": "2575",
-                    "item_attrs": [
-                        "Trưởng thành",
-                        "Gợi cảm"
                     ],
                     "suit": "",
                     "source": "",
@@ -408,18 +397,6 @@
                     "isTarget": false
                 },
                 {
-                    "id": "1867",
-                    "name": "Núi Xanh Mịt Mờ-Tuyết",
-                    "score": "2490",
-                    "item_attrs": [
-                        "Quý phái",
-                        "Trưởng thành"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
                     "id": "389",
                     "name": "Phù Thủy Áo Trắng",
                     "score": "2485",
@@ -490,6 +467,30 @@
                     "suit": "",
                     "source": "",
                     "isTarget": false
+                },
+                {
+                    "id": "1925",
+                    "name": "Bình Minh Băng Nguyên-Xanh",
+                    "score": "2485",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trưởng thành"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
+                },
+                {
+                    "id": "201",
+                    "name": "Đài Các-Quý",
+                    "score": "2480",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trưởng thành"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
                 }
             ],
             "dress": [
@@ -536,30 +537,6 @@
                     "item_attrs": [
                         "Thanh lịch",
                         "Trưởng thành"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
-                    "id": "3416",
-                    "name": "Thế Giới Cực Hạn",
-                    "score": "26105",
-                    "item_attrs": [
-                        "Trưởng thành",
-                        "Gợi cảm"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
-                    "id": "3530",
-                    "name": "Hổ Lạc Sương Bay",
-                    "score": "25470",
-                    "item_attrs": [
-                        "Trưởng thành",
-                        "Gợi cảm"
                     ],
                     "suit": "",
                     "source": "",

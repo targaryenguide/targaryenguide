@@ -373,7 +373,9 @@
             "stages": [
                 {
                     "stage_id": "association/6-1",
-                    "stage_name": "Trang Phục Vườn Thú"
+                    "stage_name": "Trang Phục Vườn Thú",
+                    "done_standard": false,
+                    "done_high": false
                 }
             ]
         },

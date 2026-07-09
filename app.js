@@ -167,11 +167,13 @@ function renderSidebar() {
 
                     const isStandardDone = stage.done_standard === true || stage.done === true;
                     const isHighDone = stage.done_high === true || stage.done === true;
-                    const isAllDone = isStandardDone && isHighDone;
 
-                    const parentIcon = isAllDone
-                        ? `<span class="cute-cat-container"><img src="assets/cute.webp" class="cute-cat-done-img" alt="Done"></span>`
-                        : '';
+                    // BO DI HIEU UNG O AI ME
+                    // const isAllDone = isStandardDone && isHighDone;
+                    // const parentIcon = isAllDone
+                    //     ? `<span class="cute-cat-container"><img src="assets/cute.webp" class="cute-cat-done-img" alt="Done"></span>`
+                    //     : '';
+                    const parentIcon = '';
 
                     const displayLabel = `Ải ${stageNum}: ${stage.stage_name} ${parentIcon}`;
 
@@ -215,11 +217,13 @@ function renderSidebar() {
 
                 const isStandardDone = stage.done_standard === true || stage.done === true;
                 const isHighDone = stage.done_high === true || stage.done === true;
-                const isAllDone = isStandardDone && isHighDone;
 
-                const parentIcon = isAllDone
-                    ? `<span class="cute-cat-container"><img src="assets/cute.webp" class="cute-cat-done-img" alt="Done"></span>`
-                    : '';
+                // BO DI HIEU UNG O AI ME
+                // const isAllDone = isStandardDone && isHighDone;
+                // const parentIcon = isAllDone
+                //     ? `<span class="cute-cat-container"><img src="assets/cute.webp" class="cute-cat-done-img" alt="Done"></span>`
+                //     : '';
+                const parentIcon = '';
 
                 const displayLabel = `Ải ${stageNum}: ${stage.stage_name} ${parentIcon}`;
 
