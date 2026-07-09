@@ -289,7 +289,8 @@
         },
         {
             "stage_id": "arena/chuyen_ngay_he",
-            "stage_name": "Chuyện Ngày Hè"
+            "stage_name": "Chuyện Ngày Hè",
+            "done": true
         },
         {
             "stage_id": "arena/noel_doan_vien",

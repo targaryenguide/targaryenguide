@@ -7,6 +7,7 @@
             "Trong sáng",
             "Mát mẻ"
         ],
+        "credit": "Minh Anh",
         "recommendations": {
             "hair": [
                 {
@@ -1908,18 +1909,6 @@
                     "isTarget": false
                 },
                 {
-                    "id": "727",
-                    "name": "Tàn Phai",
-                    "score": "4640",
-                    "item_attrs": [
-                        "Đơn giản",
-                        "Dễ thương"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
                     "id": "912",
                     "name": "Guốc Mộc-Mộng",
                     "score": "4625",
@@ -1938,6 +1927,18 @@
                     "item_attrs": [
                         "Đơn giản",
                         "Thanh lịch"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
+                },
+                {
+                    "id": "109",
+                    "name": "Nắng Sớm-Lục",
+                    "score": "4580",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trong sáng"
                     ],
                     "suit": "",
                     "source": "",
@@ -2454,18 +2455,6 @@
                     "isTarget": false
                 },
                 {
-                    "id": "7047",
-                    "name": "Thư Xuân Anh",
-                    "score": "902",
-                    "item_attrs": [
-                        "Đơn giản",
-                        "Trong sáng"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
                     "id": "15485",
                     "name": "Cụm Hoa Rực Rỡ",
                     "score": "896",
@@ -2508,18 +2497,6 @@
                     "item_attrs": [
                         "Thanh lịch",
                         "Trong sáng"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
-                    "id": "1203",
-                    "name": "Kết Chân Tình",
-                    "score": "890",
-                    "item_attrs": [
-                        "Đơn giản",
-                        "Dễ thương"
                     ],
                     "suit": "",
                     "source": "",
@@ -2668,6 +2645,30 @@
                     "suit": "",
                     "source": "",
                     "isTarget": false
+                },
+                {
+                    "id": "8727",
+                    "name": "Sắc Hương Thời Gian-S",
+                    "score": "866",
+                    "item_attrs": [
+                        "Đơn giản",
+                        "Dễ thương"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
+                },
+                {
+                    "id": "8730",
+                    "name": "Sắc Hương Thời Gian-Phong",
+                    "score": "866",
+                    "item_attrs": [
+                        "Đơn giản",
+                        "Dễ thương"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
                 }
             ],
             "veil": [
@@ -2702,18 +2703,6 @@
                     "item_attrs": [
                         "Đơn giản",
                         "Thanh lịch"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
-                    "id": "2189",
-                    "name": "Voan Cô Dâu",
-                    "score": "744",
-                    "item_attrs": [
-                        "Dễ thương",
-                        "Trong sáng"
                     ],
                     "suit": "",
                     "source": "",
@@ -2861,7 +2850,8 @@
                     ],
                     "suit": "",
                     "source": "",
-                    "isTarget": false
+                    "isTarget": false,
+                    "custom_red_badge": "Bổ sung ảnh sau"
                 },
                 {
                     "id": "1260",
@@ -2902,6 +2892,18 @@
                 {
                     "id": "4404",
                     "name": "Ý Chí Bồ Công Anh",
+                    "score": "684",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trong sáng"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
+                },
+                {
+                    "id": "13831",
+                    "name": "Tựa Lụa Theo Gió",
                     "score": "684",
                     "item_attrs": [
                         "Thanh lịch",
@@ -3058,18 +3060,6 @@
                     "isTarget": false
                 },
                 {
-                    "id": "7548",
-                    "name": "Hương Thơm Thư Giãn",
-                    "score": "858",
-                    "item_attrs": [
-                        "Đơn giản",
-                        "Dễ thương"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
                     "id": "9206",
                     "name": "Tuế Hải Phù Hoa-Mộng",
                     "score": "846",
@@ -3148,6 +3138,18 @@
                     "item_attrs": [
                         "Đơn giản",
                         "Trong sáng"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
+                },
+                {
+                    "id": "8245",
+                    "name": "Nhung Tinh Tế",
+                    "score": "802",
+                    "item_attrs": [
+                        "Đơn giản",
+                        "Dễ thương"
                     ],
                     "suit": "",
                     "source": "",
@@ -6168,18 +6170,6 @@
                     "isTarget": false
                 },
                 {
-                    "id": "10008",
-                    "name": "Thì Thầm Bên Tai",
-                    "score": "802",
-                    "item_attrs": [
-                        "Thanh lịch",
-                        "Trong sáng"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
                     "id": "12588",
                     "name": "Sóng Biếc Tương Tư",
                     "score": "802",
@@ -6291,6 +6281,18 @@
                     "id": "14880",
                     "name": "Ngập Tràn Thú Vị",
                     "score": "782",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trong sáng"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
+                },
+                {
+                    "id": "9265",
+                    "name": "Nụ Hôn Địa Đàng-Ký",
+                    "score": "772",
                     "item_attrs": [
                         "Thanh lịch",
                         "Trong sáng"
@@ -7181,7 +7183,8 @@
                     ],
                     "suit": "",
                     "source": "",
-                    "isTarget": false
+                    "isTarget": false,
+                    "custom_red_badge": "Bổ sung ảnh sau"
                 },
                 {
                     "id": "4941",
@@ -7459,7 +7462,8 @@
                     ],
                     "suit": "",
                     "source": "",
-                    "isTarget": false
+                    "isTarget": false,
+                    "custom_red_badge": "Bổ sung ảnh sau"
                 },
                 {
                     "id": "7386",
