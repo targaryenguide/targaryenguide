@@ -309,7 +309,8 @@
         },
         {
             "stage_id": "arena/phong_hoa_nhac",
-            "stage_name": "Phòng Hòa Nhạc"
+            "stage_name": "Phòng Hòa Nhạc",
+            "done": true
         },
         {
             "stage_id": "arena/lien_hoan_mua_he",
@@ -332,7 +333,8 @@
         },
         {
             "stage_id": "arena/vu_hoi_cung_dinh",
-            "stage_name": "Vũ Hội Cung Đình"
+            "stage_name": "Vũ Hội Cung Đình",
+            "done": true
         },
         {
             "stage_id": "arena/cong_vien_co_tich",

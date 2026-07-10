@@ -1714,7 +1714,8 @@
                     ],
                     "suit": "",
                     "source": "",
-                    "isTarget": false
+                    "isTarget": false,
+                    "custom_red_badge": "Bổ sung ảnh sau"
                 },
                 {
                     "id": "1927",
@@ -4245,36 +4246,12 @@
                     "isTarget": false
                 },
                 {
-                    "id": "881",
-                    "name": "Lắc Tay Sao",
-                    "score": "976",
-                    "item_attrs": [
-                        "Quý phái",
-                        "Thanh lịch"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
                     "id": "11157",
                     "name": "Mông Lung",
                     "score": "976",
                     "item_attrs": [
                         "Trưởng thành",
                         "Gợi cảm"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
-                    "id": "3002",
-                    "name": "Lòng Mỹ Nữ",
-                    "score": "970",
-                    "item_attrs": [
-                        "Quý phái",
-                        "Trưởng thành"
                     ],
                     "suit": "",
                     "source": "",
@@ -4359,6 +4336,30 @@
                     "item_attrs": [
                         "Trưởng thành",
                         "Gợi cảm"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
+                },
+                {
+                    "id": "11914",
+                    "name": "Báu Vật Đỏ Tươi",
+                    "score": "958",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trưởng thành"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
+                },
+                {
+                    "id": "15854",
+                    "name": "Chân Tình Vẹn Nguyên",
+                    "score": "958",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Trưởng thành"
                     ],
                     "suit": "",
                     "source": "",
@@ -7003,24 +7004,24 @@
                     "isTarget": false
                 },
                 {
-                    "id": "3495",
-                    "name": "Đón Phúc Trừ Tà",
-                    "score": "880",
-                    "item_attrs": [
-                        "Thanh lịch",
-                        "Trưởng thành"
-                    ],
-                    "suit": "",
-                    "source": "",
-                    "isTarget": false
-                },
-                {
                     "id": "8256",
                     "name": "Bụi Sao Lung Lay",
                     "score": "880",
                     "item_attrs": [
                         "Quý phái",
                         "Thanh lịch"
+                    ],
+                    "suit": "",
+                    "source": "",
+                    "isTarget": false
+                },
+                {
+                    "id": "16238",
+                    "name": "Ánh Sáng Lập Lòe",
+                    "score": "880",
+                    "item_attrs": [
+                        "Thanh lịch",
+                        "Gợi cảm"
                     ],
                     "suit": "",
                     "source": "",

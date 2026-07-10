@@ -533,7 +533,7 @@ async function loadAndDisplayStage(fileLoadPath, stageKey, labelText) {
 
                         const webpImgPath = `assets/items/${itemCategoryFolder}/${item.id}.webp`;
                         const pngImgPath = `assets/items/${itemCategoryFolder}/${item.id}.png`;
-                        const backupImg = `https://picsum.photos/100?random=${item.id}`;
+                        const backupImg = `assets/noimage.webp`;
 
                         card.innerHTML = `
                             ${rankBadge}
